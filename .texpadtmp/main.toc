@@ -7,4 +7,4 @@
 \contentsline {paragraph}{Concept 2: Networks are not static, but dynamic according to the given data and environments.}{19}
 \contentsline {paragraph}{Concept 3: Differential networks focus on the changes.}{20}
 \contentsline {chapter}{\numberline {III}MATERIALS AND METHODS}{23}
-\contentsline {chapter}{LITERATURE CITED}{31}
+\contentsline {chapter}{LITERATURE CITED}{32}

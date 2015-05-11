@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014) (preloaded format=xelatex 2014.7.27)  11 MAY 2015 11:46
+This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014) (preloaded format=xelatex 2014.7.27)  11 MAY 2015 18:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -698,29 +698,29 @@ CHAPTER III.
 
 ] [24] [25]
 
-LaTeX Warning: Citation `rprogram' undefined on input line 43.
+LaTeX Warning: Citation `R:2014a' undefined on input line 40.
 
-[26] [27] [28]
+[26] [27] [28] [29]
 File: pipeline.png Graphic file (type QTm)
  <use  "pipeline.png" >
 
-LaTeX Warning: Float too large for page by 0.87737pt on input line 106.
+LaTeX Warning: Float too large for page by 0.87737pt on input line 108.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[29]
+[30]
 File: wholenet.png Graphic file (type QTm)
- <use  "wholenet.png" > [30
+ <use  "wholenet.png" > [31
 
 
 
 ])
-(/Users/iSith/Documents/R.github/Sith.Dissertation/.texpadtmp/main.bbl [31
+(/Users/iSith/Documents/R.github/Sith.Dissertation/.texpadtmp/main.bbl [32
 
 
 ]
-[32] [33]
+[33] [34]
 LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 967
 .
  (/usr/local/texlive/2014/texmf-dist/tex/latex/euenc/eu1lmtt.fd
@@ -756,7 +756,7 @@ oman(0)/m/n/12 , \EU1/TimesNewRoman(0)/m/it/12 102\EU1/TimesNewRoman(0)/m/n/12
 (43), 15545--15550.  Retrieved from
  []
 
-[34]) [35]
+[35]) [36]
 (/Users/iSith/Documents/R.github/Sith.Dissertation/.texpadtmp/main.aux
 (/Users/iSith/Documents/R.github/Sith.Dissertation/.texpadtmp/frontpgs.aux))
 
@@ -764,13 +764,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 15448 strings out of 493734
- 306518 string characters out of 6146348
+ 15450 strings out of 493734
+ 306604 string characters out of 6146348
  362378 words of memory out of 5000000
- 18616 multiletter control sequences out of 15000+600000
- 8469 words of font info for 55 fonts, out of 8000000 for 9000
+ 18617 multiletter control sequences out of 15000+600000
+ 8477 words of font info for 56 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  46i,5n,36p,10384b,265s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /Users/iSith/Documents/R.github/Sith.Dissertation/.texpadtmp/
-main.pdf (38 pages).
+main.pdf (39 pages).
