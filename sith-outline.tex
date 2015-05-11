@@ -1,0 +1,86 @@
+%!TEX encoding = MacOSRoman
+%!TEX TS-program = xelatex
+%!BIB TS-program = bibtex
+
+% --------------------- Start of Document Preamble -----------------------
+
+\documentclass[12pt, oneside]{report} % report is suitable for the long document such as Ph.D thesis with chapters
+\usepackage[a4paper, left=1in, right=1in, top=1in, bottom=1in]{geometry} 
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\usepackage{pdflscape}
+\usepackage{apacite}
+%\usepackage[round]{natbib}  % the bibliography
+\usepackage{sectsty}
+\chapterfont{\centering}
+\usepackage{enumitem} % enumerate package
+\linespread{2}
+\usepackage{amsmath,amssymb,amstext} % Lots of math symbols and environments
+\usepackage{graphicx} % For including graphics N.B. pdftex graphics driver 
+
+%----- Adjust the style ----
+\renewcommand{\chaptername}{CHAPTER}
+\renewcommand{\thechapter}{\Roman{chapter}}
+% ---------------------- End of Document Preamble ------------------------
+
+%======================================================================
+%   L O G I C A L    D O C U M E N T -- the content of your thesis
+%======================================================================
+\begin{document}
+
+% For a large document, it is a good idea to divide your thesis
+% into several files, each one containing one chapter.
+% To illustrate this idea, the "front pages" (i.e., title page,
+% declaration, borrowers' page, abstract, acknowledgements,
+% dedication, table of contents, list of tables, list of figures,
+% included into the document by the following statement.
+%----------------------------------------------------------------------
+% FRONT MATERIAL
+%----------------------------------------------------------------------
+\include{sith-outline-frontpgs} 
+
+%----------------------------------------------------------------------
+% MAIN BODY
+%----------------------------------------------------------------------
+% Because this is a short document, and to reduce the number of files
+% needed for this template, the chapters are not separate
+% documents as suggested above, but you get the idea. If they were
+% separate documents, they would each start with the \chapter command, i.e, 
+% do not contain \documentclass or \begin{document} and \end{document} commands.
+
+%======================================================================
+% INTRODUCTION
+\chapter{INTRODUCTION}
+%======================================================================
+\input{sith-outline-introduction}
+
+\chapter{REVIEW OF LITERATURE}
+%====================================
+\input{sith-outline-ritreview}
+
+%======================================================================
+% Materials and Methods
+\chapter{MATERIALS AND METHODS}
+%======================================================================
+\input{sith-outline-materials}
+
+%=============================================
+% CONCLUSION
+%\chapter{Conclusion}
+%==============================================
+%\input{sith-outline-conclusion}
+
+% The \appendix statement indicates the beginning of the appendices.
+
+%----------------------------------------------------------------------
+% END MATERIAL
+%----------------------------------------------------------------------
+
+% B I B L I O G R A P H Y
+% -----------------------
+
+\renewcommand{\bibname}{LITERATURE CITED}
+\bibliographystyle{apacite}
+\bibliography{sith-outline}
+\end{document}
+`
