@@ -1,0 +1,10 @@
+\contentsline {chapter}{LIST OF FIGURES}{iii}
+\contentsline {chapter}{\numberline {I}INTRODUCTION}{1}
+\contentsline {chapter}{Introduction}{1}
+\contentsline {chapter}{\numberline {II}REVIEW OF LITERATURE}{4}
+\contentsline {subsubsection}{Introduction to network analysis}{5}
+\contentsline {paragraph}{Concept 1: Networks are generated from multiple pairwise relationships of data through the statistical approaches.}{18}
+\contentsline {paragraph}{Concept 2: Networks are not static, but dynamic according to the given data and environments.}{19}
+\contentsline {paragraph}{Concept 3: Differential networks focus on the changes.}{20}
+\contentsline {chapter}{\numberline {III}MATERIALS AND METHODS}{23}
+\contentsline {chapter}{LITERATURE CITED}{31}

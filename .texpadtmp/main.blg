@@ -1,0 +1,67 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: frontpgs.aux
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: ../reference.bib
+Warning--entry type for "SINTEF" isn't style-file defined
+--line 29 of file ../reference.bib
+I was expecting a `,' or a `}'---line 46 of file ../reference.bib
+ : title={Gene-for-gene relationships between rice and diverse avrBs3/pthA avirulence genes in \emph{Xanthomonas oryzae}} 
+ :                                                                                                                        pv.oryzae},
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Kasari2011s"
+Warning--I didn't find a database entry for "rprogram"
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Warning--No journal in wu2007gene
+You've used 42 entries,
+            6951 wiz_defined-function locations,
+            1540 strings with 18922 characters,
+and the built_in function-call counts, 88352 in all, are:
+= -- 10652
+> -- 805
+< -- 4436
++ -- 4811
+- -- 90
+* -- 5893
+:= -- 16346
+add.period$ -- 163
+call.type$ -- 42
+change.case$ -- 674
+chr.to.int$ -- 0
+cite$ -- 85
+duplicate$ -- 2644
+empty$ -- 3314
+format.name$ -- 1488
+if$ -- 16331
+int.to.chr$ -- 0
+int.to.str$ -- 126
+missing$ -- 0
+newline$ -- 1091
+num.names$ -- 328
+pop$ -- 1230
+preamble$ -- 1
+purify$ -- 164
+quote$ -- 0
+skip$ -- 5494
+stack$ -- 0
+substring$ -- 5205
+swap$ -- 1480
+text.length$ -- 88
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 3450
+warning$ -- 1
+while$ -- 495
+width$ -- 0
+write$ -- 1424
+(There was 1 error message)
