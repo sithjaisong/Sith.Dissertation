@@ -13,55 +13,45 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: ../reference.bib
-Warning--entry type for "SINTEF" isn't style-file defined
---line 29 of file ../reference.bib
-I was expecting a `,' or a `}'---line 46 of file ../reference.bib
- : title={Gene-for-gene relationships between rice and diverse avrBs3/pthA avirulence genes in \emph{Xanthomonas oryzae}} 
- :                                                                                                                        pv.oryzae},
-I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Kasari2011s"
-Warning--I didn't find a database entry for "rprogram"
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-Warning--No journal in wu2007gene
-You've used 42 entries,
+You've used 48 entries,
             6951 wiz_defined-function locations,
-            1540 strings with 18922 characters,
-and the built_in function-call counts, 88352 in all, are:
-= -- 10652
-> -- 805
-< -- 4436
-+ -- 4811
-- -- 90
-* -- 5893
-:= -- 16346
-add.period$ -- 163
-call.type$ -- 42
-change.case$ -- 674
+            1578 strings with 20061 characters,
+and the built_in function-call counts, 99626 in all, are:
+= -- 11984
+> -- 917
+< -- 4969
++ -- 5342
+- -- 104
+* -- 6641
+:= -- 18410
+add.period$ -- 189
+call.type$ -- 48
+change.case$ -- 803
 chr.to.int$ -- 0
-cite$ -- 85
-duplicate$ -- 2644
-empty$ -- 3314
-format.name$ -- 1488
-if$ -- 16331
+cite$ -- 96
+duplicate$ -- 2984
+empty$ -- 3789
+format.name$ -- 1679
+if$ -- 18484
 int.to.chr$ -- 0
-int.to.str$ -- 126
+int.to.str$ -- 144
 missing$ -- 0
-newline$ -- 1091
-num.names$ -- 328
-pop$ -- 1230
+newline$ -- 1263
+num.names$ -- 384
+pop$ -- 1614
 preamble$ -- 1
-purify$ -- 164
+purify$ -- 191
 quote$ -- 0
-skip$ -- 5494
+skip$ -- 5990
 stack$ -- 0
-substring$ -- 5205
-swap$ -- 1480
-text.length$ -- 88
+substring$ -- 5780
+swap$ -- 1683
+text.length$ -- 102
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 3450
-warning$ -- 1
-while$ -- 495
+type$ -- 3840
+warning$ -- 0
+while$ -- 556
 width$ -- 0
-write$ -- 1424
-(There was 1 error message)
+write$ -- 1638

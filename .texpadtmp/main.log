@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014) (preloaded format=xelatex 2014.7.27)  11 MAY 2015 18:29
+This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014) (preloaded format=xelatex 2014.7.27)  12 MAY 2015 20:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -660,21 +660,12 @@ LaTeX Info: Redefining \BHBI on input line 130.
 [2
 
 
-] (/Users/iSith/Documents/R.github/Sith.Dissertation/.texpadtmp/main.lof
-LaTeX Font Info:    Try loading font information for U+msa on input line 4.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 4.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+] (/Users/iSith/Documents/R.github/Sith.Dissertation/.texpadtmp/main.lof)
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
- [3
+
+[3
 
 
 ])
@@ -685,92 +676,65 @@ CHAPTER I.
 
 ] [2]) [3]
 CHAPTER II.
-(./ritreview.tex [4
+(./litreview.tex [4
 
-] [5]
-
-LaTeX Warning: Citation `Kasari2011s' undefined on input line 23.
-
-[6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21])
-[22]
+] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16]
+[17] [18] [19] [20] [21]) [22]
 CHAPTER III.
 (./materials.tex [23
 
-] [24] [25]
-
-LaTeX Warning: Citation `R:2014a' undefined on input line 40.
-
-[26] [27] [28] [29]
-File: pipeline.png Graphic file (type QTm)
- <use  "pipeline.png" >
-
-LaTeX Warning: Float too large for page by 0.87737pt on input line 108.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[30]
-File: wholenet.png Graphic file (type QTm)
- <use  "wholenet.png" > [31
-
-
-
-])
-(/Users/iSith/Documents/R.github/Sith.Dissertation/.texpadtmp/main.bbl [32
-
-
-]
-[33] [34]
-LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 967
+] [24] [25] [26] [27] [28] [29] [30])
+(/Users/iSith/Documents/R.github/Sith.Dissertation/.texpadtmp/main.bbl [31]
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 138
 .
- (/usr/local/texlive/2014/texmf-dist/tex/latex/euenc/eu1lmtt.fd
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/euenc/eu1lmtt.fd
 File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Underfull \hbox (badness 10000) in paragraph at lines 956--970
+) [32
+
+] [33]
+[34] [35]
+Underfull \hbox (badness 10000) in paragraph at lines 1083--1097
 []\EU1/TimesNewRoman(0)/m/n/12 SINTEF.  (n.d.[]).  \EU1/TimesNewRoman(0)/m/it/1
 2 Big data, for better or worse: 90world's data gener-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 956--970
+Underfull \hbox (badness 10000) in paragraph at lines 1083--1097
 \EU1/TimesNewRoman(0)/m/it/12 ated over last two years. sciencedaily.  \EU1/Tim
 esNewRoman(0)/m/n/12 Retrieved 2013, May 22, from
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 1005--1030
+Underfull \hbox (badness 1902) in paragraph at lines 1132--1157
 []\EU1/TimesNewRoman(0)/m/n/12 Subramanian, A., Tamayo, P., Mootha, V. K., Mukh
 erjee, S., Ebert, B. L., Gillette,
  []
 
 
-Underfull \hbox (badness 3780) in paragraph at lines 1005--1030
+Underfull \hbox (badness 3780) in paragraph at lines 1132--1157
 \EU1/TimesNewRoman(0)/m/n/12 based approach for interpreting genome-wide expres
 sion profiles.  \EU1/TimesNewRoman(0)/m/it/12 Proceedings
  []
 
 
-Underfull \hbox (badness 2608) in paragraph at lines 1005--1030
+Underfull \hbox (badness 2608) in paragraph at lines 1132--1157
 \EU1/TimesNewRoman(0)/m/it/12 of the National Academy of Sciences\EU1/TimesNewR
 oman(0)/m/n/12 , \EU1/TimesNewRoman(0)/m/it/12 102\EU1/TimesNewRoman(0)/m/n/12 
 (43), 15545--15550.  Retrieved from
  []
 
-[35]) [36]
+[36]) [37]
 (/Users/iSith/Documents/R.github/Sith.Dissertation/.texpadtmp/main.aux
-(/Users/iSith/Documents/R.github/Sith.Dissertation/.texpadtmp/frontpgs.aux))
-
-LaTeX Warning: There were undefined references.
-
- ) 
+(/Users/iSith/Documents/R.github/Sith.Dissertation/.texpadtmp/frontpgs.aux)) ) 
 Here is how much of TeX's memory you used:
- 15450 strings out of 493734
- 306604 string characters out of 6146348
- 362378 words of memory out of 5000000
- 18617 multiletter control sequences out of 15000+600000
- 8477 words of font info for 56 fonts, out of 8000000 for 9000
+ 15411 strings out of 493734
+ 306146 string characters out of 6146348
+ 362620 words of memory out of 5000000
+ 18608 multiletter control sequences out of 15000+600000
+ 4114 words of font info for 37 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 46i,5n,36p,10384b,265s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,5n,36p,10384b,276s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /Users/iSith/Documents/R.github/Sith.Dissertation/.texpadtmp/
-main.pdf (39 pages).
+main.pdf (40 pages).
