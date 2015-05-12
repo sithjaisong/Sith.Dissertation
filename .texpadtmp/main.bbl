@@ -287,6 +287,29 @@ Deng, Y.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+FAO%
+}{%
+FAO%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+oecd2012oecd}
+\APACinsertmetastar {%
+oecd2012oecd}%
+\begin{APACrefauthors}%
+FAO, O.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2012}.
+\newblock
+\APACrefbtitle {{OECD-FAO Agricultural Outlook 2012--2021}} {{OECD-FAO
+  Agricultural Outlook 2012--2021}}.
+\newblock
+\APACaddressPublisher{}{OECD Publishing and FAO Paris}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Faust%
 \ \BBA {} Raes%
 }{%
@@ -686,6 +709,32 @@ Mukhtar, M\BPBI S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Mutert%
+\ \BBA {} Fairhurst%
+}{%
+Mutert%
+\ \BBA {} Fairhurst%
+}{%
+{\protect \APACyear {2002}}%
+}]{%
+mutert2002developments}
+\APACinsertmetastar {%
+mutert2002developments}%
+\begin{APACrefauthors}%
+Mutert, E.%
+\BCBT {}\ \BBA {} Fairhurst, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2002}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Developments in rice production in Southeast Asia}
+  {Developments in rice production in southeast asia}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Better Crops International}{15}{}{12--17}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 M\BPBI E\BPBI J.~Newman%
 }{%
 M\BPBI E\BPBI J.~Newman%
@@ -730,6 +779,28 @@ Newman, M\BPBI J.%
 \newblock
 \APACjournalVolNumPages{Proceedings of the National Academy of
   Sciences}{103}{23}{8577--8582}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Oerke%
+}{%
+Oerke%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+OERKE:2006ct}
+\APACinsertmetastar {%
+OERKE:2006ct}%
+\begin{APACrefauthors}%
+Oerke, E\BPBI C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Crop losses to pests}} {{Crop losses to pests}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{The Journal of Agricultural Science}{144}{1}{31--43}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
