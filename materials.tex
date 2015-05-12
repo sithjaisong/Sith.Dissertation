@@ -47,38 +47,40 @@ In the following, we provide an overview of single-network analysis strategy, wh
 
 \subsection*{\textbf{STEP 1. }\textit{Evaluation of pairwise relationship association methods for network construction}}
 
-
+% the rules is to present is not grammaticaly correct
 This research aims to construct networks visualizing the associations of injuries from pests and diseases with production situations. The rules defining edges of such networks is to present a sufficient level of 'association' between certain attributes of the two nodes. I thus choose correlation measurements to construct an association network based on them.
 
+% Again, I'm still confused, is this written in past tense (like a normal paper) current (which doesn't make sense) or future (like a proposal should be)? Your verb tenses are not consistent
+% Check spelling
+% I typically refer to R functions as "function()" to indicate that it is a function, not just a name or a package, e.g. corr.test(), bicor(), etc. You have no standard in your paragraph to identify R functions, that I can see, you use several ways.
+% Your last sentence is confusing and incomplete at best, nonsense at worst.
 To identify the most appropriate method for constructing a network based on correlation measurements, I select four correlation based measures, Pearson's correlation, Spearman's rank correlation, Kendall's correlation, Biweight midcorrealtion. The cor.test function of R \shortcite{R:2014a} is applied for generating a correlation matrix, which describes the pairwise associations between variable in the context of the crop health survey data. This function allow users to select type of correlation measures to perform such as Pearson's correlation, Spearman's rank correlation and Kandell's rank correlation. "bicor" function of WGCNA package \shortcite{Langfelder:2008bd} in R is applied for computing biweight midcorrelation matrix. A corresponding correlation matrix describes pairwise associations between variables is create. % I'm really not sure what's going on here?
 
+% nonsense
+\subsection*{\textbf{STEP 2. }\textit{Comparison of threshold selection methods correlation matrix of survey data}} 
 
-\subsection*{\textbf{STEP 2. }\textit{Comparison of threshold selection methods correlation matrix of survey data}} % incomplete
+% first sentence is nonsense, rewrite
+% second sentence is nonsense, rewrite
+% consider the purpose of this whole paragraph and write it more clearly.
+When a correlation matrix was create, next is to construct the correlation based network from the correlation matrix. However, the matrix is required the removal of spurious relationships by using threshold. Threshold is a value used for screening the correlations, if correlations  below a threshold value, or close to zero, will be less meaningful, then will not be shown in network graphs. Threshold selection is statistically based, which can be obtained in two ways \shortcite{Toubiana:2013cv}(1) Determine \textit{P} values for all pairwise comparison and adjust them for multiple hypotheses testing (e.g., Bonferroni or local false discovery rate. (2) Obtain a threshold value that guarantees a pre-specified false-discovery rate.
 
-When a correlation matrix was create, next is to construct the correlation based network from the correlation matrix. However, the matrix is required the removal of spurious relationships by using threshold. Threshold is a value used for screening the correlations, if correlations  below a threshold value, or close to zero, will be less meaningful, then will not be shown in network graphs. Threshold selection is statistically based, which can be obtained in two ways \shortcite{Toubiana:2013cv}(1) Determine \textit{P} values for all pairwise comparison and adjust them for multiple hypotheses testing (e.g., Bonferroni or local false discovery rate. (2) Obtain a threshold value that guarantees a pre-specified false-discovery rate. 
-
-
+% ?????
 To select the right threshold value
 
+% why knowledge of biological literature? Why not a good understanding of the biological system that you are monitoring? I think that's more essential and useful
+\subsection*{\textbf{STEP 3. }\textit{Evaluation of the network inference with prior knowledge of biological literature}} 
 
-\subsection*{\textbf{STEP 3. }\textit{Evaluation of the network inference with  prior knowledge of biological literature}} % incomplete
-
- 
+% models cannot reveal knowledge, look up the definition of knowledge. It does not apply here. What do you really mean because it can not be knowledge?
 Although we can opt for a method based on its principle of statistical operation without paying attention to the biological models in a given data set, this may not lead to a coordination network that will reveal biological knowledge. 
 
+% first sentence, all of them what?
+% based on what study? Our study? Who is "we"? This is YOUR research. If anything it should be "based on my study" but I'm not clear as to what study you refer to here. Who are the "we" that are suggesting? You're the only author on this manuscript. It's your disseration. There is no, our, us or we. It's only my, me, I here.
+% Is "codes" the proper form to use?
 
- 
-
-
-There is no statistical method that is suitable for all of them. Identification of the most efficient method for knowledge discovery of a specific biological process demands concrete prediagnostic analyses. Based on our study and our empirical knowledge, we would suggest the following procedure for identifying the most appropriate gene association method for a specific biological theme in a given data set: (1) Evaluate the prior knowledge of biological processes of one’s interest, and select a few known genes involved in these processes; (2) Use the R codes from this study to perform a genome-wide coexpression analysis to obtain the top 100 or 500 genes that are most closely associated to the selected known genes; (3) Perform an evaluation of these 100 or 500 genes by examining which methods can associate the more functionally relevant genes to the selected genes. This can be achieved by examining gene annotation or performing GO term enrichment analysis: and (4) Choose the best method for the data. However, if prior knowledge of biological theme of one’s interest is lacking, we suggest the most stable gene association method. 
-
-I 
-
+% You need to be much more clear here about your gene coexpression that it's just an example and add linkages to your work so it's clear to the reader how this relates.
+There is no statistical method that is suitable for all of them. Identification of the most efficient method for knowledge discovery of a specific biological process demands concrete prediagnostic analyses. Based on our study and our empirical knowledge, we would suggest the following procedure for identifying the most appropriate gene association method for a specific biological theme in a given data set: (1) Evaluate the prior knowledge of biological processes of one’s interest, and select a few known genes involved in these processes; (2) Use the R codes from this study to perform a genome-wide coexpression analysis to obtain the top 100 or 500 genes that are most closely associated to the selected known genes; (3) Perform an evaluation of these 100 or 500 genes by examining which methods can associate the more functionally relevant genes to the selected genes. This can be achieved by examining gene annotation or performing GO term enrichment analysis: and (4) Choose the best method for the data. However, if prior knowledge of biological theme of one’s interest is lacking, we suggest the most stable gene association method.
 
 %The resulting network of  associations thus provides a starting point for further investigations of the ecological mechanisms underlying the establishment and maintenance of human microbiome structure.
-
-
-
 
 \section*{Differential Network Analysis}  % incomplete
 
@@ -132,4 +134,6 @@ For deep insights, comparing the networks by using some key topological properti
 \end{figure}
 \end{landscape}
 
+
+%eos
 
