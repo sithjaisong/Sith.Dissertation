@@ -2,60 +2,69 @@
 % Materials and Methods
 %=========================
 
+% 1. What does examination of consequences of networks after imputation mean?
+This research mainly examines relationships between the injuries caused by pests and diseases, production situations (e.g., rice variety grown, crop establishment method, fertilizer and chemicals applied), and rice yields using data collected from surveys of irrigated lowland rice growing areas in South and South East Asia. I will develop and apply suitable methods of network analysis to characterize the patterns of co-occurrence of injuries and production situations. The resulting network of associations of injuries and production situations thus provides a starting point for further investigations of their relationships (i.e., comparison of networks from different production environments or examination of consequences of networks after imputation). 
 
-This research mainly examines relationships between the injuries caused by pests and diseases, production situations (e.g., rice varieties, crop establishments, fertilizer inputs, chemical applications), and rice yields using data collected from surveys of irrigated lowland rice growing areas in South and South East Asia. I will develop and apply suitable methods of network analysis to characterize the patterns of co-occurrence of injuries and production situations. The resulting network of associations of injuries and production situations thus provides a starting point for further investigations of their relationships (i.e., comparison of networks from different production environments or examination of consequences of networks after imputation).
+I propose three methods of network analysis using rice crop health survey data. In the following, I present three distinct network analysis approaches: single-network analysis, differential network analysis, and dynamic network analysis. The three approaches answer different questions. 
 
-% first sentence is not clear, you aren't analysing "survey" sith:[clear]
-% the second two sentences are clear and well thought out sith: not yet clear
-I propose three parts of network analysis of rice crop health survey data. In the following, I present three distinct network analysis approaches: single-network analysis, differential network analysis, and dynamic network analysis. The three approaches answer different questions. 
+In the first part of network analysis, I apply single-network analysis in order to defines modules that can then be tested for validity with other data sets. Single-network analysis identifies (a) patterns of interactions (modules) and (b) their key components (e.g., most connected variables) that are present in the data set.
 
-In the first part of network analysis, I apply single-network analysis in order to defines modules that can then be tested for validity with other data sets. Single-network analysis aims at identifying (a) patterns of interactions (modules) and (b) their key components (e.g., most connected variables) that are present in the data set.
-
-
-The second part, differential network analysis, aims to uncover differences in the modules and connectivity between different data sets (e.g., dry season versus wet season). Each data set is then used to construct a network. Next, the networks are contrasted to find (a) non-preserved modules, (b) differentially occurred variables, and (c) differentially connected variables. 
+The second part, differential network analysis, I will use to uncover differences in the modules and connectivity between different data sets (e.g., dry season versus wet season). Each data set is then used to construct a network. Next, the networks are contrasted to find (a) non-preserved modules, (b) differentially occurred variables, and (c) differentially connected variables. 
 
 
-% for study changes is not proper grammar sith:[clear]
-% "obtain different yield data" set is not proper grammar either since you're varying yield gains and looking at different behaviours
+% You're still changing tense. Once I tell you to fix something, please fix it. Do not repeat the mistake. 
+% Grammar in last sentence
 Dynamic network analysis, in the third part, is applied for studying how networks change at least two different aspects of an evolving complex system. Here I vary yield gains, and obtain data set with different level of yield gains in order to construct a dynamic network of yield varying behaviors. Similar to differential network analysis, dynamic networks focus on comparison of network structure, but it enable us to observe networks changing across successive yield gains. 
 
 
 \subsection*{Crop Health Survey Data}
 
-
-The crop health survey data were collected through surveys of farmers' fields in two seasons (wet and dry seasons) from 2009 to 2015 in different production environments across South and South East in irrigated lowland rice growing areas (West Java, Indonesia; Mekong River Delta and Red River Delta, Vietnam; Tamil Nadu and Odisha, India; and Suphanburi, Thailand). The protocol as described by \shortciteA{Savarysurvey2009} was used. % is this correct? Was it hte 1996 version or the updated version from 2009 that was used? sith:[clear]
+The crop health survey data were collected through surveys of farmers' fields in two seasons (wet and dry seasons) from 2009 to 2015 in different production environments across South and South East in irrigated lowland rice growing areas (West Java, Indonesia; Mekong River Delta and Red River Delta, Vietnam; Tamil Nadu and Odisha, India; and Suphanburi, Thailand). The protocol as described by \shortciteA{Savarysurvey2009} was used.
 
 %======= Note ================
 % don't leave spaces between letters and punctuation marks, e.g., no space after "(" or before "."
 % If you're going to use them, learn the difference between i.e. and e.g. they are not the same
 %======================================
 
+% Verb tense, here, still
+% See note above for both comments. These still are not fixed here!
+% You'd best re-read the protocol to familiarise yourself with just what data is collected and correct what you've written here.
 The survey data described above consist of measures of multiple variables with different types of value. Data were divided each sample into three sets of variables, production situation set, injuries and disease set, and yield. \textbf{cropping practice set} are simplified, which collected with many type of data. For example, types of rice varieties (traditional varieties, modern varieties, and hybrid rice), crop establishments ( direct seeded, transplanted rice) were collected in categorical data, pesticide (molluscicide, herbicide, insecticide and fungicide) uses were collected discretized data, and accumulated organic, chemical fertilizers were collected in continuous data. \textbf{Injuries and diseases set} composed of specific signs caused by pests or pathogens (i.e., whitehead, brown spot). They are collected percent of incidence of injury at two rice stages. Two types of injury indices were used areas under progress curves or maximum level of injuries or disease incidence depending on the nature of the injury. The time-dependent information on injuries was thus synthesized and compacted over time.
 
-% If samples composed of incomplete data were removed, why were they encoded in a matrix? sith[clear]
+% 1. If samples composed of incomplete data were removed, why were they encoded in a matrix? sith[clear]
+% 2. So you mean complete data? Why are you wording it like this? Awkward.
+% 3. Plurality in last sentence.
 Samples without incomplete data were encoded as a matrix in which each row represented a surveyed field in a specific location, year and season. Each column represented a collected variables.
 
-
 \section*{Single Network Development}
-% your first sentence repeats single network within three words. Why? That's just awkward.
+% I don't understand the first sentece.
 In the case of single network analysis, one use single network for modeling the relationship of cropping practice set, and injuries and disease sets. In the following, I describe a typical single-network analysis for finding the patterns of relationships.
 While a single network is the focus, it does not imply that only a single data set is used. Instead, appropriately similar multiple data sets can be used to validate the robustness of module definition and connectivity.
 
-% why do you have "P-values" and "\textit{P} values" are these different P values?
-% your list should not be individual sentences, they're all one sentence
+% 1. If I give you comments, I expect them to be addressed, especially simple ones like the following comment here
+% 1. (repeated). why do you have "P-values" and "\textit{P} values" are these different P values?
+% 2. Punctuation.
 In the following, we provide an overview of single-network analysis strategy, which is depicted in Fig. 1: (a) process data preparation, (b) calculate correlation coefficients (Pearson, Spearman, or Kendall). Estimate P-values for all coefficients. Next, determine threshold values for the resulting correlation coefficients and \textit{P} values, storing results in adjacency matrices for the construction of networks, (c) Construct network and analyze network for graph-theoretic properties and infer biological meanings and integrate the network of input data and output data, and (d) yield- related variables are used to prioritize variables within crop health data
 
 \section*{Network of co-occurrence patterns between injuries and diseases}
 
 % introduction
+% Verb tense here is changes again? Why?
 In the case of single network analysis, I use single network for modeling the pattern of co-occurrence of injuries and disease. In the following, I describe a typical single-network analysis for finding the patterns of relationships. To construct this network, I use survey data selected only the injuries and disease set.
 
 While a single network is the focus, it does not imply that only a single data set is used. Instead, appropriately similar multiple data sets can be used to validate the robustness of module definition and connectivity.
-In the following, I provide an overview of single-network analysis strategy, which is depicted in Fig. 1: (a) process data preparation. (b) Calculate correlation coefficients (Pearson, Spearman, or Kendall). Estimate P-values for all coefficients. Next, determine threshold values for the resulting correlation coefficients and \textit{P} values, storing results in adjacency matrices for the construction of networks. (c) Construct network and analyze network for graph-theoretic properties and infer biological meanings and integrate the network of input data and output data. (d) yield- related variables are used to prioritize variables within crop health data 
+
+% 1. (repeated). why do you have "P-values" and "\textit{P} values" are these different P values?
+% 2. Why is there a " " in yield-related? It's one word. No space.
+In the following, I provide an overview of single-network analysis strategy, which is depicted in Fig. 1: (a) process data preparation. (b) Calculate correlation coefficients (Pearson, Spearman, or Kendall). Estimate P-values for all coefficients. Next, determine threshold values for the resulting correlation coefficients and \textit{P} values, storing results in adjacency matrices for the construction of networks. (c) Construct network and analyze network for graph-theoretic properties and infer biological meanings and integrate the network of input data and output data. (d) yield- related variables are used to prioritize variables within crop health data 
 
 % objective
+% 1. The rules is to, incorrect grammar
+% 2. Capitalization
+% 3. Punctuation
 This research aims to construct networks visualizing the associations of injuries from pests and diseases with production situations. The rules defining edges of such networks is to present a sufficient level of 'association' between certain attributes of the two nodes. The use of crop health survey data to construct co-occurrence network and perform network decomposition and network analysis has not yet been reported. Additionally, methods performing co-occurrence analysis and co-occurrence networks has not been studied. Thus, evaluation of such methods is challenging because (1) there are many types of variables mixed in crop health survey data. (2) methods can identify variables with true concordance often determine the prior knowledge.(3) methods performing biologically meaningful co-occurrence network construction. 
 
+% The following comment is still not corrected.
 % the rules is to present is not grammaticaly correct
 This research aims to construct networks visualizing the associations of injuries from pests and diseases with production situations. The rules defining edges of such networks is to present a sufficient level of 'association' between certain attributes of the two nodes. I thus choose correlation measurements to construct an association network based on them.
 
@@ -69,6 +78,9 @@ This research aims to construct networks visualizing the associations of injurie
 % I typically refer to R functions as "function()" to indicate that it is a function, not just a name or a package, e.g. corr.test(), bicor(), etc. You have no standard in your paragraph to identify R functions, that I can see, you use several ways.
 % Your last sentence is confusing and incomplete at best, nonsense at worst.
 
+% This whole paragraph needs to be cleaned up, see my comments from previous.
+
+%%% I'm stopping here. You need to spend some time cleaning this section up and making corrections.
 To identify the most suitable methods for constructing a network based on correlation measurements, I selected four correlation based measures, Pearson's correlation, Spearman's rank correlation, Kendall's correlation, Biweight midcorrealtion. The cor.test function of R \shortcite{R:2014a} is applied for generating a correlation matrix, which describes the pairwise associations between variable in the context of the crop health survey data. This function allow users to select type of correlation measures to perform such as Pearson's correlation, Spearman's rank correlation and Kandell's rank correlation. "bicor()" function of WGCNA package \shortcite{Langfelder:2008bd} in R is applied for computing biweight midcorrelation matrix. 
 
 
