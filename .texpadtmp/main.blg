@@ -15,45 +15,45 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: ../reference.bib
 Warning--I didn't find a database entry for "MoslonkaLefebvre:2011fo"
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 47 entries,
+You've used 49 entries,
             6951 wiz_defined-function locations,
-            1575 strings with 19767 characters,
-and the built_in function-call counts, 96842 in all, are:
-= -- 11715
-> -- 869
-< -- 4862
-+ -- 5192
-- -- 94
-* -- 6438
-:= -- 17967
-add.period$ -- 186
-call.type$ -- 47
-change.case$ -- 799
+            1586 strings with 20046 characters,
+and the built_in function-call counts, 100337 in all, are:
+= -- 12144
+> -- 902
+< -- 5016
++ -- 5338
+- -- 98
+* -- 6662
+:= -- 18576
+add.period$ -- 194
+call.type$ -- 49
+change.case$ -- 833
 chr.to.int$ -- 0
-cite$ -- 94
-duplicate$ -- 2826
-empty$ -- 3676
-format.name$ -- 1563
-if$ -- 18007
+cite$ -- 98
+duplicate$ -- 2926
+empty$ -- 3829
+format.name$ -- 1619
+if$ -- 18697
 int.to.chr$ -- 0
-int.to.str$ -- 141
+int.to.str$ -- 147
 missing$ -- 0
-newline$ -- 1229
-num.names$ -- 376
-pop$ -- 1653
+newline$ -- 1282
+num.names$ -- 392
+pop$ -- 1760
 preamble$ -- 1
-purify$ -- 188
+purify$ -- 196
 quote$ -- 0
-skip$ -- 5761
+skip$ -- 5946
 stack$ -- 0
-substring$ -- 5608
-swap$ -- 1594
-text.length$ -- 97
+substring$ -- 5767
+swap$ -- 1658
+text.length$ -- 101
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 3760
+type$ -- 3920
 warning$ -- 0
-while$ -- 516
+while$ -- 535
 width$ -- 0
-write$ -- 1582
+write$ -- 1650
 (There was 1 warning)

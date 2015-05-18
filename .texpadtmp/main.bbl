@@ -340,6 +340,35 @@ Freilich, S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Gill%
+, Datta%
+\BCBL {}\ \BBA {} Datta%
+}{%
+Gill%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+dnapackage}
+\APACinsertmetastar {%
+dnapackage}%
+\begin{APACrefauthors}%
+Gill, R.%
+, Datta, S.%
+\BCBL {}\ \BBA {} Datta, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {dna: Differential Network Analysis} {dna: Differential
+  network analysis}{\BBCQ}\ [\bibcomputersoftwaremanual].
+\newblock
+\begin{APACrefURL} \url{http://CRAN.R-project.org/package=dna} \end{APACrefURL}
+\newblock
+\APACrefnote{R package version 1.1-1}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Guimera%
 \ \BBA {} Amaral%
 }{%
@@ -977,6 +1006,33 @@ Pautass, M.%
   small-size directed networks}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Ecological Complexity}{7}{}{424--432}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Pe'er%
+\ \BBA {} Hacohen%
+}{%
+Pe'er%
+\ \BBA {} Hacohen%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+Peer:2011jd}
+\APACinsertmetastar {%
+Peer:2011jd}%
+\begin{APACrefauthors}%
+Pe'er, D.%
+\BCBT {}\ \BBA {} Hacohen, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Principles and strategies for developing network models
+  in cancer.}} {{Principles and strategies for developing network models in
+  cancer.}}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Cell}{144}{6}{864--873}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
