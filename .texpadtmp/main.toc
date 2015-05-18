@@ -1,4 +1,3 @@
-\contentsline {chapter}{LIST OF FIGURES}{iv}
 \contentsline {chapter}{\numberline {I}INTRODUCTION}{1}
 \contentsline {chapter}{Introduction}{1}
 \contentsline {chapter}{Objectives}{2}

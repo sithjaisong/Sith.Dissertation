@@ -680,35 +680,6 @@ Lu, L.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-M%
-, M%
-\BCBL {}\ \BBA {} J.%
-}{%
-M%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2009}}%
-}]{%
-Moslonka2008}
-\APACinsertmetastar {%
-Moslonka2008}%
-\begin{APACrefauthors}%
-M, M\BHBI L.%
-, M, M\BPBI P.%
-\BCBL {}\ \BBA {} J., J\BPBI M.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2009}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Disease spread in small-size directed networks:epidemic
-  threshold, correlation between links to and form nodes, and clustering}
-  {Disease spread in small-size directed networks:epidemic threshold,
-  correlation between links to and form nodes, and clustering}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Theoretical Biology}{206}{}{402--411}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Mew%
 , Leung%
 , Savary%
@@ -791,6 +762,35 @@ Moslonka-Lefebvre, M.%
   genes to landscapes, countries, and continents}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Phytopathology}{101}{4}{392--403}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Moslonka-Lefebvre%
+, Mathieu~Pautass%
+\BCBL {}\ \BBA {} Jeger%
+}{%
+Moslonka-Lefebvre%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2009}}%
+}]{%
+Moslonka2008}
+\APACinsertmetastar {%
+Moslonka2008}%
+\begin{APACrefauthors}%
+Moslonka-Lefebvre, M.%
+, Mathieu~Pautass, M.%
+\BCBL {}\ \BBA {} Jeger, M\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Disease spread in small-size directed networks:epidemic
+  threshold, correlation between links to and form nodes, and clustering}
+  {Disease spread in small-size directed networks:epidemic threshold,
+  correlation between links to and form nodes, and clustering}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Theoretical Biology}{206}{}{402--411}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -952,8 +952,8 @@ Pastor-Satorras, R.%
 
 \bibitem [\protect \citeauthoryear {%
 Pautass%
-, M%
-\BCBL {}\ \BBA {} J.%
+, Moslonka-Lefebvre%
+\BCBL {}\ \BBA {} Jeger%
 }{%
 Pautass%
 \ \protect \BOthers {.}}{%
@@ -964,8 +964,8 @@ Moslonka2010}
 Moslonka2010}%
 \begin{APACrefauthors}%
 Pautass, M.%
-, M, M\BHBI L.%
-\BCBL {}\ \BBA {} J., J\BPBI M.%
+, Moslonka-Lefebvre, M.%
+\BCBL {}\ \BBA {} Jeger, M\BPBI J.%
 \end{APACrefauthors}%
 \unskip\
 \newblock

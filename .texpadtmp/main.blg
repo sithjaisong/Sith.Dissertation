@@ -17,36 +17,36 @@ Warning--I didn't find a database entry for "MoslonkaLefebvre:2011fo"
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 You've used 49 entries,
             6951 wiz_defined-function locations,
-            1586 strings with 20045 characters,
-and the built_in function-call counts, 100337 in all, are:
-= -- 12144
+            1586 strings with 20051 characters,
+and the built_in function-call counts, 100160 in all, are:
+= -- 12111
 > -- 902
-< -- 5016
-+ -- 5338
+< -- 5010
++ -- 5314
 - -- 98
-* -- 6662
-:= -- 18576
+* -- 6656
+:= -- 18551
 add.period$ -- 194
 call.type$ -- 49
 change.case$ -- 833
 chr.to.int$ -- 0
 cite$ -- 98
-duplicate$ -- 2926
+duplicate$ -- 2917
 empty$ -- 3829
 format.name$ -- 1619
-if$ -- 18697
+if$ -- 18664
 int.to.chr$ -- 0
 int.to.str$ -- 147
 missing$ -- 0
 newline$ -- 1282
 num.names$ -- 392
-pop$ -- 1760
+pop$ -- 1759
 preamble$ -- 1
 purify$ -- 196
 quote$ -- 0
-skip$ -- 5946
+skip$ -- 5938
 stack$ -- 0
-substring$ -- 5767
+substring$ -- 5735
 swap$ -- 1658
 text.length$ -- 101
 text.prefix$ -- 0

@@ -14,10 +14,16 @@
 \usepackage{sectsty}
 \chapterfont{\centering}
 \usepackage{enumitem} % enumerate package
+\usepackage{setspace} % format the line spacing
 \linespread{2}
+%\usepackage{titlesec} % format the chapter headings
 \usepackage{amsmath,amssymb,amstext} % Lots of math symbols and environments
 \usepackage{graphicx} % For including graphics N.B. pdftex graphics driver 
-
+%---------Adjust format chapter-------------------------
+%\titleformat{\chapter}[block]
+%  {\normalfont\huge\bfseries}{\thechapter.}{1em}{\Huge}
+%\titlespacing*{\chapter}{10pt}{-19pt}{10pt}
+%-------------------------------
 %----- Adjust the style ----
 \renewcommand{\chaptername}{CHAPTER}
 \renewcommand{\thechapter}{\Roman{chapter}}
