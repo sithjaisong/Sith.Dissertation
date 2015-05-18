@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014) (preloaded format=xelatex 2014.7.27)  13 MAY 2015 00:16
+This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014) (preloaded format=xelatex 2014.7.27)  18 MAY 2015 17:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -512,27 +512,27 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (/Users/iSith/Documents/R.github/Sith.Dissertation/.texpadtmp/frontpgs.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 29.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 30.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 30.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    ... okay on input line 30.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -575,69 +575,69 @@ LaTeX Font Info:    ... okay on input line 29.
 .................................................
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 29.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 29.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 29.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 29.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 29.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 29.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 29.
-LaTeX Font Info:    Redeclaring math accent \check on input line 29.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 29.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 29.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 29.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 29.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 30.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 30.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 30.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 30.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 30.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 30.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 30.
+LaTeX Font Info:    Redeclaring math accent \check on input line 30.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 30.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 30.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 30.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 29.
+(Font)              `operators' in the math version `normal' on input line 30.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> EU1/TimesNewRoman(0)/m/n on input line 
-29.
+30.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 29.
+(Font)              `operators' in the math version `bold' on input line 30.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> EU1/TimesNewRoman(0)/m/n on input line
- 29.
+ 30.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  EU1/TimesNewRoman(0)/m/n --> EU1/TimesNewRoman(0)/m/n o
-n input line 29.
+n input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  EU1/TimesNewRoman(0)/m/n --> EU1/TimesNewRoman(0)/m/n o
-n input line 29.
+n input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> EU1/TimesNewRoman(0)/m/it on input lin
-e 29.
+e 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> EU1/TimesNewRoman(0)/bx/n on input lin
-e 29.
+e 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 29.
+(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 29.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 30.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  EU1/TimesNewRoman(0)/m/n --> EU1/TimesNewRoman(0)/bx/n 
-on input line 29.
+on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
 (Font)                  EU1/TimesNewRoman(0)/m/n --> EU1/TimesNewRoman(0)/bx/n 
-on input line 29.
+on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> EU1/TimesNewRoman(0)/bx/it on input l
-ine 29.
+ine 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 29.
+(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 29.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 30.
 \AtBeginShipoutBox=\box44
 \c@maskedRefs=\count142
 (/usr/local/texlive/2014/texmf-dist/tex/latex/apacite/english.apc
@@ -652,20 +652,20 @@ LaTeX Info: Redefining \BHBI on input line 130.
 
 
 ]
-(/Users/iSith/Documents/R.github/Sith.Dissertation/.texpadtmp/main.toc)
+(/Users/iSith/Documents/R.github/Sith.Dissertation/.texpadtmp/main.toc [2
+
+
+])
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
 
-[2
-
-
-] (/Users/iSith/Documents/R.github/Sith.Dissertation/.texpadtmp/main.lof)
+[3] (/Users/iSith/Documents/R.github/Sith.Dissertation/.texpadtmp/main.lof)
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
 
-[3
+[4
 
 
 ])
@@ -676,65 +676,69 @@ CHAPTER I.
 
 ]) [2]
 CHAPTER II.
-(./litreview.tex [3
+(./litreview.tex
 
-] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15]
-[16] [17] [18] [19] [20]) [21]
+LaTeX Warning: Citation `MoslonkaLefebvre:2011fo' undefined on input line 8.
+
+[3
+
+] [4] [5] [6] [7] [8] [9] [10]
+Overfull \hbox (7.9704pt too wide) in paragraph at lines 81--83
+[]\EU1/TimesNewRoman(0)/m/n/12 Moslonka-Lefebvre et al.[], 2011) showed a netwo
+rk model of epidemic development (susceptible-
+ []
+
+[11] [12] [13] [14] [15] [16] [17]) [18]
 CHAPTER III.
-(./materials.tex [22
+(./materials.tex [19
 
-] [23] [24] [25] [26] [27] [28] [29])
-(/Users/iSith/Documents/R.github/Sith.Dissertation/.texpadtmp/main.bbl [30]
-LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 138
-.
+] [20]
+LaTeX Font Info:    Try loading font information for U+msa on input line 78.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 78.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [21] [22]
+[23] [24])
+(/Users/iSith/Documents/R.github/Sith.Dissertation/.texpadtmp/main.bbl [25]
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 51.
+
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/euenc/eu1lmtt.fd
 File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [31
+) [26
 
-] [32]
-[33] [34]
-Underfull \hbox (badness 10000) in paragraph at lines 1154--1168
-[]\EU1/TimesNewRoman(0)/m/n/12 SINTEF.  (n.d.[]).  \EU1/TimesNewRoman(0)/m/it/1
-2 Big data, for better or worse: 90world's data gener-
+]
+Underfull \hbox (badness 4467) in paragraph at lines 494--510
+[]\EU1/TimesNewRoman(0)/m/n/12 Klaus, B., & Strimmer., K.  (2015).  fdrtool: Es
+timation of (local) false dis-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1154--1168
-\EU1/TimesNewRoman(0)/m/it/12 ated over last two years. sciencedaily.  \EU1/Tim
-esNewRoman(0)/m/n/12 Retrieved 2013, May 22, from
+Underfull \hbox (badness 2173) in paragraph at lines 494--510
+\EU1/TimesNewRoman(0)/m/n/12 covery rates and higher criticism [Computer softwa
+re manual].  Retrieved from
  []
 
-
-Underfull \hbox (badness 1902) in paragraph at lines 1203--1228
-[]\EU1/TimesNewRoman(0)/m/n/12 Subramanian, A., Tamayo, P., Mootha, V. K., Mukh
-erjee, S., Ebert, B. L., Gillette,
- []
-
-
-Underfull \hbox (badness 3780) in paragraph at lines 1203--1228
-\EU1/TimesNewRoman(0)/m/n/12 based approach for interpreting genome-wide expres
-sion profiles.  \EU1/TimesNewRoman(0)/m/it/12 Proceedings
- []
-
-
-Underfull \hbox (badness 2608) in paragraph at lines 1203--1228
-\EU1/TimesNewRoman(0)/m/it/12 of the National Academy of Sciences\EU1/TimesNewR
-oman(0)/m/n/12 , \EU1/TimesNewRoman(0)/m/it/12 102\EU1/TimesNewRoman(0)/m/n/12 
-(43), 15545--15550.  Retrieved from
- []
-
-[35]) [36]
+[27] [28] [29]) [30]
 (/Users/iSith/Documents/R.github/Sith.Dissertation/.texpadtmp/main.aux
-(/Users/iSith/Documents/R.github/Sith.Dissertation/.texpadtmp/frontpgs.aux)) ) 
+(/Users/iSith/Documents/R.github/Sith.Dissertation/.texpadtmp/frontpgs.aux))
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 15416 strings out of 493734
- 306285 string characters out of 6146348
- 362843 words of memory out of 5000000
- 18613 multiletter control sequences out of 15000+600000
- 4114 words of font info for 37 fonts, out of 8000000 for 9000
+ 15444 strings out of 493734
+ 306601 string characters out of 6146348
+ 365235 words of memory out of 5000000
+ 18620 multiletter control sequences out of 15000+600000
+ 8477 words of font info for 56 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 46i,5n,36p,10384b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,5n,36p,10384b,267s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /Users/iSith/Documents/R.github/Sith.Dissertation/.texpadtmp/
-main.pdf (39 pages).
+main.pdf (34 pages).

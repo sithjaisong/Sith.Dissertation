@@ -1,10 +1,17 @@
-\contentsline {chapter}{LIST OF FIGURES}{iii}
+\contentsline {chapter}{LIST OF FIGURES}{iv}
 \contentsline {chapter}{\numberline {I}INTRODUCTION}{1}
 \contentsline {chapter}{Introduction}{1}
+\contentsline {chapter}{Objectives}{2}
 \contentsline {chapter}{\numberline {II}REVIEW OF LITERATURE}{3}
+\contentsline {chapter}{Introduction}{3}
+\contentsline {chapter}{Network analysis}{4}
 \contentsline {subsubsection}{Introduction to network analysis}{4}
-\contentsline {paragraph}{Concept 1: Networks are generated from multiple pairwise relationships of data through the statistical approaches.}{17}
-\contentsline {paragraph}{Concept 2: Networks are not static, but dynamic according to the given data and environments.}{18}
-\contentsline {paragraph}{Concept 3: Differential networks focus on the changes.}{19}
-\contentsline {chapter}{\numberline {III}MATERIALS AND METHODS}{22}
-\contentsline {chapter}{LITERATURE CITED}{31}
+\contentsline {chapter}{The unique values of network analysis}{8}
+\contentsline {chapter}{Networks and Plant Pathology}{10}
+\contentsline {chapter}{Summary}{17}
+\contentsline {chapter}{\numberline {III}MATERIALS AND METHODS}{19}
+\contentsline {chapter}{Crop health survey data}{20}
+\contentsline {chapter}{Single network analysis of crop health survey data}{20}
+\contentsline {chapter}{Differential network analysis of crop health survey data under different season and production environment}{22}
+\contentsline {chapter}{Dynamic network analysis of crop health survey data}{23}
+\contentsline {chapter}{LITERATURE CITED}{26}
