@@ -595,35 +595,6 @@ Krause, A\BPBI E.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-L.%
-\ \BBA {} Y.%
-}{%
-L.%
-\ \BBA {} Y.%
-}{%
-{\protect \APACyear {2013}}%
-}]{%
-Zheng2013}
-\APACinsertmetastar {%
-Zheng2013}%
-\begin{APACrefauthors}%
-L., Z\BPBI Z.%
-\BCBT {}\ \BBA {} Y., Z.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2013}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Transcriptome comparison and gene coexpression network
-  analysis provide a systems view of citrus response to "\textit{Candidatus
-  Liberibacter asiaticus}" infection} {Transcriptome comparison and gene
-  coexpression network analysis provide a systems view of citrus response to
-  "\textit{Candidatus Liberibacter asiaticus}" infection}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{BMC Genomics}{14}{}{27}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Langfelder%
 \ \BBA {} Horvath%
 }{%
@@ -1373,6 +1344,35 @@ Yang, Y.%
   prognostic genes across cancer types}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Nature communications}{5}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zheng%
+\ \BBA {} Zhao%
+}{%
+Zheng%
+\ \BBA {} Zhao%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+Zheng2013}
+\APACinsertmetastar {%
+Zheng2013}%
+\begin{APACrefauthors}%
+Zheng, Z\BPBI L.%
+\BCBT {}\ \BBA {} Zhao, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Transcriptome comparison and gene coexpression network
+  analysis provide a systems view of citrus response to "\textit{Candidatus
+  Liberibacter asiaticus}" infection} {Transcriptome comparison and gene
+  coexpression network analysis provide a systems view of citrus response to
+  "\textit{Candidatus Liberibacter asiaticus}" infection}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{BMC Genomics}{14}{}{27}.
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}
