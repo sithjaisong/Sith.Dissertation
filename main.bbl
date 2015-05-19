@@ -184,7 +184,7 @@ Castells, M.%
 \newblock
 \APACrefbtitle {The rise of network society} {The rise of network society}.
 \newblock
-\APACaddressPublisher{}{Oxofrd: Blackwell Publishers}.
+\APACaddressPublisher{}{Oxford: Blackwell Publishers}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -499,7 +499,7 @@ Jeger, M\BPBI J.%
   implications for plant sciences}} {{Modelling disease spread and control in
   networks: implications for plant sciences}}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{New pathologist}{}{}{}.
+\APACjournalVolNumPages{New Pathologist}{}{}{}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -640,9 +640,9 @@ Langfelder, P.%
 \newblock
 \APACrefYearMonthDay{2008}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {WGCNA: an R package for weighted correlation network
-  analysis.} {Wgcna: an r package for weighted correlation network
-  analysis.}{\BBCQ}
+{\BBOQ}\APACrefatitle {{WGCNA: an R package for weighted correlation network
+  analysis.}} {{WGCNA: an R package for weighted correlation network
+  analysis.}}{\BBCQ}
 \newblock
 \APACjournalVolNumPages{BMC Bioinformatics}{9}{}{559}.
 \PrintBackRefs{\CurrentBib}
@@ -777,7 +777,9 @@ Moslonka-Lefebvre, M.%
 , Dehnen-Schmutz, K.%
 , Harwood, T.%
 , Jeger, M\BPBI J.%
-\BDBL {}Pautasso, M.%
+, Xu, X.%
+, Holdenrieder, O.%
+\BCBL {}\ \BBA {} Pautasso, M.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
@@ -792,7 +794,7 @@ Moslonka-Lefebvre, M.%
 
 \bibitem [\protect \citeauthoryear {%
 Moslonka-Lefebvre%
-, Mathieu~Pautass%
+, Mathieu~Pautasso%
 \BCBL {}\ \BBA {} Jeger%
 }{%
 Moslonka-Lefebvre%
@@ -804,7 +806,7 @@ Moslonka2008}
 Moslonka2008}%
 \begin{APACrefauthors}%
 Moslonka-Lefebvre, M.%
-, Mathieu~Pautass, M.%
+, Mathieu~Pautasso, M.%
 \BCBL {}\ \BBA {} Jeger, M\BPBI J.%
 \end{APACrefauthors}%
 \unskip\
@@ -867,9 +869,9 @@ Newman, M\BPBI E\BPBI J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Oerke%
+{Oerke, E. -C.}%
 }{%
-Oerke%
+{Oerke, E. -C.}%
 }{%
 {\protect \APACyear {2006}}%
 }]{%
@@ -877,13 +879,13 @@ OERKE:2006ct}
 \APACinsertmetastar {%
 OERKE:2006ct}%
 \begin{APACrefauthors}%
-Oerke, E\BPBI C.%
+{Oerke, E. -C.}%
 \end{APACrefauthors}%
 \unskip\
 \newblock
 \APACrefYearMonthDay{2006}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {{Crop losses to pests}} {{Crop losses to pests}}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Crop losses to pests} {Crop losses to pests}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{The Journal of Agricultural Science}{144}{1}{31--43}.
 \PrintBackRefs{\CurrentBib}
@@ -1052,9 +1054,9 @@ Ray, D\BPBI K.%
 \newblock
 \APACrefYearMonthDay{2013}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {{Yield Trends Are Insufficient to Double Global Crop
-  Production by 2050}} {{Yield Trends Are Insufficient to Double Global Crop
-  Production by 2050}}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Yield Trends Are Insufficient to Double Global Crop
+  Production by 2050} {Yield trends are insufficient to double global crop
+  production by 2050}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{PLoS ONE}{8}{6}{}.
 \PrintBackRefs{\CurrentBib}
@@ -1133,16 +1135,19 @@ Savary, S.%
 , Teng, P\BPBI S.%
 , Van~Du, P.%
 , Zhu, D.%
-\BDBL {}Singh, H\BPBI M.%
+, Tang, Q.%
+, Huang, S.%
+, Lin, X.%
+\BCBL {}\ \BBA {} Singh, H\BPBI M.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
 \APACrefYearMonthDay{2000a}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Rice pest constraints in tropical Asia: characterization
-  of injury profiles in relation to production situations} {Rice pest
-  constraints in tropical asia: characterization of injury profiles in relation
-  to production situations}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Rice pest constraints in tropical {Asia}:
+  characterization of injury profiles in relation to production situations}
+  {Rice pest constraints in tropical {Asia}: characterization of injury
+  profiles in relation to production situations}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Plant disease}{84}{3}{341--356}.
 \PrintBackRefs{\CurrentBib}
@@ -1270,7 +1275,10 @@ Usadel, B.%
 , Giorgi, F\BPBI M.%
 , Bassel, G\BPBI W.%
 , Tanimoto, M.%
-\BDBL {}Provart, N\BPBI J.%
+, Chow, A.%
+, Steinhauser, D.%
+, Persson, S.%
+\BCBL {}\ \BBA {} Provart, N\BPBI J.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
@@ -1307,7 +1315,7 @@ Windram, O.%
 {\BBOQ}\APACrefatitle {Network Modeling to Understand Plant Immunity} {Network
   modeling to understand plant immunity}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Annual review of phytopathology}{}{}{}.
+\APACjournalVolNumPages{Annual Review of Phytopathology}{}{}{}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
