@@ -1,63 +1,6 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
-Avelino%
-\ \protect \BOthers {.}}{%
-Avelino%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2006}}%
-}]{%
-Avelino:2006ie}
-\APACinsertmetastar {%
-Avelino:2006ie}%
-\begin{APACrefauthors}%
-Avelino, J.%
-, Zelaya, H.%
-, Merlo, A.%
-, Pineda, A.%
-, Ordo{\~n}ez, M.%
-\BCBL {}\ \BBA {} Savary, S.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2006}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{The intensity of a coffee rust epidemic is dependent on
-  production situations}} {{The intensity of a coffee rust epidemic is
-  dependent on production situations}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Ecological Modelling}{197}{3-4}{431--447}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Barab{\'a}si%
-, Gulbahce%
-\BCBL {}\ \BBA {} Loscalzo%
-}{%
-Barab{\'a}si%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2011}}%
-}]{%
-barabasi2011netmed}
-\APACinsertmetastar {%
-barabasi2011netmed}%
-\begin{APACrefauthors}%
-Barab{\'a}si, A\BHBI L.%
-, Gulbahce, N.%
-\BCBL {}\ \BBA {} Loscalzo, J.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2011}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Network medicine: a network-based approach to human
-  disease} {Network medicine: a network-based approach to human
-  disease}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Nature Reviews Genetics}{12}{1}{56--68}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Barabasi%
 \ \BBA {} Oltvai%
 }{%
@@ -85,33 +28,57 @@ Barabasi, A\BHBI L.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Barber{\'a}n%
-, Bates%
-, Casamayor%
-\BCBL {}\ \BBA {} Fierer%
+Bender-deMoll%
 }{%
-Barber{\'a}n%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2011}}%
+Bender-deMoll%
+}{%
+{\protect \APACyear {2015}}%
 }]{%
-barberan2011using}
+ndtvpackage}
 \APACinsertmetastar {%
-barberan2011using}%
+ndtvpackage}%
 \begin{APACrefauthors}%
-Barber{\'a}n, A.%
-, Bates, S\BPBI T.%
-, Casamayor, E\BPBI O.%
-\BCBL {}\ \BBA {} Fierer, N.%
+Bender-deMoll, S.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2011}{}{}.
+\APACrefYearMonthDay{2015}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Using Network Analysis to Explore Co-occurrence Patterns
-  in Soil Microbial Communities} {Using network analysis to explore
-  co-occurrence patterns in soil microbial communities}.{\BBCQ}
+{\BBOQ}\APACrefatitle {ndtv: Network Dynamic Temporal Visualizations} {ndtv:
+  Network dynamic temporal visualizations}{\BBCQ}\
+  [\bibcomputersoftwaremanual].
 \newblock
-\APACjournalVolNumPages{The ISME journal}{6}{2}{343--351}.
+\begin{APACrefURL} \url{http://CRAN.R-project.org/package=ndtv}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{R package version 0.6.1}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bilgin%
+\ \BBA {} Yener%
+}{%
+Bilgin%
+\ \BBA {} Yener%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+bilgin2006dynamic}
+\APACinsertmetastar {%
+bilgin2006dynamic}%
+\begin{APACrefauthors}%
+Bilgin, C\BPBI C.%
+\BCBT {}\ \BBA {} Yener, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Dynamic network evolution: Models, clustering, anomaly
+  detection} {Dynamic network evolution: Models, clustering, anomaly
+  detection}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Networks}{}{}{}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -138,6 +105,112 @@ Borgatti, S\BPBI P.%
 \APACrefbtitle {Analyzing social networks} {Analyzing social networks}.
 \newblock
 \APACaddressPublisher{}{SAGE Publications Limited}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Butts%
+}{%
+Butts%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+networkpackage}
+\APACinsertmetastar {%
+networkpackage}%
+\begin{APACrefauthors}%
+Butts, C\BPBI T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {network: Classes for Relational Data} {network: Classes
+  for relational data}{\BBCQ}\ [\bibcomputersoftwaremanual].
+\newblock
+\begin{APACrefURL} \url{CRAN.R-project.org/package=network} \end{APACrefURL}
+\newblock
+\APACrefnote{R package version 1.12.0}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Butts%
+, Leslie-Cook%
+, Krivitsky%
+\BCBL {}\ \BBA {} Bender-deMoll%
+}{%
+Butts%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+networkdynamicpackage}
+\APACinsertmetastar {%
+networkdynamicpackage}%
+\begin{APACrefauthors}%
+Butts, C\BPBI T.%
+, Leslie-Cook, A.%
+, Krivitsky, P\BPBI N.%
+\BCBL {}\ \BBA {} Bender-deMoll, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {networkDynamic: Dynamic Extensions for Network Objects}
+  {networkdynamic: Dynamic extensions for network objects}{\BBCQ}\
+  [\bibcomputersoftwaremanual].
+\newblock
+\begin{APACrefURL} \url{http://CRAN.R-project.org/package=networkDynamic}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{R package version 0.7.1}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Castells%
+}{%
+Castells%
+}{%
+{\protect \APACyear {2001}}%
+}]{%
+Castells}
+\APACinsertmetastar {%
+Castells}%
+\begin{APACrefauthors}%
+Castells, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2001}.
+\newblock
+\APACrefbtitle {The rise of network society} {The rise of network society}.
+\newblock
+\APACaddressPublisher{}{Oxofrd: Blackwell Publishers}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Csardi%
+\ \BBA {} Nepusz%
+}{%
+Csardi%
+\ \BBA {} Nepusz%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+Csardi:2010wx}
+\APACinsertmetastar {%
+Csardi:2010wx}%
+\begin{APACrefauthors}%
+Csardi, G.%
+\BCBT {}\ \BBA {} Nepusz, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Csardi: igraph: Network analysis and visualization}
+  {Csardi: igraph: Network analysis and visualization}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{R package version 05}{}{}{}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -200,29 +273,37 @@ Deng, Y.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Faust%
-\ \BBA {} Raes%
+Epskamp%
+, Cramer%
+, Waldorp%
+, Schmittmann%
+\BCBL {}\ \BBA {} Borsboom%
 }{%
-Faust%
-\ \BBA {} Raes%
-}{%
+Epskamp%
+\ \protect \BOthers {.}}{%
 {\protect \APACyear {2012}}%
 }]{%
-Faust:2012kq}
+qgraph}
 \APACinsertmetastar {%
-Faust:2012kq}%
+qgraph}%
 \begin{APACrefauthors}%
-Faust, K.%
-\BCBT {}\ \BBA {} Raes, J.%
+Epskamp, S.%
+, Cramer, A\BPBI O\BPBI J.%
+, Waldorp, L\BPBI J.%
+, Schmittmann, V\BPBI D.%
+\BCBL {}\ \BBA {} Borsboom, D.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
 \APACrefYearMonthDay{2012}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Microbial interactions: from networks to models.}
-  {Microbial interactions: from networks to models.}{\BBCQ}
+{\BBOQ}\APACrefatitle {{qgraph}: Network Visualizations of Relationships in
+  Psychometric Data} {{qgraph}: Network visualizations of relationships in
+  psychometric data}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Nature reviews. Microbiology}{10}{8}{538--550}.
+\APACjournalVolNumPages{Journal of Statistical Software}{48}{4}{1--18}.
+\newblock
+\begin{APACrefURL} \url{http://www.jstatsoft.org/v48/i04/} \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -285,6 +366,35 @@ Freilich, S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Gill%
+, Datta%
+\BCBL {}\ \BBA {} Datta%
+}{%
+Gill%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+dnapackage}
+\APACinsertmetastar {%
+dnapackage}%
+\begin{APACrefauthors}%
+Gill, R.%
+, Datta, S.%
+\BCBL {}\ \BBA {} Datta, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {dna: Differential Network Analysis} {dna: Differential
+  network analysis}{\BBCQ}\ [\bibcomputersoftwaremanual].
+\newblock
+\begin{APACrefURL} \url{http://CRAN.R-project.org/package=dna} \end{APACrefURL}
+\newblock
+\APACrefnote{R package version 1.1-1}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Guimera%
 \ \BBA {} Amaral%
 }{%
@@ -308,6 +418,60 @@ Guimera, R.%
   {Functional cartography of complex metabolic networks}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Nature}{433}{7028}{895--900}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Horvath%
+}{%
+Horvath%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+horvath2011weighted}
+\APACinsertmetastar {%
+horvath2011weighted}%
+\begin{APACrefauthors}%
+Horvath, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2011}.
+\newblock
+\APACrefbtitle {Weighted Network Analysis: Applications in Genomics and Systems
+  Biology} {Weighted network analysis: Applications in genomics and systems
+  biology}.
+\newblock
+\APACaddressPublisher{}{Springer Science \& Business Media}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ideker%
+\ \BBA {} Krogan%
+}{%
+Ideker%
+\ \BBA {} Krogan%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+Idekerdiffnet}
+\APACinsertmetastar {%
+Idekerdiffnet}%
+\begin{APACrefauthors}%
+Ideker, T.%
+\BCBT {}\ \BBA {} Krogan, N\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Differential network biology} {Differential network
+  biology}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Molecular Systems Biology}{8}{1}{}.
+\newblock
+\begin{APACrefURL} \url{http://dx.doi.org/10.1038/msb.2011.99} \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1038/msb.2011.99} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -367,6 +531,36 @@ Kasari, C.%
 \newblock
 \APACjournalVolNumPages{Journal of autism and developmental
   disorders}{41}{5}{533--544}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Klaus%
+\ \BBA {} Strimmer.%
+}{%
+Klaus%
+\ \BBA {} Strimmer.%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+fdrtool}
+\APACinsertmetastar {%
+fdrtool}%
+\begin{APACrefauthors}%
+Klaus, B.%
+\BCBT {}\ \BBA {} Strimmer., K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {fdrtool: Estimation of (Local) False Discovery Rates and
+  Higher Criticism} {fdrtool: Estimation of (local) false discovery rates and
+  higher criticism}{\BBCQ}\ [\bibcomputersoftwaremanual].
+\newblock
+\begin{APACrefURL} \url{http://CRAN.R-project.org/package=fdrtool}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{R package version 1.2.14}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -454,6 +648,33 @@ Langfelder, P.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Lazega%
+\ \BBA {} Pattison%
+}{%
+Lazega%
+\ \BBA {} Pattison%
+}{%
+{\protect \APACyear {1999}}%
+}]{%
+Lazega}
+\APACinsertmetastar {%
+Lazega}%
+\begin{APACrefauthors}%
+Lazega, E.%
+\BCBT {}\ \BBA {} Pattison, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1999}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Multiplexity, generalized exchange and cooperation in
+  organizations: a case study} {Multiplexity, generalized exchange and
+  cooperation in organizations: a case study}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Soc. Network}{21}{1}{67--90}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Lu%
 \ \protect \BOthers {.}}{%
 Lu%
@@ -485,9 +706,40 @@ Lu, L.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-{Moody, James}%
+Mew%
+, Leung%
+, Savary%
+, Vera~Cruz%
+\BCBL {}\ \BBA {} Leach%
 }{%
-{Moody, James}%
+Mew%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2004}}%
+}]{%
+Mew:2004kh}
+\APACinsertmetastar {%
+Mew:2004kh}%
+\begin{APACrefauthors}%
+Mew, T\BPBI W.%
+, Leung, H.%
+, Savary, S.%
+, Vera~Cruz, C\BPBI M.%
+\BCBL {}\ \BBA {} Leach, J\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Looking Ahead in Rice Disease Research and Management}
+  {Looking ahead in rice disease research and management}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Critical Reviews in Plant Sciences}{23}{2}{103--127}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Moody%
+}{%
+Moody%
 }{%
 {\protect \APACyear {2001}}%
 }]{%
@@ -495,7 +747,7 @@ moody2001race}
 \APACinsertmetastar {%
 moody2001race}%
 \begin{APACrefauthors}%
-{Moody, James}.%
+Moody, J.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
@@ -515,9 +767,9 @@ Moslonka-Lefebvre%
 \ \protect \BOthers {.}}{%
 {\protect \APACyear {2011}}%
 }]{%
-MoslonkaLefebvre:2011fo}
+Lefebvre:2011fo}
 \APACinsertmetastar {%
-MoslonkaLefebvre:2011fo}%
+Lefebvre:2011fo}%
 \begin{APACrefauthors}%
 Moslonka-Lefebvre, M.%
 , Finley, A.%
@@ -539,6 +791,35 @@ Moslonka-Lefebvre, M.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Moslonka-Lefebvre%
+, Mathieu~Pautass%
+\BCBL {}\ \BBA {} Jeger%
+}{%
+Moslonka-Lefebvre%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2009}}%
+}]{%
+Moslonka2008}
+\APACinsertmetastar {%
+Moslonka2008}%
+\begin{APACrefauthors}%
+Moslonka-Lefebvre, M.%
+, Mathieu~Pautass, M.%
+\BCBL {}\ \BBA {} Jeger, M\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Disease spread in small-size directed networks:epidemic
+  threshold, correlation between links to and form nodes, and clustering}
+  {Disease spread in small-size directed networks:epidemic threshold,
+  correlation between links to and form nodes, and clustering}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Theoretical Biology}{206}{}{402--411}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Mukhtar%
 \ \protect \BOthers {.}}{%
 Mukhtar%
@@ -555,7 +836,7 @@ Mukhtar, M\BPBI S.%
 , Epple, P.%
 , Steinbrenner, J.%
 , Moore, J.%
-\BDBL {}others%
+\BDBL {}Nishimura, M\BPBI T.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
@@ -569,9 +850,9 @@ Mukhtar, M\BPBI S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-M\BPBI E\BPBI J.~Newman%
+Newman%
 }{%
-M\BPBI E\BPBI J.~Newman%
+Newman%
 }{%
 {\protect \APACyear {2003}}%
 }]{%
@@ -592,9 +873,9 @@ Newman, M\BPBI E\BPBI J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-M\BPBI J.~Newman%
+Newman%
 }{%
-M\BPBI J.~Newman%
+Newman%
 }{%
 {\protect \APACyear {2006}}%
 }]{%
@@ -602,7 +883,7 @@ newman2006modularity}
 \APACinsertmetastar {%
 newman2006modularity}%
 \begin{APACrefauthors}%
-Newman, M\BPBI J.%
+Newman, M\BPBI E\BPBI J.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
@@ -613,6 +894,28 @@ Newman, M\BPBI J.%
 \newblock
 \APACjournalVolNumPages{Proceedings of the National Academy of
   Sciences}{103}{23}{8577--8582}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Oerke%
+}{%
+Oerke%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+OERKE:2006ct}
+\APACinsertmetastar {%
+OERKE:2006ct}%
+\begin{APACrefauthors}%
+Oerke, E\BPBI C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Crop losses to pests}} {{Crop losses to pests}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{The Journal of Agricultural Science}{144}{1}{31--43}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -674,6 +977,35 @@ Pastor-Satorras, R.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Pautass%
+, Moslonka-Lefebvre%
+\BCBL {}\ \BBA {} Jeger%
+}{%
+Pautass%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2010}}%
+}]{%
+Moslonka2010}
+\APACinsertmetastar {%
+Moslonka2010}%
+\begin{APACrefauthors}%
+Pautass, M.%
+, Moslonka-Lefebvre, M.%
+\BCBL {}\ \BBA {} Jeger, M\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The number of links to and from the starting node as a
+  predictor of epidemic size in small-size directed networks} {The number of
+  links to and from the starting node as a predictor of epidemic size in
+  small-size directed networks}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Ecological Complexity}{7}{}{424--432}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Pe'er%
 \ \BBA {} Hacohen%
 }{%
@@ -728,36 +1060,6 @@ Proulx, S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Qin%
-\ \protect \BOthers {.}}{%
-Qin%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2010}}%
-}]{%
-qin2010human}
-\APACinsertmetastar {%
-qin2010human}%
-\begin{APACrefauthors}%
-Qin, J.%
-, Li, R.%
-, Raes, J.%
-, Arumugam, M.%
-, Burgdorf, K\BPBI S.%
-, Manichanh, C.%
-\BDBL {}others%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2010}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {A Human Gut Microbial Gene Catalogue Established by
-  Metagenomic Sequencing} {A human gut microbial gene catalogue established by
-  metagenomic sequencing}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Nature}{464}{7285}{59--65}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Ray%
 , Mueller%
 , West%
@@ -788,57 +1090,30 @@ Ray, D\BPBI K.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Rose%
-\ \BBA {} Oakley%
-}{%
-Rose%
-\ \BBA {} Oakley%
-}{%
-{\protect \APACyear {2007}}%
-}]{%
-rose2007new}
-\APACinsertmetastar {%
-rose2007new}%
-\begin{APACrefauthors}%
-Rose, M\BPBI R.%
-\BCBT {}\ \BBA {} Oakley, T\BPBI H.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2007}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {The new biology: beyond the Modern Synthesis} {The new
-  biology: beyond the modern synthesis}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Biology direct}{2}{1}{30}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Savary%
-, Elazegui%
-\BCBL {}\ \BBA {} Teng%
+\ \BBA {} Castilla%
 }{%
 Savary%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
+\ \BBA {} Castilla%
+}{%
+{\protect \APACyear {2009}}%
 }]{%
-Savary:1996ud}
+Savarysurvey2009}
 \APACinsertmetastar {%
-Savary:1996ud}%
+Savarysurvey2009}%
 \begin{APACrefauthors}%
 Savary, S.%
-, Elazegui, F\BPBI A.%
-\BCBL {}\ \BBA {} Teng, P\BPBI S.%
+\BCBT {}\ \BBA {} Castilla, N.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\APACrefYearMonthDay{2009}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {A survey portfolio for the characterisation of yield
-  reducing factors} {A survey portfolio for the characterisation of yield
-  reducing factors}.{\BBCQ}
+{\BBOQ}\APACrefatitle {A survey portfolio to characterize yield-reducing
+  factors in rice} {A survey portfolio to characterize yield-reducing factors
+  in rice}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{International Rice Research Institute}{}{}{}.
+\APACjournalVolNumPages{IRRI Discussion Paper No 18}{}{}{}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -873,57 +1148,33 @@ Savary, S.%
 
 \bibitem [\protect \citeauthoryear {%
 Savary%
-, Willocquet%
-, Elazegui%
-, Castilla%
-\BCBL {}\ \BBA {} Teng%
-}{%
+\ \protect \BOthers {.}}{%
 Savary%
 \ \protect \BOthers {.}}{%
-{\protect \APACyear {2000b}}%
+{\protect \APACyear {2000a}}%
 }]{%
-Savary:2000ws}
+Savary:2000vr}
 \APACinsertmetastar {%
-Savary:2000ws}%
+Savary:2000vr}%
 \begin{APACrefauthors}%
 Savary, S.%
 , Willocquet, L.%
 , Elazegui, F\BPBI A.%
-, Castilla, N\BPBI P.%
-\BCBL {}\ \BBA {} Teng, P\BPBI S.%
+, Teng, P\BPBI S.%
+, Van~Du, P.%
+, Zhu, D.%
+\BDBL {}Singh, H\BPBI M.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2000b}{}{}.
+\APACrefYearMonthDay{2000a}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {{Rice pest constraints in tropical Asia: quantification
-  of yield losses due to rice pests in a range of production situations}}
-  {{Rice pest constraints in tropical Asia: quantification of yield losses due
-  to rice pests in a range of production situations}}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Rice pest constraints in tropical Asia: characterization
+  of injury profiles in relation to production situations} {Rice pest
+  constraints in tropical asia: characterization of injury profiles in relation
+  to production situations}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Plant Disease}{84}{3}{357--369}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Scott%
-}{%
-Scott%
-}{%
-{\protect \APACyear {2012}}%
-}]{%
-scott2012social}
-\APACinsertmetastar {%
-scott2012social}%
-\begin{APACrefauthors}%
-Scott, J.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{2012}.
-\newblock
-\APACrefbtitle {Social network analysis} {Social network analysis}.
-\newblock
-\APACaddressPublisher{}{Sage}.
+\APACjournalVolNumPages{Plant disease}{84}{3}{341--356}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -954,32 +1205,6 @@ Shaw, M\BPBI W.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-SINTEF%
-}{%
-SINTEF%
-}{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
-}]{%
-SINTEF}
-\APACinsertmetastar {%
-SINTEF}%
-\begin{APACrefauthors}%
-SINTEF.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
-\newblock
-\APACrefbtitle {Big Data, for better or worse: 90% of world's data generated
-  over last two years. ScienceDaily.} {Big data, for better or worse: 90% of
-  world's data generated over last two years. sciencedaily.}
-\newblock
-\begin{APACrefURL} [{2013, May
-  22}]\url{http://www.sciencedaily.com/releases/2013/05/130522085217.htm}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Strogatz%
 }{%
 Strogatz%
@@ -1000,43 +1225,6 @@ Strogatz, S\BPBI H.%
   networks}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Nature}{}{}{}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Subramanian%
-\ \protect \BOthers {.}}{%
-Subramanian%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2005}}%
-}]{%
-Subramanian2005}
-\APACinsertmetastar {%
-Subramanian2005}%
-\begin{APACrefauthors}%
-Subramanian, A.%
-, Tamayo, P.%
-, Mootha, V\BPBI K.%
-, Mukherjee, S.%
-, Ebert, B\BPBI L.%
-, Gillette, M\BPBI A.%
-\BDBL {}Mesirov, J\BPBI P.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2005}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Gene set enrichment analysis: A knowledge-based approach
-  for interpreting genome-wide expression profiles} {Gene set enrichment
-  analysis: A knowledge-based approach for interpreting genome-wide expression
-  profiles}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Proceedings of the National Academy of
-  Sciences}{102}{43}{15545--15550}.
-\newblock
-\begin{APACrefURL} \url{http://dx.doi.org/10.1073/pnas.0506580102}
-  \end{APACrefURL}
-\newblock
-\begin{APACrefDOI} \doi{10.1073/pnas.0506580102} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1155,37 +1343,6 @@ Wu, X.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Xu%
-, Harwood%
-, Pautasso%
-\BCBL {}\ \BBA {} Jeger%
-}{%
-Xu%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2009}}%
-}]{%
-xu2009spatio}
-\APACinsertmetastar {%
-xu2009spatio}%
-\begin{APACrefauthors}%
-Xu, X.%
-, Harwood, T\BPBI D.%
-, Pautasso, M.%
-\BCBL {}\ \BBA {} Jeger, M\BPBI J.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2009}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Spatio-temporal analysis of an invasive plant pathogen
-  (\textit{Phytophthora ramorum}) in England and Wales} {Spatio-temporal
-  analysis of an invasive plant pathogen (\textit{Phytophthora ramorum}) in
-  england and wales}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Ecography}{32}{3}{504--516}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Yang%
 \ \protect \BOthers {.}}{%
 Yang%
@@ -1216,31 +1373,32 @@ Yang, Y.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Zhang%
-\ \BBA {} Horvath%
+Zheng%
+\ \BBA {} Zhao%
 }{%
-Zhang%
-\ \BBA {} Horvath%
+Zheng%
+\ \BBA {} Zhao%
 }{%
-{\protect \APACyear {2005}}%
+{\protect \APACyear {2013}}%
 }]{%
-zhang2005general}
+Zheng2013}
 \APACinsertmetastar {%
-zhang2005general}%
+Zheng2013}%
 \begin{APACrefauthors}%
-Zhang, B.%
-\BCBT {}\ \BBA {} Horvath, S.%
+Zheng, Z\BPBI L.%
+\BCBT {}\ \BBA {} Zhao, Y.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2005}{}{}.
+\APACrefYearMonthDay{2013}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {A general framework for weighted gene co-expression
-  network analysis} {A general framework for weighted gene co-expression
-  network analysis}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Transcriptome comparison and gene coexpression network
+  analysis provide a systems view of citrus response to "\textit{Candidatus
+  Liberibacter asiaticus}" infection} {Transcriptome comparison and gene
+  coexpression network analysis provide a systems view of citrus response to
+  "\textit{Candidatus Liberibacter asiaticus}" infection}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Statistical applications in genetics and molecular
-  biology}{4}{1}{}.
+\APACjournalVolNumPages{BMC Genomics}{14}{}{27}.
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}
