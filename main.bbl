@@ -820,36 +820,6 @@ Moslonka-Lefebvre, M.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Mukhtar%
-\ \protect \BOthers {.}}{%
-Mukhtar%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2011}}%
-}]{%
-mukhtar2011independently}
-\APACinsertmetastar {%
-mukhtar2011independently}%
-\begin{APACrefauthors}%
-Mukhtar, M\BPBI S.%
-, Carvunis, A\BHBI R.%
-, Dreze, M.%
-, Epple, P.%
-, Steinbrenner, J.%
-, Moore, J.%
-\BDBL {}Nishimura, M\BPBI T.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2011}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Independently evolved virulence effectors converge onto
-  hubs in a plant immune system network} {Independently evolved virulence
-  effectors converge onto hubs in a plant immune system network}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Science}{333}{6042}{596--601}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Newman%
 }{%
 Newman%
@@ -1281,6 +1251,36 @@ Toubiana, D.%
   metabolism.}{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Trends in biotechnology}{31}{1}{29--36}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Usadel%
+\ \protect \BOthers {.}}{%
+Usadel%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2009}}%
+}]{%
+usadel2009co}
+\APACinsertmetastar {%
+usadel2009co}%
+\begin{APACrefauthors}%
+Usadel, B.%
+, Obayashi, T.%
+, Mutwil, M.%
+, Giorgi, F\BPBI M.%
+, Bassel, G\BPBI W.%
+, Tanimoto, M.%
+\BDBL {}Provart, N\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Co-expression tools for plant biology: opportunities for
+  hypothesis generation and caveats} {Co-expression tools for plant biology:
+  opportunities for hypothesis generation and caveats}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Plant, cell \& environment}{32}{12}{1633--1651}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
