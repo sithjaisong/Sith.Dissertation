@@ -1,21 +1,21 @@
-%=========================
+﻿%=========================
 % Materials and Methods
 %=========================
 %============NOTE==============
-% Check tense !!! It should be past tense and mostly passive voice.
+% Check tense !!! It should be present and future tense and mostly passive voice.
 %==============================
 
 % 1. First sentence. Why did you use "mainly"?
 % 2. Why is this section in past tense? I thought when we talked in my office we agreed, Literature Review refers to work that's been done. Materials and methods refers to work that YOU want to do for your dissertation, which means it's not done yet unless this is your dissertation, in which case it's past tense because you're writing up what you've done for your research.
 
-This research mainly examined relationships between the injuries caused by pests and diseases, cropping practices (e.g., rice variety grown, crop establishment method, fertilizer and chemicals applied), and rice yields using data collected from surveys of irrigated lowland rice growing areas in South and South East Asia. Their relationships were constructed and analyzed by network analysis. I developed and applied suitable methods of network analysis to characterize the associations of injuries and cropping practices. The resulting network of associations of injuries and cropping practices thus provided a starting point for further investigations of their relationships (i.e., comparison of networks under different production environments or examination of networks at different levels of yield gains). 
+This research will examine relationships between the injuries caused by pests and diseases, cropping practices (e.g., rice variety grown, crop establishment method, fertilizer and chemicals applied), and rice yields using data collected from surveys of irrigated lowland rice growing areas in South and South East Asia. Their relationships will be constructed and analyzed by network analysis. I will develop and apply suitable methods of network analysis to characterize the associations of injuries and cropping practices. The resulting network of associations of injuries and cropping practices thus will  provide a starting point for further investigations of their relationships (i.e., comparison of networks under different production environments or examination of networks at different levels of yield gains). 
 
-Network analysis of rice crop health survey data was divided into three parts. In the following, I presented three distinct network analysis approaches: single-network analysis, differential network analysis, and dynamic network analysis. Three approaches answered different questions. I applied single-network analysis to the data from all fields surveyed for identifying patterns of interactions  between injuries and cropping practices and key components (e.g., most connected variables). Second, differential network analysis aimed to uncover similarities and differences of networks constructed from the different data sets (e.g., dry season versus wet season). Dynamic network analysis was applied to study on how networks changed under at least two different aspects of an evolving complex system. Here, I focused on the dynamic networks under different levels of yield gains. 
+Network analysis of rice crop health survey data is divided into three parts. In the following, I present three distinct network analysis approaches: single-network analysis, differential network analysis, and dynamic network analysis. Three approaches will answer different questions. I will apply single-network analysis to the data from all fields surveyed for identifying patterns of interactions between injuries and cropping practices and key components (e.g., most connected variables). Second, differential network analysis will aim to uncover similarities and differences of networks constructed from the different data sets (e.g., dry season versus wet season). Dynamic network analysis will be applied to study on how networks changed under at least two different aspects of an evolving complex system. Here, I focused on the dynamic networks under different levels of yield gains. 
 
 \subsection*{Crop Health Survey Data}
 \addcontentsline{toc}{chapter}{Crop health survey data}
 
-%Rice is dominantly produced in Asia, 31 percent of the global rice harvested comes from Southeast Asia \shortcite{oecd2012oecd}. The highest levels of productivity are found in irrigated areas, where is the most intensified production system. Farmers can grow rice more than one crop per year here. Approximately 45 percent of the rice growing area in Southeast Asia is irrigated, with the largest areas being found in Indonesia, Viet Nam. Philippines and Thailand \shortcite{mutert2002developments}. In South Asia, major rice-growing countries are India and Bangladesh. India has the largest rice growing area (approximately 43 million hectares) in the world and contributes 25 percent of global rice production. 
+%Rice is dominantly produced in Asia, 31 percent of the global rice harvested comes from Southeast Asia \shortcite{oecd2012oecd}. The highest levels of productivity are found in irrigated areas, where is the most intensified production system. Farmers can grow rice more than one crop per year here. Approximately 45 percent of the rice growing area in Southeast Asia is irrigated, with the largest areas being found in Indonesia, Viet Nam. Philippines and Thailand \shortcite{mutert2002developments}. In South Asia, major rice-growing countries are India and Bangladesh. India has the largest rice growing area (approximately 43 million hectares) in the world and contributes 25 percent of global rice production. 
 
 % 1. You use survey and surveys twice in the first sentence. Of course it's survey data, you just said you used surveys. This doesn't flow. Reword.
 % 2. Please use the proper title, this is a serious document.
@@ -43,33 +43,37 @@ Crop health survey data were collected through surveys of farmers' fields in two
 \addcontentsline{toc}{chapter}{Single network analysis of crop health survey data}
 \textbf{Introduction}
 
+Single-network analysis is used for analyzing a network based on a single data set. It aims to model patterns of relationships between entities to a network, determine its topological properties such as node degree, degree distribution, average path length, clustering coefficient, modularity index \shortcite{newman2006modularity} to describe the patterns in the network model. These structural properties offer the potential to explore relationships within complex dataset. Additionally, it is used for identify keys drivers, which are key factors or clusters.
+
+Correlation-based networks are applied for revealing the patterns of interactions or relationships of biological system. Their edges are obtained using correlation-based measures removing spurious relationships. Correlation based measures include linear based correlation (Pearson's correlation, partial correlation), rank based correlation (Spearman's correlation, Kendall's correlation). Removal of spurious relationships is particular important when one attempts to establish causal relations between entities \shortcite{Toubiana:2013cv}.
+
 %========================
 % use textit{p}-values
 %=======================
+
+% what is the single network analysis 
 
 % 1. I don't understand the first sentence here? It's missing something. 
 % 2. I don't understand the second sentence here, it what?
 % 3. Your introduction section here is out of place and doesn't flow, information is missing somewhere, I'm not sure where this came from or what's going on here. Also, how can you have so many "Introductions" in one document?
 
-Cropping practices and injuries profiles network model based on the survey data. It was defined the correlation based network as undirected, weighted network. The nodes of the network corresponded to variables, and edges between variables were determined by the pairwise correlation.
+In case of single network analysis, cropping practices and injuries profiles network model based on whole data set of surveys. It was defined the correlation based network as undirected, weighted network. Nodes of the network corresponded to variables, and edges between variables were determined by the pairwise correlation.
 
 %While this network was focused, it did not imply that only a single data set is used. Instead, appropriately similar multiple data sets can be used to validate the robustness of module definition and connectivity.
 % objective
 % 1. First sentence, subject verb agreement
 % 2. Second sentence, why so many commas?
 % 3. Third sentence is just awkwardly worded.
-% 4. What are "spare" relationships?
+% 4. What are "spare" relationships?  Sith: I am sorry I missed spelling it should be "sparse"
 % 5. 
-A network model based on crop health survey data has not yet been report. Additionally, correlation analysis, and network analysis of these data has not been studied. Thus, evaluation of such methods is challenging. According to \shortciteA{kolaczyk2014statistical}, correlation based network construction has at least three important issues to be encountered. First, there is the choice of pairwise correlation measure to be used. Second, statistic significant must be determined for removal of spares relationships. And third, the problem of multiple testing must be considered because there are large number of tests for pairwise comparison.
+A network model based on crop health survey data has not yet been reported. Additionally, correlation analysis and network analysis of these data has not been studied. Thus, correlation measures and network approaches should be evaluated.
+
+According to \shortciteA{kolaczyk2014statistical}, correlation based network construction has at least three important issues to be encountered. First, there is the choice of pair-wise correlation measure to be used. Second, statistic significant must be determined for removal of sparse relationships. And third, the problem of multiple testing must be considered because there are large numbers of tests for pair-wise comparison.
 
 %An overview of cropping practices and injuries profiles network construction was depicted in Fig. 1: (a) data processing, (b) calculate correlation coefficients (Pearson, Spearman, or Kendall). Estimate \textit{p}-values for all coefficients. Next, determine threshold values for the resulting correlation coefficients will stored in adjacency matrices for the construction of networks, (c) Construct a network model, analyze network properties.
 
 %The use of crop health survey data to construct co-occurrence network and perform network decomposition and network analysis has not yet been reported. Additionally, methods performing co-occurrence analysis and co-occurrence networks has not been studied. Thus, evaluation of such methods is challenging because there are many types of variables mixed in crop health survey data; methods can identify variables with true concordance often determine the prior knowledge; and methods performing biologically meaningful co-occurrence network construction. 
 
-% The following comment is still not corrected.
-% the rules is to present is not grammatically correct
-
-%By raising the absolute value of the Pearson correlation to a power 1 (soft thresholding), the weighted gene coexpression network construction emphasizes large correlations at the expense of low correlations. Specifically, 
 % methods
 
 \textit{\textbf{Network construction}}
@@ -77,25 +81,23 @@ A network model based on crop health survey data has not yet been report. Additi
 
 % 1. First sentence is unclear.
 % 2. Quotes. I've fixed several already but you should fix them all and pay attention when writing.
+Cropping practices and injury profiles network is constructed by the adjacency matrix originated from the pair-wise correlations of incidence of injuries (insect injuries and diseases), amount of fertilizer, the frequency of pesticide applied, type of rice varieties and crop establishment methods across different samples. Therefore, edges of the network correspond to the degree of correlation between two variables. A standard measurement of correlation between two variable $x$ and $y$ represent $cor(x,y)$, where has values between -1 to +1 depending on the level of relationships. $cor(x_{i}, x_{j})$ equal -1 when there is a decreasing relationship between $x$ and $y$, and +1 when there is a increasing relationship.
 
-Edges of cropping practice and injury profiles network express the degree of correlation between two variables. A standard measurement of correlation between two variable $x$ and $y$ represent $cor(x,y)$, where has values between -1 to +1 depending on the level of relationships. $cor(x_{i}, x_{j})$ equal -1 when there is a decreasing relationship between $x$ and $y$, and +1 when there is a increasing relationship.
-
-To identify the most suitable pairwise correlation methods, I will evaluate four correlation based measures, Pearson's correlation, Spearman's rank correlation, Kendall's correlation, and biweight midcorrealtion. R was employed to compute pairwise correlation \shortcite{R:2014a}. The ``\texttt{cor.test()}" function was applied for generating a correlation matrix, which describes the pairwise correlations between variables. This function allows users to choose types of correlation measures to perform such as Pearson's correlation, Spearman's rank correlation and Kendall's rank correlation. To compute biweight midcorrelation, I applied the ``\texttt{bicor()}'' function from the \textbf{WGCNA} package \shortcite{Langfelder:2008bd} in R. 
+To identify the most suitable pairwise correlation methods, I will evaluate four correlation based measures, Pearson's correlation, Spearman's rank correlation, Kendall's correlation, and biweight midcorrealtion. R was employed to compute pairwise correlation \shortcite{R:2014a}. The ``\texttt{cor.test()}" function will be applied for generating a correlation matrix, which describes the pairwise correlations between variables. This function allows users to choose types of correlation measures to perform such as Pearson's correlation, Spearman's rank correlation and Kendall's rank correlation. To compute biweight midcorrelation, I will apply the ``\texttt{bicor()}'' function from the \textbf{WGCNA} package \shortcite{Langfelder:2008bd} in R. 
 
 % 1. First sentence. Grammar and clarity.
 % 2. Why would p-values be concerned? They aren't capable of such.
 % 3. You need to revise this whole para for clarity.
 % 4. Check your Bibliography, somethings not right with your R citation as it appears in the PDF.
-When a correlation matrix was create, next is to construct the correlation based network from the resulting correlation matrix. However, \textit{p}-values should be concerned. As issues mentioned above, \textit{p}-values must be adjusted for multiple testing. Benjamini-Hochberg adjustment or Bonferonni correction are recommended by \shortciteA{kolaczyk2014statistical}, which R function "\texttt{p.adjust()}" can calculate adjusted \textit{p}-values. Alternatively, they are adjusted through control of the false discovery rate. The R package \textbf{fdrtool} can be implemented for this method \shortcite{fdrtool}.
+When a correlation matrix is created, next is to construct the correlation based network from the resulting correlation matrix. However, \textit{p}-values should be concerned. As issues are mentioned above, \textit{p}-values must be adjusted for multiple testing. Benjamini-Hochberg adjustment or Bonferonni correction are recommended by \shortciteA{kolaczyk2014statistical}, which ``\texttt{p.adjust()}'' function in R can calculate adjusted \textit{p}-values. These values are compared to a standard 0.05 significance level. Correlation matrix contains pair-wise correlation coefficients, which have adjusted \textit{p}-values lower than 0.05 significant level. Alternatively, they are adjusted through control of the false discovery rate. The R package \textbf{fdrtool} can be implemented for this method \shortcite{fdrtool}.
 
 % 1. First sentence, clarity.
 % 2. Second sentence is not a sentence.
-Up until this point, a network model can be created from a correlation matrix, and assessed basic properties. R packages for network analysis, \textbf{igraph} \shortcite{Csardi:2010wx}, \textbf{qgraph} \shortcite{qgraph}, \textbf{statnet}, \textbf{network} \shortcite{networkpackage}, \textbf{sna} containing several functions will be applied for computing  network algorithms, and decorating network graphs.
+Up until this point, networks based on four association metrics (Pearson coefficient, and Spearman coefficient, Kendall coefficient and Biweight midcorrelation) will be constructed and assessed basic properties. I will apply R packages; \textbf{igraph} \shortcite{Csardi:2010wx}, \textbf{qgraph} \shortcite{qgraph}, \textbf{statnet}, \textbf{network} \shortcite{networkpackage} and \textbf{sna} to construct a network graph based on surveys, to decorate the network, and then analyze the network structure.
 
 % 1. First sentence. Clarity/grammar
 % 2. Second sentence. Clarity/grammar
-
-A network model may not lead to reveal biological knowledge, even though it was created from a method based on its principle of statistical operation. Resulting network models based on different correlation measures will be evaluated. The most suitable correlation measure is assumed that it will contribute the network that is able to reveal the associations between variables close to the good understandings of biological relationships that crop health survey observed.  
+A network modeled from biological data may not lead to reveal biological knowledge, even though it is created from a method based on its principle of statistical operation \shortcite{ evaluationKumari}. For correlation based networks, edges correspond to correlation coefficients, and also affect to the network structure and behaviors. Different correlation based measures contribute to networks with different structures, even though they are constructed from the same data set. I will investigate the efficiency of networks based on four correlation measures for revealing the associations between variables of surveys. The most suitable correlation measure is assumed that it can contribute the network being able to reveal the associations between variables based on the existing literatures or good understandings of biological relationships between variables that crop health surveys observed.
 
 %====================== Comments===================
 % why knowledge of biological literature? Why not a good understanding of the biological system that you are monitoring? I think that's more essential and useful
@@ -103,6 +105,23 @@ A network model may not lead to reveal biological knowledge, even though it was 
 % first sentence, all of them what?
 % based on what study? Our study? Who is "we"? This is YOUR research. If anything it should be "based on my study" but I'm not clear as to what study you refer to here. Who are the "we" that are suggesting? You're the only author on this manuscript. It's your dissertation. There is no, our, us or we. It's only my, me, I here.
 % Is "codes" the proper form to use?
+
+\subsection*{Evaluating Network properties}
+
+% 1. This whole para needs more information.
+% 2. Your quotes are wrong here as they have been in several other places. I've corrected them in other spots for you several times. Please look up how to correctly use quotation marks in LaTeX.
+Once a network is constructed, several indices can be computed to convey information about network structure. To evaluate the topological properties of both the interaction and the correlation based network, I will use the package \textbf{igraph} \shortcite{igraphpackage} \textbf{qgraph} \shortcite{qgraphpackage} in R. I particularly are interested in properties potentially relevant for biological roles and functioning as previously hypothesized in other biological networks \shortcite{ Strogatz:2001wc, qgraph, horvath2011weighted}.
+
+\begin{enumerate}
+\item Mean degree: the degree of a node counts the number of edges it has. The mean degree is calculated over all nodes in the network.
+\item Degree distribution: the frequency of nodes vs. their (increasing) degree.
+\item Average shortest path length: the shortest path between any two nodes is the single path with fewest edges between them. Alternative paths are feasible. The average shortest path length is the mean over all shortest paths between any two nodes in the network.
+\item Mean clustering coefficient: a cluster of nodes is a triangle of nodes. The clustering coefficient calculates the fraction of observed vs. possible triangles for each node. The mean is subsequently determined from all nodes in the network.
+\item Betweenness centrality: the betweenness centrality of a node is equal to the number of shortest paths between any two nodes in the graph passing through that node. The mean is calculated from all nodes in the network.
+\item Closeness centrality: the closeness centrality of a node is given by the average distance of this node to any other node. Again, the network-wide measure is an average over all nodes in the network.
+
+\shortciteA{Deng:2012do, Toubiana:2013cv, horvath2011weighted, newman2003structure} are recommended references for descriptions of the network properties as well as the formal calculation of these measures.
+
 %====================================================
 \section*{Differential network analysis of crop heath survey data under different seasons and production environments}
 
@@ -113,28 +132,28 @@ A network model may not lead to reveal biological knowledge, even though it was 
 % introduction
 % 1. First sentence. Grammar and punctuation.
 % 2. Second sentence. Improper word usage.
-Networks can response differently under various environments or with external signals.They can be more simplify by focusing on key components and capturing only the essential components differently responding between environments which they play a key role in the modeled response \shortcite{Peer:2011jd}. Networks are examined by adding or depleting some variables. This allows predicting interactions or components that change following the changed structure of networks. 
+Networks can response differently under various environments or with external signals. They can be more simplify by focusing on key components and capturing only the essential components differently responding between environments which they play a key role in the modeled response \shortcite{Peer:2011jd}. Networks are examined by adding or depleting some variables. This allows predicting interactions or components that change following the changed structure of networks. 
 
 % 1. This para is difficult to understand. Revise.
-Differential networks can be used to describe differences between two networks under different conditions. They might display different interactions from the original network. The strongest differential interactions are not necessarily that are strong in static conditions. Conversely, interactions of network under static condition are weak or removed from the differential network. You may infer that if networks constructed from different environment conditions, differential interactions between two networks imply changes that are a result of response to environmental conditions. 
+Differential network analysis is applied to identify and describe differences between two networks under different conditions. Differential networks are created from different data sets or subtracted from one data set with different condition. Networks might display different interactions from the single network (from whole data set). The strongest interactions in differential networks are not necessarily that are strong in the single network. Conversely, the interactions are weak or removed from the differential network. If networks constructed from different environment conditions, the differential interactions between two networks are implied changes that they are a result of response to environmental conditions. Moreover, it can implied that environment conditions influence on the behaviors of pairs of nodes contributing to the differential interactions. 
+
 
 % objective
 % 1. Great first sentence!
 % 2. Second sentence, however, needs work.
 % 3. You change tenses in this para, you use three of them here.
-The objective of differential network analysis is to extract interactions from the original network that appear to be active under different conditions. I focused two aspects of this analysis. The first was to compare how patterns of interactions of cropping practices and injury profile network changed across multiple production environments. The second is to study how networks changed under different seasons. Each data sets was then used to construct the network. Next, these networks were contrasted to find a) non-preserved modules, b) differentially occurred variables, and c) differentially connected variables.
+The objective of differential network analysis is to extract interactions from the original network that appear to be active under different conditions. I focus on two aspects of this analysis. The first is to compare how patterns of interactions of cropping practices and injury profile network changed across multiple production environments. The second is to study how networks changed under different seasons. Each data sets is then used to construct the network. Next, these networks are contrasted to find a) non-preserved modules, b) differentially occurred variables, and c) differentially connected variables.
 % methods
 
 % 1. Last sentence is awkward.
-Based on the methods of single network construction mentioned above, differential networks were constructed from the survey data with different groups of samples following the purpose of network construction. To analyze differential networks under different seasons, I constructed two networks; one was constructed from dry season data, and another was constructed from wet season data. For differential networks of different production environment, they were generated by data set in different locations.
+Based on the methods of single network construction mentioned above, differential networks were constructed from the survey data with different groups of samples following the purpose of network construction. To analyze differential networks under different seasons, I will construct two networks; one will be constructed from dry season data, and another will be constructed from wet season data. Additionally I will determine differential networks under different production environments (locations).
+.
 
-% 1. You applied the package or a function from a package?
+% 1. You applied the package or a function from a package? # I do not know excectly what function I will use, so I stated the packages that I will use instead of functions of those packages.
 For comparison with a standard differential network analysis, I applied \textbf{WGCNA} \shortcite{horvath2011weighted} and \textbf{dna} \shortcite{dnapackage} package in R, which this package provide several function to analyze the differences of topologies of two networks \shortcite{horvath2011weighted}. 
 
 
-These packages includes preprocessing tools for simultaneously preparing a pair of networks for analysis, procedures for computing connectivity scores between pairs of variables based on many available statistical techniques, and tools for handling modules of variables based on these scores. Also, procedures are provided for performing permutation tests based on these scores to determine if the connectivity of a variables differs between the two networks, to determine if the connectivity of a particular set of important variables differs between the two networks, and to determine if the overall module structure differs between the two networks. Several built-in options are available for the types of scores and distances used in the testing procedures, and additionally, the procedures provide flexible methods that allow the user to define custom scores and distances.
-
-For example, "\texttt{test.modular.structure()}" function is used to compare between the connectivity measures of each network \shortcite{dnapackage}. 
+These packages includes preprocessing tools for simultaneously preparing a pair of networks for analysis, procedures for computing connectivity scores between pairs of variables based on many available statistical techniques, and tools for handling modules of variables based on these scores. Also, procedures are provided for performing permutation tests based on these scores to determine if the connectivity of variables differs between the two networks, to determine if the connectivity of a particular set of important variables differs between the two networks, and to determine if the overall module structure differs between the two networks. Several built-in options are available for the types of scores and distances used in the testing procedures, and additionally, the procedures provide flexible methods that allow the user to define custom scores and distances. For example,``\texttt{test.modular.structure()}'' function is used to compare between the connectivity measures of each network \shortcite{dnapackage}. 
 
 %I propose the overview of differential networks are illustrated in Figure \ref{fig:wholenet}.
 
@@ -143,45 +162,34 @@ For example, "\texttt{test.modular.structure()}" function is used to compare bet
  
 
 \section*{Dynamic network analysis of crop health survey data}
-\addcontentsline{toc}{chapter}{Dynamic network analysis of crop health survey data} % okay edit one more round for more consistancy
+\addcontentsline{toc}{chapter}{Dynamic network analysis of crop health survey data} % okay edit one more round for more consistency
 % introduction
 Networks can dynamically respond and adapt to the internal state and external signals \shortcite{Peer:2011jd}. As the internal state, backgrounds of nodes influence the structure and behavior of the network and give rise to significant differences across individuals. Backgrounds are included information about where the data are from. The different sources and different times collecting the data strongly determine the network behaviors. 
 
 % 1. First sentence, unclear, revise.
 % 2. Sentence that starts, "It seems clear" is unclear. Revise.
 % 3. Revise last sentence for flow.
-Biological systems are highly dynamic that must continuously respond to a external signals or internal state of the system, or they can be altered more slowly over time \shortcite{Peer:2011jd}. Thus, realistically the corresponding network graphs evolve as well, and should be analyzed. It seems clear that if we are able to develop a complete understanding of biological systems, we must understand the systems on how their dynamic effects are, they are affected by, changes in the different conditions. Some understandings were obtained from studies of dynamics of large networks, for example, gene expression or metabolic fluxes network \shortcite{Idekerdiffnet}.
 
+Biological systems are highly dynamic. They must continuously respond to a external signals or internal state of the system. The responses can be altered slowly or fast over time \shortcite{Peer:2011jd}. Thus, realistically the corresponding biological networks evolve as well, and should be analyzed.  It seems clear that if we are able to construct the dynamic networks that enable to see and understand the systems on how their dynamic effects are changed overtime, we will understand biological systems. Some understandings were obtained from studies of dynamics of large networks, for example, gene expression or metabolic fluxes network \shortcite{Idekerdiffnet}.
+ 
 % 1. Revise first sentence for flow.
 % 2. Second sentence. Revise for spelling and clarity.
 % 2. Third sentence. Revise for spelling and clarity.
-Dynamic network analysis is applied for study changes of networks at least two different aspects of an evolving complex system. The main goal of this analyais move away from characterizing absolute properties of the system to concentrate on a specific dynamic systems response. Rather than answer what the key factors in the system, they answer what parts of the system are most affect by perturbation.
+Dynamic network analysis is applied for study changes of networks at least two different aspects of an evolving complex system. 
+
+The main goal of dynamic network analysis moves away from single network analysis, which characterizes absolute properties of the system. It aims to concentrate on a specific dynamic systems response. Rather than answer what the key factors in the system, they answer what parts of the system are most affected by perturbation. Most commonly, dynamic networks are applied when the edges among a set of vertices or the sets of vertices itself are changing as a function of time. However, in the context of crop health surveys, I will apply dynamic networks to capture the yield-varying behaviors through different survey datasets are grouped by different levels of yield measurements.
 
 % 1. First sentence. Revise wording.
 % 2. Second sentence. Revise for flow and wording.
 % 3. Third sentence, capitalization.
 % 4. Third sentence, flow.
 % 5. Fourth sentence, where is the rest of it?
-Form the previous study of \shortciteA{Savary:2000vr}, levels of actual yields are affected by different patterns of interactions between injuries and cropping practices. The results from damages of pests and disease will be able to lead to yield loss. Hypothetically, Different yield gains are the consequence of different patterns of interaction between injuries and disease, and production situations.  From the context of crop health survey data, 
+%From the previous study of \shortciteA{Savary:2000vr}, levels of actual yields are affected by different patterns of interactions between injuries and cropping practices. The results from damages of pests and disease affect to yield loss. Hypothetically, different yield gains are the consequence of different patterns of interaction between injuries and disease, and production situations.  From the context of crop health survey data, 
 
 % 1. Different means there is a difference. Your first sentence only contains one level, how can it be different?
 % 2. Second sentence, incomprehensible.
 % 3. Third sentence. Revise for flow.
-My objectives are to construct networks of crop health survey data at different level of farmers' yields. When networks were generate, I will perform dynamic network analysis following \shortcite{kolaczyk2014statistical}. This analysis will enable us to find out how network changed when yield gains decreased or increased.
-
-% 1. First sentence. Verb tense changes, I'm not sure what's going on here at all.
-To obtain the data for constructing the dynamic network, I varied yield gains, and obtain different yield data set in order to construct a dynamic network of yield varying behaviors. I employed \textbf{networkDynamic} \shortcite{networkdynamicpackage} and \textbf{ndtv} \shortcite{ndtvpackage} packages to generate yield-varying networks. The dynamic graphs will be characterized following \shortcite{bilgin2006dynamic, kolaczyk2014statistical}
-
-\subsection*{Analyzing the Structure of Network Models}
-
-% 1. This whole para needs more information.
-% 2. Your quotes are wrong here as they have been in several other places. I've corrected them in other spots for you several times. Please look up how to correctly use quotation marks in LaTeX.
-Once networks are constructed, several indices can be computed to convey information about network structure. Structural properties of networks can be used for the interpretation of datasets. Two types of structure are important. First, typically one is interested in the global structure of the network (random networks, small networks, scale-free networks) \shortcite{Strogatz:2001wc, Jeger:2007tn}. Second, one may be interested in local patterns, which are characteristics of each node. For example, clustering of nodes and/or edges in a network can identify groups of nodes with similar properties, and these are referred to "modules" or "communities" \shortcite{osorio2012integrative, Jeger:2007tn}.
-
-% 1. First sentence. Edit for clarity.
-% 2. Add a bridge between sentence one and the rest of the para. I don't see how you got from the start to node degree and cluster coeffecient.
-Comparing the networks by using some key topological properties of network is usefully conducted. Node degree and degree distribution are simple properties, which are the number of connections of each node and the frequency distribution of the number of connections per node, respectively. Cluster coefficient is the other measure, which is the value indicating whether or not the entities in network form cluster or group within network structure. \shortciteA{Deng:2012do, Toubiana:2013cv, horvath2011weighted, newman2003structure} are recommended references for descriptions of the network properties as well as the formal calculation of these measures.
-
+My objectives are to construct and analyze networks of crop health survey data at different levels of farmers' yields. Surveys contained records of estimated actual yields, various types of injuries and cropping practice. To obtain the data for constructing the dynamic network, I will group the data with successive levels of the yields, and obtain different yield data set in order to construct a dynamic network of yield-varying behaviors. I then will employ \textbf{networkDynamic} \shortcite{networkdynamicpackage} and \textbf{ndtv} \shortcite{ndtvpackage} packages to generate yield-varying networks. The dynamic graphs will be characterized following \shortcite{bilgin2006dynamic, kolaczyk2014statistical}. From the network based perspectives, the results will show the patterns of interactions between nodes how they changed when levels of yield decreased or increased.
 
 %\begin{landscape}
 
@@ -207,4 +215,3 @@ Comparing the networks by using some key topological properties of network is us
 %\end{landscape}
 
 %================eos================================
-
