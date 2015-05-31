@@ -10,7 +10,7 @@
 % environment.
 \begin{titlepage}
         \begin{center}
-        \vspace*{0.5cm}
+        \vspace*{2.0cm}
 
         \normalsize
         {\bf NETWORK ANALYSIS OF RICE HEALTH SUREVEY DATA FOR CHARACTERIZATION OF YIELD REDUCING FACTORS AND YIELD LIMITING FACTORS OF TROPICAL RICE ECOSYSTEM IN SOUTH AND SOUTHEAST ASIA}
@@ -98,11 +98,12 @@
 % T A B L E   O F   C O N T E N T S
 % ---------------------------------
 
-%\singlespacing
+\begin{spacing}{1.5}
 \renewcommand\contentsname{TABLE OF CONTENTS}
 \tableofcontents
+\addtocontents{toc}{~\hfill\underline{\textbf{PAGE}}\par}
 \cleardoublepage
-%\doublespacing
+\end{spacing}
 %\phantomsection
 %\newpage
 
@@ -116,11 +117,12 @@
 
 % L I S T   O F   F I G U R E S
 % -----------------------------
-%\addcontentsline{toc}{chapter}{LIST OF FIGURES}
-%\listoffigures
-%\cleardoublepage
+\renewcommand*\listfigurename{LISTS OF FIGURES}
+\addcontentsline{toc}{chapter}{\listfigurename}
+\listoffigures
+\cleardoublepage
 %\phantomsection		% allows hyperref to link to the correct page
-%\newpage
+\newpage
 
 % L I S T   O F   S Y M B O L S
 % -----------------------------
