@@ -48,9 +48,6 @@ Bender-deMoll, S.%
   Network dynamic temporal visualizations}{\BBCQ}\
   [\bibcomputersoftwaremanual].
 \newblock
-\begin{APACrefURL} \url{http://CRAN.R-project.org/package=ndtv}
-  \end{APACrefURL}
-\newblock
 \APACrefnote{R package version 0.6.1}
 \PrintBackRefs{\CurrentBib}
 
@@ -127,8 +124,6 @@ Butts, C\BPBI T.%
 {\BBOQ}\APACrefatitle {sna: Tools for Social Network Analysis} {sna: Tools for
   social network analysis}{\BBCQ}\ [\bibcomputersoftwaremanual].
 \newblock
-\begin{APACrefURL} \url{http://CRAN.R-project.org/package=sna} \end{APACrefURL}
-\newblock
 \APACrefnote{R package version 2.3-2}
 \PrintBackRefs{\CurrentBib}
 
@@ -151,8 +146,6 @@ Butts, C\BPBI T.%
 \newblock
 {\BBOQ}\APACrefatitle {network: Classes for Relational Data} {network: Classes
   for relational data}{\BBCQ}\ [\bibcomputersoftwaremanual].
-\newblock
-\begin{APACrefURL} \url{CRAN.R-project.org/package=network} \end{APACrefURL}
 \newblock
 \APACrefnote{R package version 1.12.0}
 \PrintBackRefs{\CurrentBib}
@@ -183,9 +176,6 @@ Butts, C\BPBI T.%
 {\BBOQ}\APACrefatitle {networkDynamic: Dynamic Extensions for Network Objects}
   {networkdynamic: Dynamic extensions for network objects}{\BBCQ}\
   [\bibcomputersoftwaremanual].
-\newblock
-\begin{APACrefURL} \url{http://CRAN.R-project.org/package=networkDynamic}
-  \end{APACrefURL}
 \newblock
 \APACrefnote{R package version 0.7.1}
 \PrintBackRefs{\CurrentBib}
@@ -296,8 +286,6 @@ Epskamp, S.%
   psychometric data}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{\emph{Journal of Statistical Software}}{48}{4}{1--18}.
-\newblock
-\begin{APACrefURL} \url{http://www.jstatsoft.org/v48/i04/} \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -406,8 +394,6 @@ Gill, R.%
 {\BBOQ}\APACrefatitle {dna: Differential Network Analysis} {dna: Differential
   network analysis}{\BBCQ}\ [\bibcomputersoftwaremanual].
 \newblock
-\begin{APACrefURL} \url{http://CRAN.R-project.org/package=dna} \end{APACrefURL}
-\newblock
 \APACrefnote{R package version 1.1-1}
 \PrintBackRefs{\CurrentBib}
 
@@ -464,8 +450,6 @@ Handcock, M\BPBI S.%
   Network Data} {statnet: Software tools for the statistical analysis of
   network data}{\BBCQ}\ [\bibcomputersoftwaremanual].
 \newblock
-\begin{APACrefURL} \url{CRAN.R-project.org/package=statnet} \end{APACrefURL}
-\newblock
 \APACrefnote{R package version 2014.2.0}
 \PrintBackRefs{\CurrentBib}
 
@@ -517,10 +501,6 @@ Ideker, T.%
   biology}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{\emph{Molecular Systems Biology}}{8}{1}{}.
-\newblock
-\begin{APACrefURL} \url{http://dx.doi.org/10.1038/msb.2011.99} \end{APACrefURL}
-\newblock
-\begin{APACrefDOI} \doi{10.1038/msb.2011.99} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -656,10 +636,7 @@ Kumari, S.%
 , Ma, H.%
 , Stewart%
 , Ron, L.%
-, Xiang%
-, Lu, M\BHBI Z.%
-, Taylor, W\BPBI M.%
-\BCBL {}\ \BBA {} Wei, H.%
+\BDBL {}Wei, H.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
@@ -832,9 +809,7 @@ Moslonka-Lefebvre, M.%
 , Dehnen-Schmutz, K.%
 , Harwood, T.%
 , Jeger, M\BPBI J.%
-, Xu, X.%
-, Holdenrieder, O.%
-\BCBL {}\ \BBA {} Pautasso, M.%
+\BDBL {}Pautasso, M.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
@@ -882,7 +857,7 @@ Mukhtar%
 \ \protect \BOthers {.}}{%
 Mukhtar%
 \ \protect \BOthers {.}}{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
+{\protect \APACyear {2011}}%
 }]{%
 mukhtar2011independently}
 \APACinsertmetastar {%
@@ -894,18 +869,17 @@ Mukhtar, M\BPBI S.%
 , Epple, P.%
 , Steinbrenner, J.%
 , Moore, J.%
-, Tasan, M.%
-, Galli, M.%
-, Hao, T.%
-\BCBL {}\ \BBA {} Nishimura, M\BPBI T.%
+\BDBL {}Dangl, J\BPBI L.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\APACrefYearMonthDay{2011}{}{}.
 \newblock
-
+{\BBOQ}\APACrefatitle {Independently Evolved Virulence Effectors Converge Onto
+  Hubs in a Plant Immune System Network} {Independently evolved virulence
+  effectors converge onto hubs in a plant immune system network}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{\emph{Science}}{}{}{}.
+\APACjournalVolNumPages{\emph{Science}}{333}{6042}{596--601}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1136,8 +1110,6 @@ R:2014a}%
   [\bibcomputersoftwaremanual].
 \newblock
 \APACaddressPublisher{Vienna, Austria}{}.
-\newblock
-\begin{APACrefURL} \url{http://www.R-project.org/} \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1274,10 +1246,7 @@ Savary, S.%
 , Teng, P\BPBI S.%
 , Van~Du, P.%
 , Zhu, D.%
-, Tang, Q.%
-, Huang, S.%
-, Lin, X.%
-\BCBL {}\ \BBA {} Singh, H\BPBI M.%
+\BDBL {}Singh, H\BPBI M.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
@@ -1389,10 +1358,7 @@ Usadel, B.%
 , Giorgi, F\BPBI M.%
 , Bassel, G\BPBI W.%
 , Tanimoto, M.%
-, Chow, A.%
-, Steinhauser, D.%
-, Persson, S.%
-\BCBL {}\ \BBA {} Provart, N\BPBI J.%
+\BDBL {}Provart, N\BPBI J.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
