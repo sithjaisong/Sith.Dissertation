@@ -1,839 +1,921 @@
-@manual{snapackage,
-	Author = {Carter T. Butts},
-	Date-Modified = {2015-06-03 01:16:59 +0000},
-	Note = {R package version 2.3-2},
-	Title = {sna: Tools for Social Network Analysis},
-	Year = {2014},
-	Bdsk-Url-1 = {http://CRAN.R-project.org/package=sna}}
+% This file was created with JabRef 2.10.
+% Encoding: MacRoman
 
-@manual{statnetpackage,
-	Author = {Mark S. Handcock and David R. Hunter and Carter T. Butts and Steven M. Goodreau and Pavel N. Krivitsky and Skye Bender-deMoll and Martina Morris},
-	Date-Modified = {2015-06-03 01:16:59 +0000},
-	Note = {R package version 2014.2.0},
-	Organization = {The Statnet Project (\url{http://www.statnet.org})},
-	Title = {statnet: Software tools for the Statistical Analysis of Network Data},
-	Year = {2014},
-	Bdsk-Url-1 = {CRAN.R-project.org/package=statnet}}
 
-@article{savary2006quantification,
-	Author = {Savary, Serge and Teng, Paul S and Willocquet, Laetitia and Nutter Jr, Forrest W},
-	Journal = {\emph{Annu. Rev. Phytopathol.}},
-	Pages = {89--112},
-	Publisher = {Annual Reviews},
-	Title = {Quantification and modeling of crop losses: a review of purposes},
-	Volume = {44},
-	Year = {2006}}
+@misc{ndtvpackage,
+  title={ndtv: Network Dynamic Temporal Visualizations. R package version 0.6.1},
+  author={Bender-deMoll, S},
+  year={2015}
+}
 
-@article{evaluationKumari,
-	Author = {Kumari, Sapna and Nie, Jeff and Chen, Huann-Sheng AND Ma, Hao and Stewart and Ron, Li and Xiang and Lu, Meng-Zhu and Taylor, William M. and Wei, Hairong},
-	Journal = {\emph{PLoS ONE}},
-	Month = {11},
-	Number = {11},
-	Publisher = {Public Library of Science},
-	Title = {Evaluation of Gene Association Methods for Coexpression Network Construction and Biological Knowledge Discovery},
-	Volume = {7},
-	Year = {2012}}
+@Article{Andras:2007cu,
+  Title                    = {Ecological network analysis: an application to the evaluation of effects of pesticide use in an agricultural environment},
+  Author                   = {Andras, Peter and Gwyther, Robert and Madalinski, Agnes A and Lynden, Steven J and Andras, Alina and Young, Malcolm P},
+  Journal                  = {\emph{Pest Management Science}},
+  Year                     = {2007},
+  Number                   = {10},
+  Pages                    = {943--953},
+  Volume                   = {63}
+}
 
-@article{usadel2009co,
-	Author = {Usadel, Bjoern and Obayashi, Takeshi and Mutwil, Marek and Giorgi, Federico M and Bassel, George W and Tanimoto, Mimi and Chow, Amanda and Steinhauser, Dirk and Persson, Staffan and Provart, Nicholas J},
-	Journal = {\emph{Plant, cell \& environment}},
-	Number = {12},
-	Pages = {1633--1651},
-	Publisher = {Wiley Online Library},
-	Title = {Co-expression tools for plant biology: opportunities for hypothesis generation and caveats},
-	Volume = {32},
-	Year = {2009}}
+@Article{Avelino:2006ie,
+  Title                    = {{The intensity of a coffee rust epidemic is dependent on production situations}},
+  Author                   = {Avelino, J and Zelaya, H and Merlo, A and Pineda, A and Ordo{\~n}ez, M and Savary, S},
+  Journal                  = {\emph{Ecological Modelling}},
+  Year                     = {2006},
+  Number                   = {3-4},
+  Pages                    = {431--447},
+  Volume                   = {197}
+}
 
-@manual{dnapackage,
-	Author = {Ryan Gill and Somnath Datta and Susmita Datta},
-	Date-Modified = {2015-06-03 01:16:59 +0000},
-	Note = {R package version 1.1-1},
-	Title = {dna: Differential Network Analysis},
-	Year = {2014},
-	Bdsk-Url-1 = {http://CRAN.R-project.org/package=dna}}
+@Article{barabasi2011netmed,
+  Title                    = {Network medicine: a network-based approach to human disease},
+  Author                   = {Barab{\'a}si, Albert-L{\'a}szl{\'o} and Gulbahce, Natali and Loscalzo, Joseph},
+  Journal                  = {\emph{Nature Reviews Genetics}},
+  Year                     = {2011},
+  Number                   = {1},
+  Pages                    = {56--68},
+  Volume                   = {12},
 
-@article{zheng2013,
-	Author = {Zheng, Z L and Zhao, Y},
-	Journal = {\emph{BMC Genomics}},
-	Pages = {27},
-	Title = {Transcriptome comparison and gene coexpression network analysis provide a systems view of citrus response to "\textit{Candidatus Liberibacter asiaticus}" infection},
-	Volume = {14},
-	Year = {2013}}
+  Publisher                = {Nature Publishing Group}
+}
 
-@article{Moslonka2010,
-	Author = {Pautass, Mathieu and Moslonka-Lefebvre, M and Jeger, M. J.},
-	Journal = {\emph{Ecological Complexity}},
-	Pages = {424--432},
-	Title = {The number of links to and from the starting node as a predictor of epidemic size in small-size directed networks},
-	Volume = {7},
-	Year = {2010}}
+@Article{barabasi2004network,
+  Title                    = {Network biology: understanding the cell's functional organization},
+  Author                   = {Barab{\'a}si, Albert-L{\'a}szl{\'o} and Oltvai, Zolt{\'a}n N},
+  Journal                  = {\emph{Nature Reviews Genetics}},
+  Year                     = {2004},
+  Number                   = {2},
+  Pages                    = {101--113},
+  Volume                   = {5},
 
-@article{Moslonka2008,
-	Author = {Moslonka-Lefebvre, M and Mathieu Pautasso, M and Jeger, M. J.},
-	Journal = {\emph{Journal of Theoretical Biology}},
-	Pages = {402--411},
-	Title = {Disease spread in small-size directed networks:epidemic threshold, correlation between links to and form nodes, and clustering},
-	Volume = {206},
-	Year = {2009}}
+  Publisher                = {Nature Publishing Group}
+}
 
-@article{pautasso2008,
-	Author = {Pautasso, M and Jeger, M. J.},
-	Journal = {\emph{Ecological Complexity}},
-	Number = {1},
-	Pages = {1--8},
-	Title = {Epidemic threshold and network structure: the interplay of probability of transmission and of persistence in small directed network},
-	Volume = {5},
-	Year = {2008}}
+@Article{Barberan:2012bd,
+  Title                    = {Using network analysis to explore co-occurrence patterns in soil microbial communities},
+  Author                   = {Barber{\'a}n and Albert and Bates and Scott T and Casamayor, Emilio O and Fierer, Noah},
+  Journal                  = {\emph{The ISME journal}},
+  Year                     = {2012},
+  Number                   = {2},
+  Pages                    = {343--351},
+  Volume                   = {6}
+}
 
-@book{Castells,
-	Author = {Castells, M},
-	Publisher = {Oxford: Blackwell Publishers},
-	Title = {The rise of network society},
-	Year = {2001}}
+@Article{bilgin2006dynamic,
+  Title                    = {Dynamic network evolution: Models, clustering, anomaly detection},
+  Author                   = {Bilgin, Cemal Cagatay and Yener, B{\"u}lent},
+  Journal                  = {\emph{IEEE Networks}},
+  Year                     = {2006}
+}
 
-@article{Lazega,
-	Author = {Lazega, E. and Pattison, P.},
-	Journal = {Soc. Network},
-	Number = {1},
-	Pages = {67--90},
-	Title = {Multiplexity, generalized exchange and cooperation in organizations: a case study},
-	Volume = {21},
-	Year = {1999}}
+@Article{BOCCALETTI:2006gb,
+  Title                    = {Complex networks: Structure and dynamics},
+  Author                   = {Boccaletti, S and Latora, V and Moreno, Y and Chavez, M and Hwang, D},
+  Journal                  = {\emph{Physics Reports}},
+  Year                     = {2006},
+  Number                   = {4-5},
+  Pages                    = {175--308},
+  Volume                   = {424}
+}
 
-@manual{networkpackage,
-	Author = {Carter T. Butts},
-	Date-Modified = {2015-06-03 01:16:59 +0000},
-	Note = {R package version 1.12.0},
-	Organization = {The Statnet Project (\url{http://www.statnet.org})},
-	Title = {network: Classes for Relational Data},
-	Year = {2015},
-	Bdsk-Url-1 = {CRAN.R-project.org/package=network}}
+@Book{borgatti2013analyzing,
+  Title                    = {\emph{Analyzing social networks}},
+  Author                   = {Borgatti, Stephen P and Everett, Martin G and Johnson, Jeffrey C},
+  Publisher                = {SAGE Publications Limited},
+  Year                     = {2013}
+}
 
-@article{qgraph,
-	Author = {Sacha Epskamp and Ang\'elique O. J. Cramer and Lourens J. Waldorp and Verena D. Schmittmann and Denny Borsboom},
-	Date-Modified = {2015-06-03 01:16:59 +0000},
-	Journal = {\emph{Journal of Statistical Software}},
-	Number = {4},
-	Pages = {1--18},
-	Title = {{qgraph}: Network Visualizations of Relationships in Psychometric Data},
-	Volume = {48},
-	Year = {2012},
-	Bdsk-Url-1 = {http://www.jstatsoft.org/v48/i04/}}
+@Article{Bringmann:2013dt,
+  Title                    = {A Network Approach to Psychopathology: New Insights into Clinical Longitudinal Data},
+  Author                   = {Bringmann, Laura F and Vissers, Nathalie and Wichers, Marieke and Geschwind, Nicole and Kuppens, Peter and Peeters, Frenk and Borsboom, Denny and Tuerlinckx, Francis},
+  Journal                  = {\emph{PLoS ONE}},
+  Year                     = {2013},
+  Number                   = {4},
+  Pages                    = {e60188},
+  Volume                   = {8}
+}
 
-@manual{fdrtool,
-	Author = {Bernd Klaus and Korbinian Strimmer.},
-	Date-Modified = {2015-06-03 01:16:59 +0000},
-	Note = {R package version 1.2.14},
-	Title = {fdrtool: Estimation of (Local) False Discovery Rates and Higher Criticism},
-	Year = {2015},
-	Bdsk-Url-1 = {http://CRAN.R-project.org/package=fdrtool}}
+@article{networkpackage,
+  title={network: a Package for Managing Relational Data in R},
+  author={Butts, Carter T},
+  journal={\emph{Journal of Statistical Software}},
+  volume={24},
+  number={2},
+  pages={1--36},
+  year={2008}
+}
 
-@article{mutert2002developments,
-	Author = {Mutert, Ernst and Fairhurst, TH},
-	Journal = {\emph{Better Crops International}},
-	Pages = {12--17},
-	Title = {Developments in rice production in Southeast Asia},
-	Volume = {15},
-	Year = {2002}}
-
-@book{horvath2011weighted,
-	Author = {Horvath, Steve},
-	Publisher = {Springer Science \& Business Media},
-	Title = {Weighted Network Analysis: Applications in Genomics and Systems Biology},
-	Year = {2011}}
-
-@article{Idekerdiffnet,
-	Author = {Ideker, Trey and Krogan, Nevan J},
-	Date-Modified = {2015-06-03 01:16:59 +0000},
-	Issn = {1744-4292},
-	Journal = {\emph{Molecular Systems Biology}},
-	Number = {1},
-	Publisher = {John Wiley & Sons, Ltd},
-	Title = {Differential network biology},
-	Volume = {8},
-	Year = {2012},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1038/msb.2011.99}}
-
-@article{bilgin2006dynamic,
-	Author = {Bilgin, Cemal Cagatay and Yener, B{\"u}lent},
-	Journal = {\emph{IEEE Networks}},
-	Title = {Dynamic network evolution: Models, clustering, anomaly detection},
-	Year = {2006}}
-
-@manual{ndtvpackage,
-	Author = {Skye Bender-deMoll},
-	Date-Modified = {2015-06-03 01:16:59 +0000},
-	Note = {R package version 0.6.1},
-	Title = {ndtv: Network Dynamic Temporal Visualizations},
-	Year = {2015},
-	Bdsk-Url-1 = {http://CRAN.R-project.org/package=ndtv}}
+@article{snapackage,
+  title	=	{sna: Tools for social network analysis},
+  author	=	{Butts, Carter T},
+  journal	=	{\emph{R package version}},
+  volume	=	{2},
+  year	=	{2010}
+}
 
 @manual{networkdynamicpackage,
-	Author = {Carter T. Butts and Ayn Leslie-Cook and Pavel N. Krivitsky and Skye Bender-deMoll},
-	Date-Modified = {2015-06-03 01:16:59 +0000},
-	Note = {R package version 0.7.1},
-	Title = {networkDynamic: Dynamic Extensions for Network Objects},
-	Year = {2014},
-	Bdsk-Url-1 = {http://CRAN.R-project.org/package=networkDynamic}}
-
-@book{kolaczyk2014statistical,
-	Author = {Kolaczyk, Eric D and Cs{\'a}rdi, G{\'a}bor},
-	Publisher = {Springer},
-	Title = {\emph{Statistical analysis of network data with R}},
-	Volume = {65},
-	Year = {2014}}
-
-@article{barabasi2011netmed,
-	Author = {Barab{\'a}si, Albert-L{\'a}szl{\'o} and Gulbahce, Natali and Loscalzo, Joseph},
-	Journal = {\emph{Nature Reviews Genetics}},
-	Number = {1},
-	Pages = {56--68},
-	Publisher = {Nature Publishing Group},
-	Title = {Network medicine: a network-based approach to human disease},
-	Volume = {12},
-	Year = {2011}}
-
-@article{zhang2005general,
-	Author = {Zhang, Bin and Horvath, Steve},
-	Journal = {\emph{Statistical applications in genetics and molecular biology}},
-	Number = {1},
-	Title = {A general framework for weighted gene co-expression network analysis},
-	Volume = {4},
-	Year = {2005}}
-
-@article{wu2007gene,
-	Author = {Wu, XM and Li, YR and Zou, LF and Chen, GY},
-	Journal = {\emph{Plant Pathology}},
-	Number = {1},
-	Pages = {26--34},
-	Publisher = {Wiley Online Library},
-	Title = {Gene-for-gene relationships between rice and diverse avrBs3/pthA avirulence genes in \textit{Xanthomonas oryzae} pv.\textit{oryzae}},
-	Volume = {56},
-	Year = {2007}}
-
-@article{barabasi2004network,
-	Author = {Barabasi, Albert-Laszlo and Oltvai, Zoltan N},
-	Journal = {\emph{Nature Reviews Genetics}},
-	Number = {2},
-	Pages = {101--113},
-	Publisher = {Nature Publishing Group},
-	Title = {Network biology: understanding the cell's functional organization},
-	Volume = {5},
-	Year = {2004}}
-
-@article{kasari2011social,
-	Author = {Kasari, Connie and Locke, Jill and Gulsrud, Amanda and Rotheram-Fuller, Erin},
-	Journal = {Journal of autism and developmental disorders},
-	Number = {5},
-	Pages = {533--544},
-	Publisher = {Springer},
-	Title = {Social networks and friendships at school: Comparing children with and without ASD},
-	Volume = {41},
-	Year = {2011}}
-
-@article{savary1995use,
-	Author = {Savary, Serge and Madden, LV and Zadoks, JC and Klein-Gebbinck, HW},
-	Journal = {\emph{Advances in botanical research}},
-	Pages = {213--240},
-	Publisher = {Elsevier},
-	Title = {Use of categorical information and correspondence analysis in plant disease epidemiology},
-	Volume = {21},
-	Year = {1995}}
-
-@article{rose2007new,
-	Author = {Rose, Michael R and Oakley, Todd H},
-	Journal = {\emph{Biology direct}},
-	Number = {1},
-	Pages = {30},
-	Publisher = {BioMed Central Ltd},
-	Title = {The new biology: beyond the Modern Synthesis},
-	Volume = {2},
-	Year = {2007}}
-
-@article{dehnen2010structural,
-	Author = {Dehnen-Schmutz, Katharina and Holdenrieder, Ottmar and Jeger, Mike J and Pautasso, Marco},
-	Journal = {\emph{Scientia Horticulturae}},
-	Number = {1},
-	Pages = {1--15},
-	Publisher = {Elsevier},
-	Title = {Structural change in the international horticultural industry: some implications for plant health},
-	Volume = {125},
-	Year = {2010}}
-
-@article{harwood2009epidemiological,
-	Author = {Harwood, Thomas D and Xu, Xiangming and Pautasso, Marco and Jeger, Mike J and Shaw, Michael W},
-	Journal = {\emph{Ecological Modelling}},
-	Number = {23},
-	Pages = {3353--3361},
-	Publisher = {Elsevier},
-	Title = {Epidemiological risk assessment using linked network and grid based modelling: {\textit{Phytophthora ramorum}} and \textit{Phytophthora kernoviae} in the UK},
-	Volume = {220},
-	Year = {2009}}
-
-@article{xu2009spatio,
-	Author = {Xu, Xiangming and Harwood, Thomas D and Pautasso, Marco and Jeger, Mike J},
-	Journal = {\emph{Ecography}},
-	Number = {3},
-	Pages = {504--516},
-	Publisher = {Wiley Online Library},
-	Title = {Spatio-temporal analysis of an invasive plant pathogen (\textit{Phytophthora ramorum}) in England and Wales},
-	Volume = {32},
-	Year = {2009}}
-
-@book{scott2012social,
-	Author = {Scott, John},
-	Publisher = {Sage},
-	Title = {Social network analysis},
-	Year = {2012}}
-
-@book{borgatti2013analyzing,
-	Author = {Borgatti, Stephen P and Everett, Martin G and Johnson, Jeffrey C},
-	Publisher = {SAGE Publications Limited},
-	Title = {Analyzing social networks},
-	Year = {2013}}
-
-@article{yang2014gene,
-	Author = {Yang, Yang and Han, Leng and Yuan, Yuan and Li, Jun and Hei, Nainan and Liang, Han},
-	Journal = {\emph{Nature communications}},
-	Publisher = {Nature Publishing Group},
-	Title = {Gene co-expression network analysis reveals common system-level properties of prognostic genes across cancer types},
-	Volume = {5},
-	Year = {2014}}
-
-@article{guimera2005functional,
-	Author = {Guimera, Roger and Amaral, Luis A Nunes},
-	Journal = {\emph{Nature}},
-	Number = {7028},
-	Pages = {895--900},
-	Publisher = {Nature Publishing Group},
-	Title = {Functional cartography of complex metabolic networks},
-	Volume = {433},
-	Year = {2005}}
-
-@article{pastor2001epidemic,
-	Author = {Pastor-Satorras, Romualdo and Vespignani, Alessandro},
-	Journal = {\emph{Physical review letters}},
-	Number = {14},
-	Pages = {3200},
-	Publisher = {APS},
-	Title = {Epidemic spreading in scale-free networks},
-	Volume = {86},
-	Year = {2001}}
-
-@article{krause2003compartments,
-	Author = {Krause, Ann E and Frank, Kenneth A and Mason, Doran M and Ulanowicz, Robert E and Taylor, William W},
-	Journal = {\emph{Nature}},
-	Number = {6964},
-	Pages = {282--285},
-	Publisher = {Nature Publishing Group},
-	Title = {Compartments revealed in food-web structure},
-	Volume = {426},
-	Year = {2003}}
-
-@article{moody2001race,
-	Author = {Moody, James},
-	Journal = {\emph{American Journal of Sociology}},
-	Number = {3},
-	Pages = {679--716},
-	Publisher = {JSTOR},
-	Title = {Race, school integration, and friendship segregation in america1},
-	Volume = {107},
-	Year = {2001}}
-
-@article{Avelino:2006ie,
-	Author = {Avelino, J and Zelaya, H and Merlo, A and Pineda, A and Ordo{\~n}ez, M and Savary, S},
-	Journal = {\emph{Ecological Modelling}},
-	Number = {3-4},
-	Pages = {431--447},
-	Title = {{The intensity of a coffee rust epidemic is dependent on production situations}},
-	Volume = {197},
-	Year = {2006}}
-
-@article{Deng:2012do,
-	Author = {Deng, Ye and Jiang, Yi-Huei and Yang, Yunfeng and He, Zhili and Luo, Feng and Zhou, Jizhong},
-	Journal = {\emph{BMC Bioinformatics}},
-	Pages = {113},
-	Title = {Molecular ecological network analyses.},
-	Volume = {13},
-	Year = {2012}}
-
-@article{Shaw:2014cka,
-	Author = {Shaw, M W and Pautasso, M},
-	Journal = {\emph{Annual Review of Phytopathology}},
-	Number = {1},
-	Pages = {477--493},
-	Title = {Networks and Plant Disease Management: Concepts and Applications},
-	Volume = {52},
-	Year = {2014}}
-
-@article{Faust:2012kq,
-	Author = {Faust, Karoline and Raes, Jeroen},
-	Journal = {\emph{Nature Reviews Microbiology}},
-	Number = {8},
-	Pages = {538--550},
-	Title = {Microbial interactions: from networks to models},
-	Volume = {10},
-	Year = {2012}}
-
-@article{Toubiana:2013cv,
-	Author = {Toubiana, David and Fernie, Alisdair R and Nikoloski, Zoran and Fait, Aaron},
-	Journal = {\emph{Trends in biotechnology}},
-	Number = {1},
-	Pages = {29--36},
-	Title = {Network analysis: tackling complex data to study plant metabolism.},
-	Volume = {31},
-	Year = {2013}}
-
-@article{Dong:2007te,
-	Author = {Dong, J and Horvath, S},
-	Journal = {\emph{BMC systems biology}},
-	Title = {Understanding Network Concepts in Modules},
-	Year = {2007}}
-
-@article{Mukhtar2011,
-	Author = {M. S. Mukhtar and A.-R. Carvunis and M. Dreze and P. Epple and J. Steinbrenner and J. Moore and M. Tasan and M. Galli and T. Hao and M. T. Nishimura and S. J. Pevzner and S. E. Donovan and L. Ghamsari and B. Santhanam and V. Romero and M. M. Poulin and F. Gebreab and B. J. Gutierrez and S. Tam and D. Monachello and M. Boxem and C. J. Harbort and N. McDonald and L. Gai and H. Chen and Y. He and J. Vandenhaute and F. P. Roth and D. E. Hill and J. R. Ecker and M. Vidal and J. Beynon and P. Braun and J. L. Dangl},
-	Date-Modified = {2015-06-03 01:17:00 +0000},
-	Journal = {\emph{Science}},
-	Number = {6042},
-	Pages = {596--601},
-	Publisher = {American Association for the Advancement of Science ({AAAS})},
-	Title = {Independently Evolved Virulence Effectors Converge Onto Hubs in a Plant Immune System Network},
-	Volume = {333},
-	Year = {2011},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1126/science.1203659}}
-
-@book{schumann2006essential,
-	Author = {Schumann, Gail Lynn and D'Arcy, Cleora J},
-	Publisher = {American Phytopathological Society (APS Press)},
-	Title = {Essential plant pathology.},
-	Year = {2006}}
-
-@book{van1963plant,
-	Author = {Van der Plank, James Edward},
-	Publisher = {New York and London, Academic Press},
-	Title = {Plant diseases: epidemics and control.},
-	Year = {1963}}
-
-@article{windram2014network,
-	Author = {Windram, Oliver and Penfold, Christopher A and Denby, Katherine J},
-	Journal = {\emph{Annual Review of Phytopathology}},
-	Title = {Network Modeling to Understand Plant Immunity},
-	Year = {2014}}
-
-@book{agrios1988plant,
-	Author = {Agrios, George N},
-	Publisher = {Academic Press San Diego etc.},
-	Title = {Plant Pathology},
-	Year = {1988}}
-
-@article{freilich2010large,
-	Author = {Freilich, Shiri and Kreimer, Anat and Meilijson, Isacc and Gophna, Uri and Sharan, Roded and Ruppin, Eytan},
-	Journal = {\emph{Nucleic acids research}},
-	Number = {12},
-	Pages = {3857--3868},
-	Publisher = {Oxford Univ Press},
-	Title = {The large-scale Organization of the Bacterial Network of Ecological Co-occurrence Interactions},
-	Volume = {38},
-	Year = {2010}}
-
-@article{qin2010human,
-	Author = {Qin, Junjie and Li, Ruiqiang and Raes, Jeroen and Arumugam, Manimozhiyan and Burgdorf, Kristoffer Solvsten and Manichanh, Chaysavanh and Nielsen, Trine and Pons, Nicolas and Levenez, Florence and Yamada, Takuji},
-	Journal = {\emph{Nature}},
-	Number = {7285},
-	Pages = {59--65},
-	Publisher = {Nature Publishing Group},
-	Title = {A Human Gut Microbial Gene Catalogue Established by Metagenomic Sequencing},
-	Volume = {464},
-	Year = {2010}}
-
-@article{barberan2011using,
-	Author = {Barber{\'a}n, Albert and Bates, Scott T and Casamayor, Emilio O and Fierer, Noah},
-	Journal = {\emph{The ISME journal}},
-	Number = {2},
-	Pages = {343--351},
-	Publisher = {\emph{Nature Publishing Group}},
-	Title = {Using Network Analysis to Explore Co-occurrence Patterns in Soil Microbial Communities},
-	Volume = {6},
-	Year = {2011}}
-
-@book{junker2008analysis,
-	Author = {Junker, Bj{\"o}rn H and Schreiber, Falk},
-	Publisher = {John Wiley \& Sons},
-	Title = {Analysis of biological networks},
-	Volume = {2},
-	Year = {2008}}
-
-@article{lisec2011corn,
-	Author = {Lisec, Jan and R{\"o}misch-Margl, Lilla and Nikoloski, Zoran and Piepho, Hans-Peter and Giavalisco, Patrick and Selbig, Joachim and Gierl, Alfons and Willmitzer, Lothar},
-	Journal = {\emph{The Plant Journal}},
-	Number = {2},
-	Pages = {326--336},
-	Publisher = {Wiley Online Library},
-	Title = {Corn Hybrids Display Lower Metabolite Variability and Complex Metabolite Inheritance Patterns},
-	Volume = {68},
-	Year = {2011}}
-
-@article{osorio2012integrative,
-	Author = {Osorio, Sonia and Alba, Rob and Nikoloski, Zoran and Kochevenko, Andrej and Fernie, Alisdair R and Giovannoni, James J},
-	Journal = {\emph{Plant Physiology}},
-	Number = {4},
-	Pages = {1713--1729},
-	Publisher = {Am Soc Plant Biol},
-	Title = {Integrative comparative analyses of transcript and metabolite profiles from pepper and tomato ripening and development stages uncovers species-specific patterns of network regulatory behavior},
-	Volume = {159},
-	Year = {2012}}
-
-@article{Lu:2013hga,
-	Author = {Lu, Lihua and Yin, Shixue and Liu, Xing and Zhang, Wenming and Gu, Tianyu and Shen, Qirong and Qiu, Huizhen},
-	Journal = {\emph{Soil Biology and Biochemistry}},
-	Pages = {186--194},
-	Title = {Fungal networks in yield-invigorating and -debilitating soils induced by prolonged potato monoculture},
-	Volume = {65},
-	Year = {2013}}
-
-@article{Peer:2011jd,
-	Author = {Pe'er, Dana and Hacohen, Nir},
-	Journal = {\emph{Cell}},
-	Number = {6},
-	Pages = {864--873},
-	Title = {{Principles and strategies for developing network models in cancer.}},
-	Volume = {144},
-	Year = {2011}}
-
-@article{Subramanian2005,
-	Author = {A. Subramanian and P. Tamayo and V. K. Mootha and S. Mukherjee and B. L. Ebert and M. A. Gillette and A. Paulovich and S. L. Pomeroy and T. R. Golub and E. S. Lander and J. P. Mesirov},
-	Date-Modified = {2015-06-03 01:17:00 +0000},
-	Journal = {\emph{Proceedings of the National Academy of Sciences}},
-	Number = {43},
-	Pages = {15545--15550},
-	Publisher = {Proceedings of the National Academy of Sciences},
-	Title = {Gene set enrichment analysis: A knowledge-based approach for interpreting genome-wide expression profiles},
-	Volume = {102},
-	Year = {2005},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1073/pnas.0506580102}}
-
-@article{Sumberg:2012,
-	Author = {Sumberg J},
-	Date-Modified = {2015-06-03 01:17:00 +0000},
-	Journal = {\emph{Food Security}},
-	Number = {4},
-	Title = {Mind the (yield) gap(s)},
-	Volume = {4},
-	Year = {2012},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1007/s12571-012-0213-0}}
-
-@article{Zadok:1985,
-	Author = {Zadoks, J C},
-	Journal = {\emph{Annual review}},
-	Title = {Crop loss assessment},
-	Year = {1985}}
-
-@article{Reddy:2011hl,
-	Author = {Reddy, C S and Laha, G S and Prasad, M S and Krishnaveni, D},
-	Journal = {\emph{Field Crops}},
-	Title = {Characterizing multiple linkages between individual diseases, crop health syndromes, germplasm deployment, and rice production situations in India},
-	Year = {2011}}
-
-@article{Jeger:2007tn,
-	Author = {Jeger, M J and Pautasso, M and Holdenrieder, O},
-	Journal = {\emph{New Pathologist}},
-	Title = {{Modelling disease spread and control in networks: implications for plant sciences}},
-	Year = {2007}}
-
-@article{Pautasso:2014bi,
-	Author = {Pautasso, Marco and Jeger, Mike J},
-	Journal = {\emph{AoB plants}},
-	Number = {0},
-	Title = {Network epidemiology and plant trade networks},
-	Volume = {6},
-	Year = {2014}}
-
-@article{Margosian:2009ea,
-	Author = {Margosian, Margaret L and Garrett, Karen A and Hutchinson, J M Shawn and With, Kimberly A},
-	Journal = {\emph{BioScience}},
-	Number = {2},
-	Pages = {141--151},
-	Title = {Connectivity of the American Agricultural Landscape: Assessing the National Risk of Crop Pest and Disease Spread},
-	Volume = {59},
-	Year = {2009}}
-
-@article{Fussler:2008fc,
-	Author = {Fussler, L and Kobes, N and Bertrand, F and Maumy, M and Grosman, J and Savary, S},
-	Journal = {\emph{Phytopathology}},
-	Number = {5},
-	Pages = {571--579},
-	Title = {A Characterization of Grapevine Trunk Diseases in France from Data Generated by the National Grapevine Wood Diseases Survey},
-	Volume = {98},
-	Year = {2008}}
-
-@article{Faust:2012dk,
-	Author = {Faust, Karoline and Sathirapongsasuti, J Fah and Izard, Jacques and Segata, Nicola and Gevers, Dirk and Raes, Jeroen and Huttenhower, Curtis},
-	Journal = {\emph{PLoS Computational Biology}},
-	Number = {7},
-	Title = {Microbial Co-occurrence Relationships in the Human Microbiome},
-	Volume = {8},
-	Year = {2012}}
-
-@article{Esker:2012hq,
-	Author = {Esker, P},
-	Journal = {\emph{CAB Reviews: Perspectives in Agriculture, Veterinary Science, Nutrition and Natural Resources}},
-	Number = {052},
-	Title = {Crop loss analysis and global food supply: focusing now on required harvests},
-	Volume = {7},
-	Year = {2012}}
-
-@article{DuranPinedo:2011jf,
-	Author = {Duran-Pinedo and Ana E and Paster and Bruce and Teles, Ricardo and Frias-Lopez, Jorge},
-	Journal = {\emph{PLoS ONE}},
-	Number = {12},
-	Pages = {e28438},
-	Title = {Correlation Network Analysis Applied to Complex Biofilm Communities},
-	Volume = {6},
-	Year = {2011}}
-
-@article{Dong:2010et,
-	Author = {Dong, K and Chen, B and Li, Z and Dong, Y and Wang, H},
-	Journal = {\emph{Crop Protection}},
-	Title = {A characterization of rice pests and quantification of yield losses in the japonica rice zone of Yunnan, China},
-	Year = {2010}}
-
-@article{Barberan:2012bd,
-	Author = {Barber{\'a}n and Albert and Bates and Scott T and Casamayor, Emilio O and Fierer, Noah},
-	Journal = {\emph{The ISME journal}},
-	Number = {2},
-	Pages = {343--351},
-	Title = {Using network analysis to explore co-occurrence patterns in soil microbial communities},
-	Volume = {6},
-	Year = {2012}}
-
-@article{Andras:2007cu,
-	Author = {Andras, Peter and Gwyther, Robert and Madalinski, Agnes A and Lynden, Steven J and Andras, Alina and Young, Malcolm P},
-	Journal = {\emph{Pest Management Science}},
-	Number = {10},
-	Pages = {943--953},
-	Title = {Ecological network analysis: an application to the evaluation of effects of pesticide use in an agricultural environment},
-	Volume = {63},
-	Year = {2007}}
-
-@article{OERKE:2006ct,
-	Author = {{Oerke, E. C.}},
-	Journal = {\emph{The Journal of Agricultural Science}},
-	Number = {1},
-	Pages = {31--43},
-	Title = {Crop losses to pests},
-	Volume = {144},
-	Year = {2006}}
-
-@book{madden2007study,
-	Author = {Madden, Laurence V and Hughes, Gareth and Van den Bosch, Frank},
-	Publisher = {American Phytopathological Society, St Paul, MN},
-	Title = {The Study of Plant Disease Epidemics},
-	Year = {2007}}
-
-@book{u1985rice,
-	Author = {Ou, Shu Huang},
-	Publisher = {Int. Rice Res. Inst.},
-	Title = {Rice Diseases},
-	Year = {1985}}
-
-@book{mew1994manual,
-	Author = {Mew, T. W. and Misra, J. K.},
-	Publisher = {International Rice Research Institute, Los Ba{\~n}os, Philippines},
-	Title = {A manual of rice seed health testing},
-	Year = {1994}}
-
-@book{Zadoks:1979ts,
-	Author = {Zadoks, Jan C and Schein, Richard D},
-	Publisher = {Oxford University Press, USA},
-	Title = {Epidemiology and Plant Disease Management},
-	Year = {1979}}
-
-@article{Ray:2013by,
-	Author = {Ray, Deepak K and Mueller, Nathaniel D and West, Paul C and Foley, Jonathan A},
-	Journal = {\emph{PLoS ONE}},
-	Number = {6},
-	Title = {Yield Trends Are Insufficient to Double Global Crop Production by 2050},
-	Volume = {8},
-	Year = {2013}}
-
-@article{Savary:2000vr,
-	Author = {Savary, Serge and Willocquet, Laetitia and Elazegui, Francisco A and Teng, Paul S and Van Du, Pham and Zhu, Defeng and Tang, Qiyi and Huang, Shiwen and Lin, Xianquing and Singh, H M},
-	Journal = {\emph{Plant disease}},
-	Number = {3},
-	Pages = {341--356},
-	Title = {Rice pest constraints in tropical {Asia}: characterization of injury profiles in relation to production situations},
-	Volume = {84},
-	Year = {2000a}}
-
-@article{Savary:2006to,
-	Author = {Savary, Serge and Teng, Paul S and Willocquet, Laetitia and Nutter, Forrest W},
-	Journal = {\emph{Annual Review of Phytopathology}},
-	Number = {1},
-	Pages = {89--112},
-	Title = {Quantification and Modeling of Crop Losses: A Review of Purposes},
-	Volume = {44},
-	Year = {2006}}
-
-@article{newman2003structure,
-	Author = {Newman, Mark E J},
-	Journal = {\emph{SIAM review}},
-	Number = {2},
-	Pages = {167--256},
-	Publisher = {SIAM},
-	Title = {The structure and function of complex networks},
-	Volume = {45},
-	Year = {2003}}
-
-@article{May:2006do,
-	Author = {May, Robert M},
-	Journal = {\emph{Trends in Ecology {\&} Evolution}},
-	Number = {7},
-	Pages = {394--399},
-	Title = {Network structure and the biology of populations.},
-	Volume = {21},
-	Year = {2006}}
-
-@article{Bringmann:2013dt,
-	Author = {Bringmann, Laura F and Vissers, Nathalie and Wichers, Marieke and Geschwind, Nicole and Kuppens, Peter and Peeters, Frenk and Borsboom, Denny and Tuerlinckx, Francis},
-	Journal = {\emph{PLoS ONE}},
-	Number = {4},
-	Pages = {e60188},
-	Title = {A Network Approach to Psychopathology: New Insights into Clinical Longitudinal Data},
-	Volume = {8},
-	Year = {2013}}
-
-@article{Lefebvre:2011fo,
-	Author = {Moslonka-Lefebvre, Mathieu and Finley, Ann and Dorigatti, Ilaria and Dehnen-Schmutz, Katharina and Harwood, Tom and Jeger, Michael J and Xu, Xiangming and Holdenrieder, Ottmar and Pautasso, Marco},
-	Journal = {\emph{Phytopathology}},
-	Number = {4},
-	Pages = {392--403},
-	Title = {Networks in plant epidemiology: from genes to landscapes, countries, and continents},
-	Volume = {101},
-	Year = {2011}}
-
-@article{Savarysurvey2009,
-	Author = {Savary, S and Castilla, N.P},
-	Journal = {\emph{IRRI Discussion Paper No 18}},
-	Page = {\emph{32}},
-	Title = {A survey portfolio to characterize yield-reducing factors in rice},
-	Year = {2009}}
-
-@article{Csardi:2010wx,
-	Author = {Csardi, G and Nepusz, T},
-	Journal = {\emph{R package version 05}},
-	Title = {Csardi: igraph: Network analysis and visualization},
-	Year = {2010}}
-
-@article{MarkSHandcock:2008vk,
-	Author = {Handcock, Mark S and Hunter, David R and Butts, Carter T and Goodreau, Steven M and Morris, Martina},
-	Journal = {\emph{Journal of statistical software}},
-	Number = {1},
-	Pages = {1548},
-	Title = {statnet: Software Tools for the Representation, Visualization, Analysis and Simulation of Network Data},
-	Volume = {24},
-	Year = {2008}}
-
-@article{Langfelder:2008bd,
-	Author = {Langfelder, Peter and Horvath, Steve},
-	Journal = {\emph{BMC Bioinformatics}},
-	Pages = {559},
-	Title = {{WGCNA: an R package for weighted correlation network analysis.}},
-	Volume = {9},
-	Year = {2008}}
-
-@manual{R:2014a,
-	Address = {Vienna, Austria},
-	Author = {{R Core Team}},
-	Date-Modified = {2015-06-03 01:17:00 +0000},
-	Organization = {R Foundation for Statistical Computing},
-	Title = {R: A Language and Environment for Statistical Computing},
-	Year = {2014},
-	Bdsk-Url-1 = {http://www.R-project.org/}}
-
-@article{Savary:2000ws,
-	Author = {Savary, Serge and Willocquet, Laetitia and Elazegui, Francisco A and Castilla, Nancy P and Teng, Paul S},
-	Journal = {\emph{Plant Disease}},
-	Number = {3},
-	Pages = {357--369},
-	Title = {Rice pest constraints in tropical Asia: quantification of yield losses due to rice pests in a range of production situations},
-	Volume = {84},
-	Year = {2000b}}
-
-@article{Savary:2012bi,
-	Author = {Savary, S and Horgan, F and Willocquet, L and Heong, K L},
-	Journal = {\emph{Crop Protection}},
-	Pages = {54--63},
-	Title = {A review of principles for sustainable pest management in rice},
-	Volume = {32},
-	Year = {2012}}
-
-@article{Mew:2004kh,
-	Author = {Mew, Twng Wah and Leung, Hei and Savary, Serge and Vera Cruz, Casiana M and Leach, Jan E},
-	Journal = {\emph{Critical Reviews in Plant Sciences}},
-	Number = {2},
-	Pages = {103--127},
-	Title = {Looking Ahead in Rice Disease Research and Management},
-	Volume = {23},
-	Year = {2004}}
+  title = {\emph{networkDynamic: Dynamic Extensions for Network Objects}},
+    author = {Carter T. Butts and Ayn Leslie-Cook and Pavel N. Krivitsky and Skye Bender-deMoll},
+    year = {2014},
+    note = {R package version 0.7.1},
+    url = {http://CRAN.R-project.org/package=networkDynamic}
+}
+
+@Book{Castells,
+  Title                    = {\emph{The rise of network society}},
+  Author                   = {Castells, M},
+  Publisher                = {Oxford: Blackwell Publishers},
+  Year                     = {2001}
+}
+
+@Article{Csardi:2010wx,
+  Title                    = {Csardi: igraph: Network analysis and visualization},
+  Author                   = {Csardi, G and Nepusz, T},
+  Journal                  = {\emph{R package version 05}},
+  Year                     = {2010}
+}
+
+@Article{dehnen2010structural,
+  Title                    = {Structural change in the international horticultural industry: some implications for plant health},
+  Author                   = {Dehnen-Schmutz, Katharina and Holdenrieder, Ottmar and Jeger, Mike J and Pautasso, Marco},
+  Journal                  = {\emph{Scientia Horticulturae}},
+  Year                     = {2010},
+  Number                   = {1},
+  Pages                    = {1--15},
+  Volume                   = {125},
+
+  Publisher                = {Elsevier}
+}
+
+@Article{Deng:2012do,
+  Title                    = {Molecular ecological network analyses},
+  Author                   = {Deng, Ye and Jiang, Yi-Huei and Yang, Yunfeng and He, Zhili and Luo, Feng and Zhou, Jizhong},
+  Journal                  = {\emph{BMC Bioinformatics}},
+  Year                     = {2012},
+  Pages                    = {113},
+  Volume                   = {13}
+}
+
+@Article{Dong:2007te,
+  Title                    = {Understanding Network Concepts in Modules},
+  Author                   = {Dong, J and Horvath, S},
+  Journal                  = {\emph{BMC systems biology}},
+  Year                     = {2007}
+}
+
+@Article{Dong:2010et,
+  Title                    = {A characterization of rice pests and quantification of yield losses in the japonica rice zone of Yunnan, China},
+  Author                   = {Dong, K and Chen, B and Li, Z and Dong, Y and Wang, H},
+  Journal                  = {\emph{Crop Protection}},
+  Year                     = {2010}
+}
+
+@Article{DuranPinedo:2011jf,
+  Title                    = {Correlation Network Analysis Applied to Complex Biofilm Communities},
+  Author                   = {Duran-Pinedo and Ana E and Paster and Bruce and Teles, Ricardo and Frias-Lopez, Jorge},
+  Journal                  = {\emph{PLoS ONE}},
+  Year                     = {2011},
+  Number                   = {12},
+  Pages                    = {e28438},
+  Volume                   = {6}
+}
+
+@Article{qgraph,
+  Title                    = {{qgraph}: Network Visualizations of Relationships in Psychometric Data},
+  Author                   = {Sacha Epskamp and Ang\'elique O. J. Cramer and Lourens J. Waldorp and Verena D. Schmittmann and Denny Borsboom},
+  Journal                  = {\emph{Journal of Statistical Software}},
+  Year                     = {2012},
+  Number                   = {4},
+  Pages                    = {1--18},
+  Volume                   = {48},
+
+  Bdsk-url-1               = {http://www.jstatsoft.org/v48/i04/},
+  Date-modified            = {2015-06-03 01:16:59 +0000}
+}
+
+@Article{Esker:2012hq,
+  Title                    = {Crop loss analysis and global food supply: focusing now on required harvests},
+  Author                   = {Esker, P},
+  Journal                  = {\emph{CAB Reviews: Perspectives in Agriculture, Veterinary Science, Nutrition and Natural Resources}},
+  Year                     = {2012},
+  Number                   = {052},
+  Volume                   = {7}
+}
+
+@misc{oecd2012oecd,
+  title={{OECD-FAO} Agricultural Outlook 2012--2021},
+  author={{OECD/FAO}},
+  year={2012},
+  publisher={OECD Publishing and FAO Paris}
+}
+
+@Article{Faust:2012kq,
+  Title                    = {Microbial interactions: from networks to models},
+  Author                   = {Faust, Karoline and Raes, Jeroen},
+  Journal                  = {\emph{Nature Reviews Microbiology}},
+  Year                     = {2012},
+  Number                   = {8},
+  Pages                    = {538--550},
+  Volume                   = {10}
+}
+
+@Article{Faust:2012dk,
+  Title                    = {Microbial Co-occurrence Relationships in the Human Microbiome},
+  Author                   = {Faust, Karoline and Sathirapongsasuti, J Fah and Izard, Jacques and Segata, Nicola and Gevers, Dirk and Raes, Jeroen and Huttenhower, Curtis},
+  Journal                  = {\emph{PLoS Computational Biology}},
+  Year                     = {2012},
+  Number                   = {7},
+  Volume                   = {8}
+}
+
+@Article{Foley:2011kp,
+  Title                    = {Solutions for a Cultivated Planet},
+  Author                   = {Foley, Jonathan A and Ramankutty, Navin and Brauman, Kate A and Cassidy, Emily S and Gerber, James S and Johnston, Matt and Mueller, Nathaniel D and O 'Connell, Christine and Ray, Deepak K and West, Paul C and Balzer, Christian and Bennett, Elena M and Carpenter, Stephen R and Hill, Jason and Monfreda, Chad and Polasky, Stephen and Rockstr{\"o}m, Johan and Sheehan, John and Siebert, Stefan and Tilman, David and Zaks, David P M},
+  Journal                  = {\emph{Nature}},
+  Year                     = {2011},
+  Pages                    = {337--342},
+  Volume                   = {478}
+}
+
+@Article{freilich2010large,
+  Title                    = {The large-scale Organization of the Bacterial Network of Ecological Co-occurrence Interactions},
+  Author                   = {Freilich, Shiri and Kreimer, Anat and Meilijson, Isacc and Gophna, Uri and Sharan, Roded and Ruppin, Eytan},
+  Journal                  = {\emph{Nucleic acids research}},
+  Year                     = {2010},
+  Number                   = {12},
+  Pages                    = {3857--3868},
+  Volume                   = {38},
+
+  Publisher                = {Oxford Univ Press}
+}
+
+@Article{Fussler:2008fc,
+  Title                    = {A Characterization of Grapevine Trunk Diseases in France from Data Generated by the National Grapevine Wood Diseases Survey},
+  Author                   = {Fussler, L and Kobes, N and Bertrand, F and Maumy, M and Grosman, J and Savary, S},
+  Journal                  = {\emph{Phytopathology}},
+  Year                     = {2008},
+  Number                   = {5},
+  Pages                    = {571--579},
+  Volume                   = {98}
+}
+
+@Manual{dnapackage,
+  Title                    = {\emph{dna: Differential Network Analysis}},
+  Author                   = {Ryan Gill and Somnath Datta and Susmita Datta},
+  Note                     = {R package version 1.1-1},
+  Year                     = {2014}
+}
+
+@Book{GRiSP2013,
+  Title                    = {Rice Almanac},
+  Author                   = {{GRiSP (Global Rice Science Partnership)}},
+  Publisher                = {Los Ba{\~n}os(Philippines): International Rice Research Institute},
+  Year                     = {2013},
+  Edition                  = {4th},
+
+  Page                     = {283}
+}
+
+@Article{guimera2005functional,
+  Title                    = {Functional cartography of complex metabolic networks},
+  Author                   = {Guimera, Roger and Amaral, Luis A Nunes},
+  Journal                  = {\emph{Nature}},
+  Year                     = {2005},
+  Number                   = {7028},
+  Pages                    = {895--900},
+  Volume                   = {433},
+
+  Publisher                = {Nature Publishing Group}
+}
+
+@Manual{statnetpackage,
+  Title                    = {\emph{statnet: Software tools for the Statistical Analysis of Network Data}},
+  Author                   = {Mark S. Handcock and David R. Hunter and Carter T. Butts and Steven M. Goodreau and Pavel N. Krivitsky and Skye Bender-deMoll and Martina Morris},
+  Note                     = {R package version 2014.2.0},
+  Year                     = {2014}
+}
+
+
+@Article{harwood2009epidemiological,
+  Title                    = {Epidemiological risk assessment using linked network and grid based modelling: {\textit{Phytophthora ramorum}} and \textit{Phytophthora kernoviae} in the UK},
+  Author                   = {Harwood, Thomas D and Xu, Xiangming and Pautasso, Marco and Jeger, Mike J and Shaw, Michael W},
+  Journal                  = {\emph{Ecological Modelling}},
+  Year                     = {2009},
+  Number                   = {23},
+  Pages                    = {3353--3361},
+  Volume                   = {220},
+
+  Publisher                = {Elsevier}
+}
+
+@Book{horvath2011weighted,
+  Title                    = {\emph{Weighted Network Analysis: Applications in Genomics and Systems Biology}},
+  Author                   = {Horvath, Steve},
+  Publisher                = {Springer Science \& Business Media},
+  Year                     = {2011}
+}
+
+@Article{Idekerdiffnet,
+  Title                    = {Differential network biology},
+  Author                   = {Ideker, Trey and Krogan, Nevan J},
+  Journal                  = {\emph{Molecular Systems Biology}},
+  Year                     = {2012},
+  Number                   = {1},
+  Volume                   = {8},
+  Publisher                = {John Wiley \& Sons, Ltd}
+}
+
+@Article{Sumberg:2012,
+  Title                    = {Mind the (yield) gap(s)},
+  Author                   = {Sumberg J},
+  Journal                  = {\emph{Food Security}},
+  Year                     = {2012},
+  Number                   = {4},
+  Volume                   = {4}
+}
+
+@Article{Jeger:2007tn,
+  Title                    = {Modelling disease spread and control in networks: implications for plant sciences},
+  Author                   = {Jeger, M J and Pautasso, M and Holdenrieder, O},
+  Journal                  = {\emph{New Pathologist}},
+  Year                     = {2007}
+}
+
+@Book{junker2008analysis,
+  Title                    = {\emph{Analysis of biological networks}},
+  Author                   = {Junker, Bj{\"o}rn H and Schreiber, Falk},
+  Publisher                = {John Wiley \& Sons},
+  Year                     = {2008},
+  Volume                   = {2}
+}
+
+@Article{Kasari2011social,
+  Title                    = {Social networks and friendships at school: Comparing children with and without ASD},
+  Author                   = {Kasari, Connie and Locke, Jill and Gulsrud, Amanda and Rotheram-Fuller, Erin},
+  Journal                  = {\emph{Journal of autism and developmental disorders}},
+  Year                     = {2011},
+  Number                   = {5},
+  Pages                    = {533--544},
+  Volume                   = {41},
+
+  Publisher                = {Springer}
+}
+
+@Manual{fdrtool,
+  Title                    = {\emph{fdrtool: Estimation of (Local) False Discovery Rates and Higher Criticism}},
+  Author                   = {Bernd Klaus and Korbinian Strimmer.},
+  Note                     = {R package version 1.2.14},
+  Year                     = {2015}
+}
+
+@Book{kolaczyk2014statistical,
+  Title                    = {\emph{Statistical analysis of network data with R}},
+  Author                   = {Kolaczyk, Eric D and Cs{\'a}rdi, G{\'a}bor},
+  Publisher                = {Springer},
+  Year                     = {2014},
+  Volume                   = {65}
+}
+
+@Article{krause2003compartments,
+  Title                    = {Compartments revealed in food-web structure},
+  Author                   = {Krause, Ann E and Frank, Kenneth A and Mason, Doran M and Ulanowicz, Robert E and Taylor, William W},
+  Journal                  = {\emph{Nature}},
+  Year                     = {2003},
+  Number                   = {6964},
+  Pages                    = {282--285},
+  Volume                   = {426},
+
+  Publisher                = {Nature Publishing Group}
+}
+
+@Article{evaluationKumari,
+  Title                    = {Evaluation of Gene Association Methods for Coexpression Network Construction and Biological Knowledge Discovery},
+  Author                   = {Kumari, Sapna and Nie, Jeff and Chen, Huann-Sheng AND Ma, Hao and Stewart and Ron, Li and Xiang and Lu, Meng-Zhu and Taylor, William M. and Wei, Hairong},
+  Journal                  = {\emph{PLoS ONE}},
+  Year                     = {2012},
+
+  Month                    = {11},
+  Number                   = {11},
+  Volume                   = {7},
+
+  Publisher                = {Public Library of Science}
+}
+
+@Article{Langfelder:2008bd,
+  Title                    = {\emph{WGCNA: an R package for weighted correlation network analysis.}},
+  Author                   = {Langfelder, Peter and Horvath, Steve},
+  Journal                  = {\emph{BMC Bioinformatics}},
+  Year                     = {2008},
+  Pages                    = {559},
+  Volume                   = {9}
+}
+
+@Article{Lazega,
+  title={Multiplexity, generalized exchange and cooperation in organizations: a case study},
+  author={Lazega, Emmanuel and Pattison, Philippa E},
+  journal={\emph{Social networks}},
+  volume={21},
+  number={1},
+  pages={67--90},
+  year={1999},
+  publisher={Elsevier}
+}
+
+@Article{lisec2011corn,
+  Title                    = {Corn Hybrids Display Lower Metabolite Variability and Complex Metabolite Inheritance Patterns},
+  Author                   = {Lisec, Jan and R{\"o}misch-Margl, Lilla and Nikoloski, Zoran and Piepho, Hans-Peter and Giavalisco, Patrick and Selbig, Joachim and Gierl, Alfons and Willmitzer, Lothar},
+  Journal                  = {\emph{The Plant Journal}},
+  Year                     = {2011},
+  Number                   = {2},
+  Pages                    = {326--336},
+  Volume                   = {68},
+
+  Publisher                = {Wiley Online Library}
+}
+
+@Article{Lu:2013hga,
+  Title                    = {Fungal networks in yield-invigorating and -debilitating soils induced by prolonged potato monoculture},
+  Author                   = {Lu, Lihua and Yin, Shixue and Liu, Xing and Zhang, Wenming and Gu, Tianyu and Shen, Qirong and Qiu, Huizhen},
+  Journal                  = {\emph{Soil Biology and Biochemistry}},
+  Year                     = {2013},
+  Pages                    = {186--194},
+  Volume                   = {65}
+}
+
+@Book{madden2007study,
+  Title                    = {\emph{The Study of Plant Disease Epidemics}},
+  Author                   = {Madden, Laurence V and Hughes, Gareth and Van den Bosch, Frank},
+  Publisher                = {American Phytopathological Society, St Paul, MN},
+  Year                     = {2007}
+}
+
+@Article{Margosian:2009ea,
+  Title                    = {Connectivity of the American Agricultural Landscape: Assessing the National Risk of Crop Pest and Disease Spread},
+  Author                   = {Margosian, Margaret L and Garrett, Karen A and Hutchinson, J M Shawn and With, Kimberly A},
+  Journal                  = {\emph{BioScience}},
+  Year                     = {2009},
+  Number                   = {2},
+  Pages                    = {141--151},
+  Volume                   = {59}
+}
+
+@Article{May:2006do,
+  Title                    = {Network structure and the biology of populations.},
+  Author                   = {May, Robert M},
+  Journal                  = {\emph{Trends in Ecology {\&} Evolution}},
+  Year                     = {2006},
+  Number                   = {7},
+  Pages                    = {394--399},
+  Volume                   = {21}
+}
+
+@Article{Mew:2004kh,
+  title={Looking ahead in rice disease research and management},
+  author={Mew, Twng Wah and Leung, Hei and Savary, Serge and Vera Cruz, Casiana M and Leach, Jan E},
+  journal={\emph{Critical reviews in plant sciences}},
+  volume={23},
+  number={2},
+  pages={103--127},
+  year={2004},
+  publisher={Taylor \& Francis}
+}
+
+% You'd best check this title again...
+
+@Article{moody2001race,
+  Title                    = {Race, school integration, and friendship segregation in america1},
+  Author                   = {Moody, James},
+  Journal                  = {\emph{American Journal of Sociology}},
+  Year                     = {2001},
+  Number                   = {3},
+  Pages                    = {679--716},
+  Volume                   = {107},
+  Publisher                = {JSTOR}
+}
+
+@Article{Lefebvre:2011fo,
+  Title                    = {Networks in plant epidemiology: from genes to landscapes, countries, and continents},
+  Author                   = {Moslonka-Lefebvre, Mathieu and Finley, Ann and Dorigatti, Ilaria and Dehnen-Schmutz, Katharina and Harwood, Tom and Jeger, Michael J and Xu, Xiangming and Holdenrieder, Ottmar and Pautasso, Marco},
+  Journal                  = {\emph{Phytopathology}},
+  Year                     = {2011},
+  Number                   = {4},
+  Pages                    = {392--403},
+  Volume                   = {101}
+}
+
+@Article{Moslonka2008,
+  Title                    = {Disease spread in small-size directed networks:epidemic threshold, correlation between links to and form nodes, and clustering},
+  Author                   = {Moslonka-Lefebvre, M and Mathieu Pautasso, M and Jeger, M. J.},
+  Journal                  = {\emph{Journal of Theoretical Biology}},
+  Year                     = {2009},
+  Pages                    = {402--411},
+  Volume                   = {206}
+}
+
+@Article{mukhtar2011independently,
+  Title                    = {Independently Evolved Virulence Effectors Converge Onto Hubs in a Plant Immune System Network},
+  Author                   = {M. S. Mukhtar and A.-R. Carvunis and M. Dreze and P. Epple and J. Steinbrenner and J. Moore and M. Tasan and M. Galli and T. Hao and M. T. Nishimura and S. J. Pevzner and S. E. Donovan and L. Ghamsari and B. Santhanam and V. Romero and M. M. Poulin and F. Gebreab and B. J. Gutierrez and S. Tam and D. Monachello and M. Boxem and C. J. Harbort and N. McDonald and L. Gai and H. Chen and Y. He and J. Vandenhaute and F. P. Roth and D. E. Hill and J. R. Ecker and M. Vidal and J. Beynon and P. Braun and J. L. Dangl},
+  Journal                  = {\emph{Science}},
+  Year                     = {2011},
+  Number                   = {6042},
+  Pages                    = {596--601},
+  Volume                   = {333},
+  Publisher                = {American Association for the Advancement of Science ({AAAS})}
+}
+
+@Article{mutert2002developments,
+  Title                    = {Developments in rice production in Southeast Asia},
+  Author                   = {Mutert, Ernst and Fairhurst, TH},
+  Journal                  = {\emph{Better Crops International}},
+  Year                     = {2002},
+  Pages                    = {12--17},
+  Volume                   = {15}
+}
+
+@Article{newman2006modularity,
+  Title                    = {Modularity and community structure in networks},
+  Author                   = {Newman, Mark E J},
+  Journal                  = {\emph{Proceedings of the National Academy of Sciences}},
+  Year                     = {2006},
+  Number                   = {23},
+  Pages                    = {8577--8582},
+  Volume                   = {103},
+
+  Publisher                = {National Acad Sciences}
+}
+
+@Article{newman2003structure,
+  Title                    = {The structure and function of complex networks},
+  Author                   = {Newman, Mark E J},
+  Journal                  = {\emph{SIAM review}},
+  Year                     = {2003},
+  Number                   = {2},
+  Pages                    = {167--256},
+  Volume                   = {45},
+
+  Publisher                = {SIAM}
+}
+
+@Article{OERKE:2006ct,
+  Title                    = {Crop losses to pests},
+  Author                   = {Oerke, E. C.},
+  Journal                  = {\emph{The Journal of Agricultural Science}},
+  Year                     = {2006},
+  Number                   = {1},
+  Pages                    = {31--43},
+  Volume                   = {144}
+}
+
+@Article{osorio2012integrative,
+  Title                    = {Integrative comparative analyses of transcript and metabolite profiles from pepper and tomato ripening and development stages uncovers species-specific patterns of network regulatory behavior},
+  Author                   = {Osorio, Sonia and Alba, Rob and Nikoloski, Zoran and Kochevenko, Andrej and Fernie, Alisdair R and Giovannoni, James J},
+  Journal                  = {\emph{Plant Physiology}},
+  Year                     = {2012},
+  Number                   = {4},
+  Pages                    = {1713--1729},
+  Volume                   = {159},
+
+  Publisher                = {Am Soc Plant Biol}
+}
+
+@Book{u1985rice,
+  Title                    = {Rice Diseases},
+  Author                   = {Ou, Shu Huang},
+  Publisher                = {Int. Rice Res. Inst.},
+  Year                     = {1985}
+}
+
+@Article{pastor2001epidemic,
+  Title                    = {Epidemic spreading in scale-free networks},
+  Author                   = {Pastor-Satorras, Romualdo and Vespignani, Alessandro},
+  Journal                  = {\emph{Physical review letters}},
+  Year                     = {2001},
+  Number                   = {14},
+  Pages                    = {3200},
+  Volume                   = {86},
+
+  Publisher                = {APS}
+}
+
+@Article{Moslonka2010,
+  Title                    = {The number of links to and from the starting node as a predictor of epidemic size in small-size directed networks},
+  Author                   = {Pautass, Mathieu and Moslonka-Lefebvre, M and Jeger, M. J.},
+  Journal                  = {\emph{Ecological Complexity}},
+  Year                     = {2010},
+  Pages                    = {424--432},
+  Volume                   = {7}
+}
+
+@Article{Pautasso:2014bi,
+  Title                    = {Network epidemiology and plant trade networks},
+  Author                   = {Pautasso, Marco and Jeger, Mike J},
+  Journal                  = {\emph{AoB plants}},
+  Year                     = {2014},
+  Number                   = {0},
+  Volume                   = {6}
+}
+
+@Article{pautasso2008,
+  Title                    = {Epidemic threshold and network structure: the interplay of probability of transmission and of persistence in small directed network},
+  Author                   = {Pautasso, M and Jeger, M. J.},
+  Journal                  = {\emph{Ecological Complexity}},
+  Year                     = {2008},
+  Number                   = {1},
+  Pages                    = {1--8},
+  Volume                   = {5}
+}
+
+@Article{Peer:2011jd,
+  Title                    = {{Principles and strategies for developing network models in cancer}},
+  Author                   = {Pe'er, Dana and Hacohen, Nir},
+  Journal                  = {\emph{Cell}},
+  Year                     = {2011},
+  Number                   = {6},
+  Pages                    = {864--873},
+  Volume                   = {144}
+}
+
+@Article{PROULX:2005hx,
+  Title                    = {Network thinking in ecology and evolution},
+  Author                   = {Proulx, S and Promislow, D and Phillips, P},
+  Journal                  = {\emph{Trends in Ecology {\&} Evolution}},
+  Year                     = {2005},
+  Number                   = {6},
+  Pages                    = {345--353},
+  Volume                   = {20}
+}
+
+@Article{qin2010human,
+  Title                    = {A Human Gut Microbial Gene Catalogue Established by Metagenomic Sequencing},
+  Author                   = {Qin, Junjie and Li, Ruiqiang and Raes, Jeroen and Arumugam, Manimozhiyan and Burgdorf, Kristoffer Solvsten and Manichanh, Chaysavanh and Nielsen, Trine and Pons, Nicolas and Levenez, Florence and Yamada, Takuji},
+  Journal                  = {\emph{Nature}},
+  Year                     = {2010},
+  Number                   = {7285},
+  Pages                    = {59--65},
+  Volume                   = {464},
+
+  Publisher                = {Nature Publishing Group}
+}
+
+@Manual{R:2014a,
+  Title                    = {\emph{R: A Language and Environment for Statistical Computing}},
+
+  Address                  = {Vienna, Austria},
+  Author                   = {{R Core Team}},
+  Organization             = {R Foundation for Statistical Computing},
+  Year                     = {2014},
+
+  Bdsk-url-1               = {http://www.R-project.org/},
+  Date-modified            = {2015-06-03 01:17:00 +0000}
+}
+
+@Article{Ray:2013by,
+  Title                    = {Yield Trends Are Insufficient to Double Global Crop Production by 2050},
+  Author                   = {Ray, Deepak K and Mueller, Nathaniel D and West, Paul C and Foley, Jonathan A},
+  Journal                  = {\emph{PLoS ONE}},
+  Year                     = {2013},
+  Number                   = {6},
+  Volume                   = {8}
+}
+
+@Article{Reddy:2011hl,
+  Title                    = {Characterizing multiple linkages between individual diseases, crop health syndromes, germplasm deployment, and rice production situations in India},
+  Author                   = {Reddy, C S and Laha, G S and Prasad, M S and Krishnaveni, D},
+  Journal                  = {\emph{Field Crops}},
+  Year                     = {2011}
+}
+
+@Article{rose2007new,
+  Title                    = {The new biology: beyond the Modern Synthesis},
+  Author                   = {Rose, Michael R and Oakley, Todd H},
+  Journal                  = {\emph{Biology direct}},
+  Year                     = {2007},
+  Number                   = {1},
+  Pages                    = {30},
+  Volume                   = {2},
+
+  Publisher                = {BioMed Central Ltd}
+}
+
+@Article{Savarysurvey2009,
+  Title                    = {A survey portfolio to characterize yield-reducing factors in rice},
+  Author                   = {Savary, S and Castilla, N.P},
+  Journal                  = {\emph{IRRI Discussion Paper No 18}},
+  Year                     = {2009},
+
+  Page                     = {\emph{32}}
+}
+
+@Article{Savary:2012bi,
+  Title                    = {A review of principles for sustainable pest management in rice},
+  Author                   = {Savary, S and Horgan, F and Willocquet, L and Heong, K L},
+  Journal                  = {\emph{Crop Protection}},
+  Year                     = {2012},
+  Pages                    = {54--63},
+  Volume                   = {32}
+}
+
+@Article{savary1995use,
+  Title                    = {Use of categorical information and correspondence analysis in plant disease epidemiology},
+  Author                   = {Savary, Serge and Madden, LV and Zadoks, JC and Klein-Gebbinck, HW},
+  Journal                  = {\emph{Advances in botanical research}},
+  Year                     = {1995},
+  Pages                    = {213--240},
+  Volume                   = {21},
+
+  Publisher                = {Elsevier}
+}
+
+@Article{savary2006quantification,
+  Title                    = {Quantification and modeling of crop losses: a review of purposes},
+  Author                   = {Savary, Serge and Teng, Paul S and Willocquet, Laetitia and Nutter Jr, Forrest W},
+  Journal                  = {\emph{Annu. Rev. Phytopathol.}},
+  Year                     = {2006},
+  Pages                    = {89--112},
+  Volume                   = {44},
+
+  Publisher                = {Annual Reviews}
+}
+
+@Article{Savary:2006to,
+  Title                    = {Quantification and Modeling of Crop Losses: A Review of Purposes},
+  Author                   = {Savary, Serge and Teng, Paul S and Willocquet, Laetitia and Nutter, Forrest W},
+  Journal                  = {\emph{Annual Review of Phytopathology}},
+  Year                     = {2006},
+  Number                   = {1},
+  Pages                    = {89--112},
+  Volume                   = {44}
+}
+
+% Why two of the same article??
+@Article{Savary:2000ws,
+  Title                    = {Rice pest constraints in tropical Asia: quantification of yield losses due to rice pests in a range of production situations},
+  Author                   = {Savary, Serge and Willocquet, Laetitia and Elazegui, Francisco A and Castilla, Nancy P and Teng, Paul S},
+  Journal                  = {\emph{Plant Disease}},
+  Year                     = {2000b},
+  Number                   = {3},
+  Pages                    = {357--369},
+  Volume                   = {84}
+}
+
+@Article{Savary:2000vr,
+  Title                    = {Rice pest constraints in tropical {Asia}: characterization of injury profiles in relation to production situations},
+  Author                   = {Savary, Serge and Willocquet, Laetitia and Elazegui, Francisco A and Teng, Paul S and Van Du, Pham and Zhu, Defeng and Tang, Qiyi and Huang, Shiwen and Lin, Xianquing and Singh, H M},
+  Journal                  = {\emph{Plant disease}},
+  Year                     = {2000a},
+  Number                   = {3},
+  Pages                    = {341--356},
+  Volume                   = {84}
+}
+
+@Book{schumann2006essential,
+  Title                    = {Essential plant pathology.},
+  Author                   = {Schumann, Gail Lynn and D'Arcy, Cleora J},
+  Publisher                = {American Phytopathological Society (APS Press)},
+  Year                     = {2006}
+}
+
+@Book{scott2012social,
+  Title                    = {Social network analysis},
+  Author                   = {Scott, John},
+  Publisher                = {Sage},
+  Year                     = {2012}
+}
+
+@Article{Shaw:2014cka,
+  Title                    = {Networks and Plant Disease Management: Concepts and Applications},
+  Author                   = {Shaw, M W and Pautasso, M},
+  Journal                  = {\emph{Annual Review of Phytopathology}},
+  Year                     = {2014},
+  Number                   = {1},
+  Pages                    = {477--493},
+  Volume                   = {52}
+}
 
 @article{Strogatz:2001wc,
-	Author = {Strogatz, S H},
-	Journal = {\emph{Nature}},
-	Title = {Exploring complex networks},
-	Year = {2001}}
+  title={Exploring complex networks},
+  author={Strogatz, Steven H},
+  journal={\emph{Nature}},
+  volume={{410}},
+  number={6825},
+  pages={268--276},
+  year={2001},
+  publisher={Nature Publishing Group}
+}
 
-@article{Almaas:2007tl,
-	Author = {Almaas, E},
-	Journal = {\emph{Journal of Experimental Biology}},
-	Title = {Biological impacts and context of network theory},
-	Year = {2007}}
+@Article{Subramanian2005,
+  Title                    = {Gene set enrichment analysis: A knowledge-based approach for interpreting genome-wide expression profiles},
+  Author                   = {A. Subramanian and P. Tamayo and V. K. Mootha and S. Mukherjee and B. L. Ebert and M. A. Gillette and A. Paulovich and S. L. Pomeroy and T. R. Golub and E. S. Lander and J. P. Mesirov},
+  Journal                  = {\emph{Proceedings of the National Academy of Sciences}},
+  Year                     = {2005},
+  Number                   = {43},
+  Pages                    = {15545--15550},
+  Volume                   = {102},
 
-@article{PROULX:2005hx,
-	Author = {Proulx, S and Promislow, D and Phillips, P},
-	Journal = {\emph{Trends in Ecology {\&} Evolution}},
-	Number = {6},
-	Pages = {345--353},
-	Title = {Network thinking in ecology and evolution},
-	Volume = {20},
-	Year = {2005}}
+  Bdsk-url-1               = {http://dx.doi.org/10.1073/pnas.0506580102},
+  Date-modified            = {2015-06-03 01:17:00 +0000},
+  Publisher                = {Proceedings of the National Academy of Sciences}
+}
 
-@article{BOCCALETTI:2006gb,
-	Author = {Boccaletti, S and Latora, V and Moreno, Y and Chavez, M and Hwang, D},
-	Journal = {\emph{Physics Reports}},
-	Number = {4-5},
-	Pages = {175--308},
-	Title = {Complex networks: Structure and dynamics},
-	Volume = {424},
-	Year = {2006}}
+@Article{Toubiana:2013cv,
+  Title                    = {Network analysis: tackling complex data to study plant metabolism.},
+  Author                   = {Toubiana, David and Fernie, Alisdair R and Nikoloski, Zoran and Fait, Aaron},
+  Journal                  = {\emph{Trends in biotechnology}},
+  Year                     = {2013},
+  Number                   = {1},
+  Pages                    = {29--36},
+  Volume                   = {31}
+}
 
-@article{newman2006modularity,
-	Author = {Newman, Mark E J},
-	Journal = {\emph{Proceedings of the National Academy of Sciences}},
-	Number = {23},
-	Pages = {8577--8582},
-	Publisher = {National Acad Sciences},
-	Title = {Modularity and community structure in networks},
-	Volume = {103},
-	Year = {2006}}
+@Article{usadel2009co,
+  Title                    = {Co-expression tools for plant biology: opportunities for hypothesis generation and caveats},
+  Author                   = {Usadel, Bjoern and Obayashi, Takeshi and Mutwil, Marek and Giorgi, Federico M and Bassel, George W and Tanimoto, Mimi and Chow, Amanda and Steinhauser, Dirk and Persson, Staffan and Provart, Nicholas J},
+  Journal                  = {\emph{Plant, cell \& environment}},
+  Year                     = {2009},
+  Number                   = {12},
+  Pages                    = {1633--1651},
+  Volume                   = {32},
 
-@article{Foley:2011kp,
-	Author = {Foley, Jonathan A and Ramankutty, Navin and Brauman, Kate A and Cassidy, Emily S and Gerber, James S and Johnston, Matt and Mueller, Nathaniel D and O 'Connell, Christine and Ray, Deepak K and West, Paul C and Balzer, Christian and Bennett, Elena M and Carpenter, Stephen R and Hill, Jason and Monfreda, Chad and Polasky, Stephen and Rockstr{\"o}m, Johan and Sheehan, John and Siebert, Stefan and Tilman, David and Zaks, David P M},
-	Journal = {\emph{Nature}},
-	Pages = {337--342},
-	Title = {Solutions for a Cultivated Planet},
-	Volume = {478},
-	Year = {2011}}
+  Publisher                = {Wiley Online Library}
+}
 
-@book{oecd2012oecd,
-	Author = {FAO, OECD},
-	Publisher = {OECD Publishing and FAO Paris},
-	Title = {{OECD-FAO Agricultural Outlook 2012--2021}},
-	Year = {2012}}
+@Book{van1963plant,
+  Title                    = {Plant diseases: epidemics and control},
+  Author                   = {Van der Plank, James Edward},
+  Publisher                = {New York and London, Academic Press},
+  Year                     = {1963}
+}
 
-@book{GRiSP2013,
-	Author = {{GRiSP (Global Rice Science Partnership)}},
-	Edition = {4th},
-	Page = {283},
-	Publisher = {Los Ba{\~n}os(Philippines): International Rice Research Institute},
-	Title = {Rice Almanac},
-	Year = {2013}}
+@Article{windram2014network,
+  Title                    = {Network Modeling to Understand Plant Immunity},
+  Author                   = {Windram, Oliver and Penfold, Christopher A and Denby, Katherine J},
+  Journal                  = {\emph{Annual Review of Phytopathology}},
+  Year                     = {2014}
+}
+
+@Article{wu2007gene,
+  Title                    = {Gene-for-gene relationships between rice and diverse avrBs3/pthA avirulence genes in \textit{Xanthomonas oryzae} pv.\textit{oryzae}},
+  Author                   = {Wu, XM and Li, YR and Zou, LF and Chen, GY},
+  Journal                  = {\emph{Plant Pathology}},
+  Year                     = {2007},
+  Number                   = {1},
+  Pages                    = {26--34},
+  Volume                   = {56},
+
+  Publisher                = {Wiley Online Library}
+}
+
+@Article{xu2009spatio,
+  Title                    = {Spatio-temporal analysis of an invasive plant pathogen (\textit{Phytophthora ramorum}) in England and Wales},
+  Author                   = {Xu, Xiangming and Harwood, Thomas D and Pautasso, Marco and Jeger, Mike J},
+  Journal                  = {\emph{Ecography}},
+  Year                     = {2009},
+  Number                   = {3},
+  Pages                    = {504--516},
+  Volume                   = {32},
+
+  Publisher                = {Wiley Online Library}
+}
+
+@Article{yang2014gene,
+  Title                    = {Gene co-expression network analysis reveals common system-level properties of prognostic genes across cancer types},
+  Author                   = {Yang, Yang and Han, Leng and Yuan, Yuan and Li, Jun and Hei, Nainan and Liang, Han},
+  Journal                  = {\emph{Nature communications}},
+  Year                     = {2014},
+  Volume                   = {5},
+
+  Publisher                = {Nature Publishing Group}
+}
+
+@Article{Zadok:1985,
+  Title                    = {Crop loss assessment},
+  Author                   = {Zadoks, J C},
+  Journal                  = {\emph{Annual review}},
+  Year                     = {1985}
+}
+
+@Book{Zadoks:1979ts,
+  Title                    = {Epidemiology and Plant Disease Management},
+  Author                   = {Zadoks, Jan C and Schein, Richard D},
+  Publisher                = {Oxford University Press, USA},
+  Year                     = {1979}
+}
+
+@Article{zhang2005general,
+  Title                    = {A general framework for weighted gene co-expression network analysis},
+  Author                   = {Zhang, Bin and Horvath, Steve},
+  Journal                  = {\emph{Statistical applications in genetics and molecular biology}},
+  Year                     = {2005},
+  Number                   = {1},
+  Volume                   = {4}
+}
+
+@Article{Zheng2013,
+  Title                    = {Transcriptome comparison and gene coexpression network analysis provide a systems view of citrus response to ``\textit{Candidatus} Liberibacter asiaticus'' infection},
+  Author                   = {Zheng, Z L and Zhao, Y},
+  Journal                  = {\emph{BMC Genomics}},
+  Year                     = {2013},
+  Pages                    = {27},
+  Volume                   = {14}
+}
