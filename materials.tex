@@ -48,8 +48,6 @@ The \textsf{R} packages: \textbf{igraph} \citep{Csardi:2010wx}; \textbf{qgraph} 
 % Last sentence, WHAT biological properties interest you?
 Once a network is constructed, several indices will be computed to convey information about network structure. To evaluate the topological properties of both the interaction and the correlation based network, I will use the packages \textbf{igraph} and \textbf{qgraph} in \textsf{R} \citep{qgraph}. I am particularly interested in properties potentially relevant for biological roles and functioning as previously hypothesized in other biological networks \citep{Strogatz:2001wc, horvath2011weighted}. For example, connected hub nodes are focused because they have high connectivity, which mean they have relationships with many nodes. In the following, there are some network indices used to describe the topological properties of single network and for comparing two or more networks (\textit{e.g}. , differential , and dynamic network analysis) 
 
-% This comment is unaddressed? What is this section? You need some sort of introduction to this list of items. Are these the items of interest? If so you need a lead in as I said, you need an introduction to this. It's just abrupt. Suddenly there's a list. It does not flow.
-
 \begin{enumerate}
 \item Mean degree: the degree of a node counts the number of edges it has. The mean degree is calculated over all nodes in the network.
 \item Degree distribution: the frequency of nodes vs. their (increasing) degree.
@@ -83,7 +81,7 @@ Dynamic network analysis will be applied to study changes in networks with at le
 %\includegraphics[resolution = 600]{pipeline}
 \includegraphics[width = 6in]{pipeline}
 % What is FDR correction? A caption should enable a figure to stand on its own.
-\caption[Network method for characterizing interactions between injury profiles and cropping practices using correlation measures]{Crop health survey data that were collected include cropping practices, injuries, and yield data. These data were collected from farmers' fields in four countries: Indonesia, India, Thailand, and Vietnam. Correlation matrices will be produced using four individual methods; Pearson, Spearman, Kendall correlation and Biweight midcorrelation. The $p$~values for all coefficients will be adjusted by FDR correction. The correlation coefficients with $p$~values > 0.05 will be removed. The resulting network will be analyzed for structural properties and to infer biological meanings. This will provide the cropping practices and injury profiles network of crop health data.}
+\caption[Network method for characterizing interactions between injury profiles and cropping practices using correlation measures]{Crop health survey data that were collected include cropping practices, injuries, and yield data. These data were collected from farmers' fields in four countries: Indonesia, India, Thailand, and Vietnam. Correlation matrices will be produced using four individual methods; Pearson, Spearman, Kendall correlation and Biweight midcorrelation. The $p$~values for all coefficients will be adjusted for multiple comparison by false discovery rate (FDR) correction. The correlation coefficients with $p$~values > 0.05 will be removed. The resulting network will be analyzed for structural properties and to infer biological meanings. This will provide the cropping practices and injury profiles network of crop health data.}
 \end{figure}
 %\end{landscape}
 
