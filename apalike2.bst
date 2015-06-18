@@ -444,8 +444,8 @@ FUNCTION {format.in.ed.booktitle}
 { booktitle empty$
     { "" }
     { editor empty$
-        { "In " booktitle emphasize * }
-        { "In " format.editors * ", " * booktitle emphasize * }
+        { "In " booktitle * }
+        { "In " format.editors * ", " * booktitle * }
       if$
     }
   if$
@@ -502,7 +502,7 @@ FUNCTION {article}
   format.title "title" output.check
   new.block
   crossref missing$
-    { journal emphasize "journal" output.check
+    { journal "journal" output.check
       format.vol.num.pages output
     }
     { format.article.crossref output.nonnull
@@ -529,7 +529,7 @@ FUNCTION {book}
   if$
   output.year.check                             % special for apalike
   new.block
-  format.btitle "title" output.check
+  format.btitle emphasize "title" output.check
   crossref missing$
     { format.bvolume output
       new.block
@@ -554,7 +554,7 @@ FUNCTION {booklet}
   author format.key output                              % special for
   output.year.check                                     % apalike
   new.block
-  format.title "title" output.check
+  format.title emphasize "title" output.check
   new.block
   howpublished output
   address output
@@ -661,7 +661,7 @@ FUNCTION {manual}
   author format.key output                              % special for
   output.year.check                                     % apalike
   new.block
-  format.btitle "title" output.check
+  format.btitle emphasize "title" output.check
   organization address new.block.checkb
   organization output
   address output
