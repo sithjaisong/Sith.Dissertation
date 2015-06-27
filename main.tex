@@ -42,7 +42,7 @@
 %\renewcommand{\thefigure}{\Roman{figure}}
 \renewcommand{\chaptername}{}
 \renewcommand{\thechapter}{}
-% ---------------------- End of Document Preamble ------------------------
+
 \usepackage{indentfirst}
 \setlength{\parindent}{4em}
 %\setlength{\bibsep}{0pt plus 0.3ex}
@@ -50,7 +50,8 @@
 \setlength \bibhang{4em}
 %------------------set page number to the right corner
 \usepackage{fancyhdr}
-\fancypagestyle{plain}{% 
+
+\fancypagestyle{myplain}{% 
 \fancyhf{} % clear all header and footer fields
 \fancyhead[R]{\thepage} %RO=right odd, RE=right even
 \renewcommand{\headrulewidth}{0pt}
@@ -59,7 +60,8 @@
 
 % change indent of table of content
 \usepackage[titles]{tocloft}
-\cftsetindents{chapter}{0cm}{.3cm}
+\renewcommand\contentsname{TABLE OF CONTENTS}
+\cftsetindents{chapter}{0.5cm}{.6cm}
 \cftsetindents{section}{0.5cm}{.6cm}
 \cftsetindents{subsection}{1.0cm}{.9cm}
 \cftsetindents{subsubsection}{1.5cm}{1.2cm}
@@ -74,7 +76,7 @@
   {\thesection}{1em}{}
  \titlespacing{\section}{0pt}{0in}{4pt}
   \titlespacing{\section}{0pt}{0in}{3pt}
-%=========== change Reference as the section to chapter
+% ---------------------- End of Document Preamble ------------------------
 
 %======================================================================
 %   L O G I C A L    D O C U M E N T -- the content of your thesis
@@ -90,8 +92,102 @@
 %----------------------------------------------------------------------
 % FRONT MATERIAL
 %----------------------------------------------------------------------
-\include{frontpgs} 
+\include{frontpgs}
 
+% The rest of the front pages should contain no headers and be numbered using Roman numerals starting with `ii'
+\setcounter{page}{2}
+
+\cleardoublepage % Ends the current page and causes all figures and tables that have so far appeared in the input to be printed.
+% In a two-sided printing style, it also makes the next page a right-hand (odd-numbered) page, producing a blank page if necessary.
+ 
+
+% D E C L A R A T I O N   P A G E
+% -------------------------------
+  % The following is the sample Delaration Page as provided by the GSO
+  % December 13th, 2006.  It is designed for an electronic thesis.
+%  \noindent
+%I hereby declare that I am the sole author of this thesis. This is a true copy of the thesis, including any required final revisions, as accepted by my examiners.
+
+%  \bigskip
+  
+%  \noindent
+%I understand that my thesis may be made electronically available to the public.
+
+%\cleardoublepage
+%\newpage
+
+% A B S T R A C T
+% ---------------
+
+%\begin{center}\textbf{Abstract}\end{center}
+
+% You're not characterizing different environments. They're all tropical, irrigated, lowland rice
+%Characterising rice agroecosytems requires knowledge and information of qualitative and quantitative information. One way of gathering data the data necessary for this is through the conduct of surveys. Given the nature of the data, it is not a simple task to analyse and examine in order to derive information and knowledge. One method in particular, network analysis, has been used to explore the observed relationships between the individual elements in a given system. This study is the first known attempt to apply network analysis to the analysis of in-field and household survey data on rice yield limiting and reducing factors. The data will be analyzed and visualized using the proposed network model. I propose to construct a network model using survey data collected from 2009 to 2011 in several sites (Chekempek, West Java, Indonesia; Mekong River Delta, Vietnam; Tamil Nadu, India; and Suphaburi, Thailand) and test the model with data collected from 2012 to 2015 in several cropping seasons and sites (Chekempek, West Java, Indonesia; Red River Delta, Vietnam; Tamil Nadu and Odisha, India; Suphaburi, Thailand). The anticipated results from this research will be helpful for plant health authorities worldwide, in order to design specific strategies for rice pest and disease management and to limit the impacts of these yield reducing factors. 
+
+
+%\cleardoublepage
+%\newpage
+
+% A C K N O W L E D G E M E N T S
+% -------------------------------
+
+%\begin{center}\textbf{Acknowledgements}\end{center}
+
+%I would like to thank all the little people who made this possible.
+%\cleardoublepage
+%\newpage
+
+% D E D I C A T I O N
+% -------------------
+
+%\begin{center}\textbf{Dedication}\end{center}
+
+%\cleardoublepage
+%\newpage
+
+% T A B L E   O F   C O N T E N T S
+% ---------------------------------
+
+\begin{spacing}{1.5}
+\addtocontents{toc}{~\hfill\underline{\textbf{PAGE}}\par}
+\tableofcontents
+\cleardoublepage
+\end{spacing}
+%\phantomsection
+%\newpage
+
+% L I S T   O F   T A B L E S
+% ---------------------------
+%\addcontentsline{toc}{chapter}{List of Tables}
+%\listoftables
+%\cleardoublepage
+%\phantomsection		% allows hyperref to link to the correct page
+%\newpage
+
+% L I S T   O F   F I G U R E S
+% -----------------------------
+\renewcommand*\listfigurename{LISTS OF FIGURES}
+\addcontentsline{toc}{chapter}{\listfigurename}
+\listoffigures
+\cleardoublepage
+%\phantomsection		% allows hyperref to link to the correct page
+\newpage
+
+% L I S T   O F   S Y M B O L S
+% -----------------------------
+% To include a Nomenclature section
+% \addcontentsline{toc}{chapter}{\textbf{Nomenclature}}
+% \renewcommand{\nomname}{Nomenclature}
+% \printglossary
+% \cleardoublepage
+% \phantomsection % allows hyperref to link to the correct page
+% \newpage
+
+% Change page numbering back to Arabic numerals
+\cleardoublepage
+
+\pagestyle{myplain}
+\pagenumbering{arabic}
 %----------------------------------------------------------------------
 % MAIN BODY
 %----------------------------------------------------------------------
@@ -134,8 +230,7 @@
 \bibliographystyle{apalike2}
 \cleardoublepage
 \begin{singlespace}
-
 \renewcommand{\bibname}{LITERATURE CITED}
 \bibliography{reference}
 \end{singlespace}
-\end{document}
+\end{document} 
