@@ -5,22 +5,79 @@
 % --------------------- Start of Document Preamble -----------------------
 
 \documentclass[12pt, oneside]{report} % report is suitable for the long document such as Ph.D thesis with chapters
-\usepackage[a4paper, left=1in, right=1in, top=1in, bottom=1in]{geometry} 
+\usepackage[a4paper, left=1.5in, right=1in, bottom=1in, tmargin=1.0in, headsep=0.2in]{geometry}
 \usepackage{fontspec}
+\usepackage{titlecaps}
 \setmainfont{Times New Roman}
 \usepackage{pdflscape}
-\usepackage{apacite}
-%\usepackage[round]{natbib}  % the bibliography
+%\usepackage{apacite}
+\usepackage[round]{natbib}  % the bibliography
 \usepackage{sectsty}
+\usepackage{lastpage}% http://ctan.org/pkg/lastpage
+\usepackage{hyphenat} % for hp hyenation
 \chapterfont{\centering}
 \usepackage{enumitem} % enumerate package
+\usepackage{setspace} % format the line spacing
 \linespread{2}
+\usepackage{siunitx}
+\usepackage{fixltx2e} % text subscript
+
+%\usepackage{titlesec} % format the chapter headings
 \usepackage{amsmath,amssymb,amstext} % Lots of math symbols and environments
 \usepackage{graphicx} % For including graphics N.B. pdftex graphics driver 
+%----------------
+\usepackage{titlesec}
+\setlength{\topmargin}{0in} % top margin is .5 in
+\titlespacing{\chapter}{1in}{\parskip}{-\parskip}
+\titlespacing{\section}{2pt}{\parskip}{-\parskip}
+\titlespacing{\subsection}{2pt}{\parskip}{-\parskip}
+\titlespacing{\subsubsection}{1pt}{\parskip}{-\parskip}
 
+%---------Adjust format chapter-------------------------
+\sectionfont{\large}
+\chapterfont{\center\large}
+%-------------------------------
 %----- Adjust the style ----
 \renewcommand{\chaptername}{CHAPTER}
 \renewcommand{\thechapter}{\Roman{chapter}}
+\renewcommand{\thefigure}{\arabic{chapter}-\arabic{figure}}
+%\renewcommand{\thefigure}{\Roman{figure}}
+\renewcommand{\chaptername}{}
+\renewcommand{\thechapter}{}
+
+\usepackage{indentfirst}
+\setlength{\parindent}{4em}
+%\setlength{\bibsep}{0pt plus 0.3ex}
+\setlength \bibsep{12pt}
+\setlength \bibhang{4em}
+%------------------set page number to the right corner
+\usepackage{fancyhdr}
+
+\fancypagestyle{myplain}{% 
+\fancyhf{} % clear all header and footer fields
+\fancyhead[R]{\thepage} %RO=right odd, RE=right even
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+}
+
+% change indent of table of content
+\usepackage[titles]{tocloft}
+\renewcommand\contentsname{TABLE OF CONTENTS}
+\cftsetindents{chapter}{0.5cm}{.6cm}
+\cftsetindents{section}{0.5cm}{.6cm}
+\cftsetindents{subsection}{1.0cm}{.9cm}
+\cftsetindents{subsubsection}{1.5cm}{1.2cm}
+\cftsetindents{paragraph}{0cm}{1.5cm}
+
+%===========
+\usepackage{titlesec}
+\titleformat{\chapter}[hang]{\normalfont\center\Large\bfseries}{\thechapter}{1em}{}
+\titlespacing{\chapter}{0pt}{0in}{0.5in}
+\titleformat{\section}
+  {\normalfont\Large\bfseries}
+  {\thesection}{1em}{}
+ \titlespacing{\section}{0pt}{0in}{4pt}
+  \titlespacing{\section}{0pt}{0in}{3pt}
 % ---------------------- End of Document Preamble ------------------------
 
 %======================================================================
@@ -37,50 +94,43 @@
 %----------------------------------------------------------------------
 % FRONT MATERIAL
 %----------------------------------------------------------------------
-\include{frontpgs} 
+\include{frontpgs}
 
-%----------------------------------------------------------------------
-% MAIN BODY
-%----------------------------------------------------------------------
-% Because this is a short document, and to reduce the number of files
-% needed for this template, the chapters are not separate
-% documents as suggested above, but you get the idea. If they were
-% separate documents, they would each start with the \chapter command, i.e, 
-% do not contain \documentclass or \begin{document} and \end{document} commands.
+% The rest of the front pages should contain no headers and be numbered using Roman numerals starting with `ii'
+\setcounter{page}{2}
 
-%======================================================================
-% INTRODUCTION
-\chapter{INTRODUCTION}
-%======================================================================
-\input{introduction}
+\cleardoublepage 
+
+% T A B L E   O F   C O N T E N T S
+% ---------------------------------
+
+\begin{spacing}{1.5}
+\addtocontents{toc}{~\hfill\underline{\textbf{PAGE}}\par}
+\tableofcontents
+\cleardoublepage
+\end{spacing}
+%\phantomsection
+%\newpage
+
+% Change page numbering back to Arabic numerals
+\cleardoublepage
+
+\pagestyle{myplain}
+\pagenumbering{arabic}
+
 
 \chapter{REVIEW OF LITERATURE}
 %====================================
 \input{litreview}
 
-%======================================================================
-% Materials and Methods
-\chapter{MATERIALS AND METHODS}
-%======================================================================
-\input{materials}
 
-%=============================================
-% CONCLUSION
-%\chapter{Conclusion}
-%==============================================
-%\input{sith-outline-conclusion}
-
-% The \appendix statement indicates the beginning of the appendices.
-
-%----------------------------------------------------------------------
-% END MATERIAL
-%----------------------------------------------------------------------
 
 % B I B L I O G R A P H Y
 % -----------------------
-
+\bibliographystyle{apalike}
+\cleardoublepage
+\begin{singlespace}
 \renewcommand{\bibname}{LITERATURE CITED}
-\bibliographystyle{apacite}
 \bibliography{reference}
-\end{document}
-`
+\end{singlespace}
+\end{document} 
