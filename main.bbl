@@ -1,272 +1,246 @@
 \begin{thebibliography}{}
 
-\bibitem[Barab{\'a}si and Oltvai, 2004]{barabasi2004network}
-Barab{\'a}si, A.-L. and Oltvai, Z.~N. (2004).
+\bibitem[Barab{\'a}si \& Oltvai, 2004]{barabasi2004network}
+BARAB{\'A}SI, A.-L. \& OLTVAI, Z.~N. (2004).
 \newblock Network biology: understanding the cell's functional organization.
-\newblock {\em Nature Reviews Genetics}, 5(2):101--113.
+\newblock Nature Reviews Genetics, 5(2):101--113.
 
 \bibitem[Barnwal et~al., 2013]{barnwal2013review}
-Barnwal, M., Kotasthane, A., Magculia, N., Mukherjee, P., Savary, S., Sharma,
-  A., Singh, H., Singh, U., Sparks, A., Variar, M., et~al. (2013).
+BARNWAL, M., KOTASTHANE, A., MAGCULIA, N., MUKHERJEE, P., SAVARY, S., SHARMA,
+  A., SINGH, H., SINGH, U., SPARKS, A., VARIAR, M., ET~AL. (2013).
 \newblock A review on crop losses, epidemiology and disease management of rice
   brown spot to identify research priorities and knowledge gaps.
-\newblock {\em European Journal of Plant Pathology}, 136(3):443--457.
+\newblock European Journal of Plant Pathology, 136(3):443--457.
 
 \bibitem[Borgatti et~al., 2013]{borgatti2013analyzing}
-Borgatti, S.~P., Everett, M.~G., and Johnson, J.~C. (2013).
+BORGATTI, S.~P., EVERETT, M.~G., \& JOHNSON, J.~C. (2013).
 \newblock Analyzing social networks.
 
 \bibitem[Castells, 2001]{Castells}
-Castells, M. (2001).
-\newblock {\em The rise of network society}.
+CASTELLS, M. (2001).
+\newblock {\em {\em The rise of network society}}.
 \newblock Oxford: Blackwell Publishers.
 
 \bibitem[Deng et~al., 2012]{Deng:2012do}
-Deng, Y., Jiang, Y.-H., Yang, Y., He, Z., Luo, F., and Zhou, J. (2012).
+DENG, Y., JIANG, Y.-H., YANG, Y., HE, Z., LUO, F., \& ZHOU, J. (2012).
 \newblock Molecular ecological network analyses.
-\newblock {\em BMC Bioinformatics}, 13:113.
+\newblock BMC Bioinformatics, 13:113.
 
 \bibitem[Dietz et~al., 2010]{dietz2010hubs}
-Dietz, K.~J., Jacquot, J.~P., and Harris, G. (2010).
+DIETZ, K.~J., JACQUOT, J.~P., \& HARRIS, G. (2010).
 \newblock Hubs and bottlenecks in plant molecular signalling networks.
-\newblock {\em New Phytologist}, 188(4):919--938.
+\newblock New Phytologist, 188(4):919--938.
 
-\bibitem[Duwayri et~al., 2000]{duwayri2000reflections}
-Duwayri, M., Van~Tran, D., et~al. (2000).
-\newblock Reflections on yield gaps in rice production: how to narrow the gaps.
-\newblock {\em RAP Publication (FAO)}.
+\bibitem[Dong et~al., 2010]{dong2010characterization}
+DONG, K., CHEN, B., LI, Z., DONG, Y., \& WANG, H. (2010).
+\newblock A characterization of rice pests and quantification of yield losses
+  in the japonica rice zone of yunnan, china.
+\newblock Crop Protection, 29(6):603--611.
 
 \bibitem[Eagling, 2007]{eagling2007australian}
-Eagling, D. (2007).
+EAGLING, D. (2007).
 \newblock Australian trade in agricultural food products -- the challenge for
   plant pathologists.
-\newblock {\em Australasian Plant Pathology}, 36(6):539--542.
+\newblock Australasian Plant Pathology, 36(6):539--542.
 
 \bibitem[Faust et~al., 2012]{Faust:2012dk}
-Faust, K., Sathirapongsasuti, J.~F., Izard, J., Segata, N., Gevers, D., Raes,
-  J., and Huttenhower, C. (2012).
+FAUST, K., SATHIRAPONGSASUTI, J.~F., IZARD, J., SEGATA, N., GEVERS, D., RAES,
+  J., \& HUTTENHOWER, C. (2012).
 \newblock Microbial co-occurrence relationships in the human microbiome.
-\newblock {\em PLoS Computational Biology}, 8(7):e1002606--e1002606.
+\newblock PLoS Computational Biology, 8(7):e1002606--e1002606.
 
 \bibitem[Freilich et~al., 2010]{freilich2010large}
-Freilich, S., Kreimer, A., Meilijson, I., Gophna, U., Sharan, R., and Ruppin,
-  E. (2010).
+FREILICH, S., KREIMER, A., MEILIJSON, I., GOPHNA, U., SHARAN, R., \& RUPPIN, E.
+  (2010).
 \newblock The large-scale organization of the bacterial network of ecological
   co--occurrence interactions.
-\newblock {\em Nucleic Acids Research}, 38(12):3857--3868.
+\newblock Nucleic Acids Research, 38(12):3857--3868.
 
-\bibitem[{GRiSP}, 2013]{ricealmanac2013}
-{GRiSP} (2013).
-\newblock {\em Rice almanac}.
-\newblock International Rice Research Institute (IRRI), 4 edition.
-
-\bibitem[Guimera and Amaral, 2005]{guimera2005functional}
-Guimera, R. and Amaral, L. A.~N. (2005).
+\bibitem[Guimera \& Amaral, 2005]{guimera2005functional}
+GUIMERA, R. \& AMARAL, L. A.~N. (2005).
 \newblock Functional cartography of complex metabolic networks.
-\newblock {\em {Nature}}, 433(7028):895--900.
+\newblock {Nature}, 433(7028):895--900.
 
 \bibitem[Harwood et~al., 2009]{harwood2009epidemiological}
-Harwood, T.~D., Xu, X., Pautasso, M., Jeger, M.~J., and Shaw, M.~W. (2009).
+HARWOOD, T.~D., XU, X., PAUTASSO, M., JEGER, M.~J., \& SHAW, M.~W. (2009).
 \newblock Epidemiological risk assessment using linked network and grid based
   modelling: \textit{Phytophthora ramorum} and \textit{Phytophthora kernoviae}
   in the {UK}.
-\newblock {\em Ecological Modelling}, 220(23):3353--3361.
+\newblock Ecological Modelling, 220(23):3353--3361.
 
-\bibitem[Horvath, 2011]{horvath2011weighted}
-Horvath, S. (2011).
-\newblock Weighted network analysis: applications in genomics and systems
-  biology.
-
-\bibitem[Ideker and Krogan, 2012]{Idekerdiffnet}
-Ideker, T. and Krogan, N.~J. (2012).
-\newblock Differential network biology.
-\newblock {\em {Molecular Systems Biology}}, 8(1):565.
+\bibitem[Heong, 1985]{heong1985systems}
+HEONG, K. (1985).
+\newblock Systems analysis in solving pest management problems.
 
 \bibitem[Jeger et~al., 2007]{Jeger:2007tn}
-Jeger, M.~J., Pautasso, M., Holdenrieder, O., and Shaw, M.~W. (2007).
+JEGER, M.~J., PAUTASSO, M., HOLDENRIEDER, O., \& SHAW, M.~W. (2007).
 \newblock Modelling disease spread and control in networks: implications for
   plant sciences.
-\newblock {\em {New Phytologist}}, 174(2):279--297.
+\newblock {New Phytologist}, 174(2):279--297.
 
 \bibitem[Kasari et~al., 2011]{Kasari2011social}
-Kasari, C., Locke, J., Gulsrud, A., and Rotheram-Fuller, E. (2011).
+KASARI, C., LOCKE, J., GULSRUD, A., \& ROTHERAM-FULLER, E. (2011).
 \newblock Social networks and friendships at school: comparing children with
   and without {ASD}.
-\newblock {\em {Journal of Autism and Developmental Disorders}},
-  41(5):533--544.
+\newblock {Journal of Autism and Developmental Disorders}, 41(5):533--544.
+
+\bibitem[Kranz \& Hau, 1980]{kranz1980systems}
+KRANZ, J. \& HAU, B. (1980).
+\newblock Systems analysis in epidemiology.
+\newblock Annual Review of Phytopathology, 18(1):67--83.
 
 \bibitem[Krause et~al., 2003]{krause2003compartments}
-Krause, A.~E., Frank, K.~A., Mason, D.~M., Ulanowicz, R.~E., and Taylor, W.~W.
+KRAUSE, A.~E., FRANK, K.~A., MASON, D.~M., ULANOWICZ, R.~E., \& TAYLOR, W.~W.
   (2003).
 \newblock Compartments revealed in food-web structure.
-\newblock {\em Nature}, 426(6964):282--285.
+\newblock Nature, 426(6964):282--285.
 
-\bibitem[Lazega and Pattison, 1999]{Lazega}
-Lazega, E. and Pattison, P.~E. (1999).
+\bibitem[Lazega \& Pattison, 1999]{Lazega}
+LAZEGA, E. \& PATTISON, P.~E. (1999).
 \newblock Multiplexity, generalized exchange and cooperation in organizations:
   a case study.
-\newblock {\em {Social Networks}}, 21(1):67--90.
-
-\bibitem[Lu et~al., 2013]{Lu:2013hga}
-Lu, L., Yin, S., Liu, X., Zhang, W., Gu, T., Shen, Q., and Qiu, H. (2013).
-\newblock Fungal networks in yield-invigorating and -debilitating soils induced
-  by prolonged potato monoculture.
-\newblock {\em Soil Biology and Biochemistry}, 65:186--194.
+\newblock {Social Networks}, 21(1):67--90.
 
 \bibitem[Mew et~al., 2004]{Mew:2004kh}
-Mew, T.~W., Leung, H., Savary, S., Vera~Cruz, C.~M., and Leach, J.~E. (2004).
+MEW, T.~W., LEUNG, H., SAVARY, S., VERA~CRUZ, C.~M., \& LEACH, J.~E. (2004).
 \newblock Looking ahead in rice disease research and management.
-\newblock {\em Critical Reviews in Plant Sciences}, 23(2):103--127.
+\newblock Critical Reviews in Plant Sciences, 23(2):103--127.
 
 \bibitem[Moody, 2001]{moody2001race}
-Moody, J. (2001).
+MOODY, J. (2001).
 \newblock Race, school integration, and friendship segregation in {America}.
-\newblock {\em {American Journal of Sociology}}, 107(3):679--716.
+\newblock {American Journal of Sociology}, 107(3):679--716.
 
 \bibitem[Moslonka-Lefebvre et~al., 2011]{Lefebvre:2011fo}
-Moslonka-Lefebvre, M., Finley, A., Dorigatti, I., Dehnen-Schmutz, K., Harwood,
-  T., Jeger, M.~J., Xu, X., Holdenrieder, O., and Pautasso, M. (2011).
+MOSLONKA-LEFEBVRE, M., FINLEY, A., DORIGATTI, I., DEHNEN-SCHMUTZ, K., HARWOOD,
+  T., JEGER, M.~J., XU, X., HOLDENRIEDER, O., \& PAUTASSO, M. (2011).
 \newblock Networks in plant epidemiology: from genes to landscapes, countries,
   and continents.
-\newblock {\em {Phytopathology}}, 101(4):392--403.
+\newblock {Phytopathology}, 101(4):392--403.
 
 \bibitem[Moslonka-Lefebvre et~al., 2009]{Moslonka2008}
-Moslonka-Lefebvre, M., Mathieu~Pautasso, M., and Jeger, M.~J. (2009).
+MOSLONKA-LEFEBVRE, M., MATHIEU~PAUTASSO, M., \& JEGER, M.~J. (2009).
 \newblock Disease spread in small-size directed networks:epidemic threshold,
   correlation between links to and form nodes, and clustering.
-\newblock {\em {Journal of Theoretical Biology}}, 206:402--411.
-
-\bibitem[Mukhtar et~al., 2011]{mukhtar2011independently}
-Mukhtar, M.~S., Carvunis, A.-R., Dreze, M., Epple, P., Steinbrenner, J., Moore,
-  J., Tasan, M., Galli, M., Hao, T., Nishimura, M.~T., Pevzner, S.~J., Donovan,
-  S.~E., Ghamsari, L., Santhanam, B., Romero, V., Poulin, M.~M., Gebreab, F.,
-  Gutierrez, B.~J., Tam, S., Monachello, D., Boxem, M., Harbort, C.~J.,
-  McDonald, N., Gai, L., Chen, H., He, Y., Vandenhaute, J., Roth, F.~P., Hill,
-  D.~E., Ecker, J.~R., Vidal, M., Beynon, J., Braun, P., and Dangl, J.~L.
-  (2011).
-\newblock Independently evolved virulence effectors converge onto hubs in a
-  plant immune system network.
-\newblock {\em {Science}}, 333(6042):596--601.
+\newblock {Journal of Theoretical Biology}, 206:402--411.
 
 \bibitem[Newman, 2003]{newman2003structure}
-Newman, M. E.~J. (2003).
+NEWMAN, M. E.~J. (2003).
 \newblock The structure and function of complex networks.
-\newblock {\em {SIAM review}}, 45(2):167--256.
+\newblock {SIAM review}, 45(2):167--256.
 
 \bibitem[Newman, 2006]{newman2006modularity}
-Newman, M. E.~J. (2006).
+NEWMAN, M. E.~J. (2006).
 \newblock Modularity and community structure in networks.
-\newblock {\em {Proceedings of the National Academy of Sciences}},
+\newblock {Proceedings of the National Academy of Sciences},
   103(23):8577--8582.
 
-\bibitem[Ou, 1985]{ouricedisease}
-Ou, S.~H. (1985).
-\newblock {\em Rice diseases}.
-\newblock International Rice Research Institute (IRRI).
+\bibitem[Oerke, 2006]{OERKE:2006ct}
+OERKE, E.~C. (2006).
+\newblock Crop losses to pests.
+\newblock {The Journal of Agricultural Science}, 144(1):31--43.
 
-\bibitem[Pastor-Satorras and Vespignani, 2001]{pastor2001epidemic}
-Pastor-Satorras, R. and Vespignani, A. (2001).
+\bibitem[Pastor-Satorras \& Vespignani, 2001]{pastor2001epidemic}
+PASTOR-SATORRAS, R. \& VESPIGNANI, A. (2001).
 \newblock Epidemic spreading in scale--free networks.
-\newblock {\em {Physical Review Letters}}, 86(14):3200.
+\newblock {Physical Review Letters}, 86(14):3200.
 
 \bibitem[Pautass et~al., 2010]{Moslonka2010}
-Pautass, M., Moslonka-Lefebvre, M., and Jeger, M.~J. (2010).
+PAUTASS, M., MOSLONKA-LEFEBVRE, M., \& JEGER, M.~J. (2010).
 \newblock The number of links to and from the starting node as a predictor of
   epidemic size in small-size directed networks.
-\newblock {\em {Ecological Complexity}}, 7:424--432.
+\newblock {Ecological Complexity}, 7:424--432.
 
 \bibitem[Pautasso, 2015]{pautasso2015network}
-Pautasso, M. (2015).
+PAUTASSO, M. (2015).
 \newblock Network simulations to study seed exchange for agrobiodiversity
   conservation.
-\newblock {\em {Agronomy for Sustainable Development}}, 35(1):145--150.
+\newblock {Agronomy for Sustainable Development}, 35(1):145--150.
 
 \bibitem[Pautasso et~al., 2008]{pautasso2008epidemiological}
-Pautasso, M., Harwood, T., Shaw, M., Xu, X., and Jeger, M. (2008).
+PAUTASSO, M., HARWOOD, T., SHAW, M., XU, X., \& JEGER, M. (2008).
 \newblock Epidemiological modeling of \textit{Phytophthora ramorum}: network
   properties of susceptible plant genera movements in the nursery sector of
   {England} and {Wales}.
-\newblock In {\em Proceedings of the Sudden Oak Death Third Science Symposium}.
+\newblock In Proceedings of the Sudden Oak Death Third Science Symposium.
 
 \bibitem[Pautasso et~al., 2010]{pautasso2010number}
-Pautasso, M., Moslonka-Lefebvre, M., and Jeger, M.~J. (2010).
+PAUTASSO, M., MOSLONKA-LEFEBVRE, M., \& JEGER, M.~J. (2010).
 \newblock The number of links to and from the starting node as a predictor of
   epidemic size in small-size directed networks.
-\newblock {\em Ecological Complexity}, 7(4):424--432.
-
-\bibitem[Pe'er and Hacohen, 2011]{Peer:2011jd}
-Pe'er, D. and Hacohen, N. (2011).
-\newblock Principles and strategies for developing network models in cancer.
-\newblock {\em {Cell}}, 144(6):864--873.
+\newblock Ecological Complexity, 7(4):424--432.
 
 \bibitem[Proulx et~al., 2005]{PROULX:2005hx}
-Proulx, S., Promislow, D., and Phillips, P. (2005).
+PROULX, S., PROMISLOW, D., \& PHILLIPS, P. (2005).
 \newblock Network thinking in ecology and evolution.
-\newblock {\em {Trends in Ecology {\&} Evolution}}, 20(6):345--353.
+\newblock {Trends in Ecology {\&} Evolution}, 20(6):345--353.
 
-\bibitem[Savary et~al., 2012]{Savary:2012bi}
-Savary, S., Horgan, F., Willocquet, L., and Heong, K.~L. (2012).
-\newblock A review of principles for sustainable pest management in rice.
-\newblock {\em Crop Protection}, 32:54--63.
+\bibitem[Reddy et~al., 2011]{reddy2011characterizing}
+REDDY, C., LAHA, G., PRASAD, M., KRISHNAVENI, D., CASTILLA, N., NELSON, A., \&
+  SAVARY, S. (2011).
+\newblock Characterizing multiple linkages between individual diseases, crop
+  health syndromes, germplasm deployment, and rice production situations in
+  india.
+\newblock Field crops research, 120(2):241--253.
+
+\bibitem[Savary et~al., 2005]{savary2005multiple}
+SAVARY, S., CASTILLA, N.~P., ELAZEGUI, F., \& TENG, P.~S. (2005).
+\newblock Multiple effects of two drivers of agricultural change, labour
+  shortage and water scarcity, on rice pest profiles in tropical asia.
+\newblock Field Crops Research, 91(2):263--271.
+
+\bibitem[Savary et~al., 2006]{Savary:2006to}
+SAVARY, S., TENG, P.~S., WILLOCQUET, L., \& NUTTER, F.~W. (2006).
+\newblock Quantification and modeling of crop losses: a review of purposes.
+\newblock Annual Review of Phytopathology, 44(1):89--112.
 
 \bibitem[Savary et~al., 2000]{Savary:2000vr}
-Savary, S., Willocquet, L., Elazegui, F.~A., Teng, P.~S., Van~Du, P., Zhu, D.,
-  Tang, Q., Huang, S., Lin, X., and Singh, H.~M. (2000).
+SAVARY, S., WILLOCQUET, L., ELAZEGUI, F.~A., TENG, P.~S., VAN~DU, P., ZHU, D.,
+  TANG, Q., HUANG, S., LIN, X., \& SINGH, H.~M. (2000).
 \newblock Rice pest constraints in tropical {Asia}: characterization of injury
   profiles in relation to production situations.
-\newblock {\em Plant Disease}, 84(3):341--356.
+\newblock Plant Disease, 84(3):341--356.
 
-\bibitem[Shaw and Pautasso, 2014]{Shaw:2014cka}
-Shaw, M.~W. and Pautasso, M. (2014).
+\bibitem[Shaw \& Pautasso, 2014]{Shaw:2014cka}
+SHAW, M.~W. \& PAUTASSO, M. (2014).
 \newblock Networks and plant disease management: concepts and applications.
-\newblock {\em Annual Review of Phytopathology}, 52(1):477--493.
+\newblock Annual Review of Phytopathology, 52(1):477--493.
+
+\bibitem[Teng \& Savary, 1992]{teng1992implementing}
+TENG, P. \& SAVARY, S. (1992).
+\newblock Implementing the systems approach in pest management.
+\newblock Agricultural Systems, 40(1):237--264.
 
 \bibitem[Toubiana et~al., 2013]{Toubiana:2013cv}
-Toubiana, D., Fernie, A.~R., Nikoloski, Z., and Fait, A. (2013).
+TOUBIANA, D., FERNIE, A.~R., NIKOLOSKI, Z., \& FAIT, A. (2013).
 \newblock Network analysis: tackling complex data to study plant metabolism.
-\newblock {\em Trends in Biotechnology}, 31(1):29--36.
-
-\bibitem[Usadel et~al., 2009]{usadel2009co}
-Usadel, B., Obayashi, T., Mutwil, M., Giorgi, F.~M., Bassel, G.~W., Tanimoto,
-  M., Chow, A., Steinhauser, D., Persson, S., and Provart, N.~J. (2009).
-\newblock Co--expression tools for plant biology: opportunities for hypothesis
-  generation and caveats.
-\newblock {\em Plant, Cell \& Environment}, 32(12):1633--1651.
-
-\bibitem[Willocquet et~al., 2004]{willocquet2004}
-Willocquet, L., Elazegui, F.~A., Castilla, N., Fernandez, L., Fischer, K.~S.,
-  Peng, S., Teng, P.~S., Srivastava, R., Singh, H., Zhu, D., et~al. (2004).
-\newblock Research priorities for rice pest management in tropical asia: a
-  simulation analysis of yield losses and management efficiencies.
-\newblock {\em Phytopathology}, 94(7):672--682.
+\newblock Trends in Biotechnology, 31(1):29--36.
 
 \bibitem[Windram et~al., 2014]{windram2014network}
-Windram, O., Penfold, C.~A., and Denby, K.~J. (2014).
+WINDRAM, O., PENFOLD, C.~A., \& DENBY, K.~J. (2014).
 \newblock Network modeling to understand plant immunity.
-\newblock {\em Annual Review of Phytopathology}, 52(1):93--111.
+\newblock Annual Review of Phytopathology, 52(1):93--111.
 
 \bibitem[Wu et~al., 2007]{wu2007gene}
-Wu, X.~M., Li, Y.~R., Zou, L.~F., and Chen, G.~Y. (2007).
+WU, X.~M., LI, Y.~R., ZOU, L.~F., \& CHEN, G.~Y. (2007).
 \newblock Gene--for--gene relationships between rice and diverse avrbs3/ptha
   avirulence genes in \textit{Xanthomonas oryzae} pv.\textit{oryzae}.
-\newblock {\em Plant Pathology}, 56(1):26--34.
+\newblock Plant Pathology, 56(1):26--34.
 
 \bibitem[Yang et~al., 2014]{yang2014gene}
-Yang, Y., Han, L., Yuan, Y., Li, J., Hei, N., and Liang, H. (2014).
+YANG, Y., HAN, L., YUAN, Y., LI, J., HEI, N., \& LIANG, H. (2014).
 \newblock Gene co--expression network analysis reveals common system-level
   properties of prognostic genes across cancer types.
-\newblock {\em Nature Communications}, 5.
+\newblock Nature Communications, 5.
 
-\bibitem[Zadoks and Schein, 1979]{Zadoks:1979ts}
-Zadoks, J.~C. and Schein, R.~D. (1979).
-\newblock {\em Epidemiology and plant disease management}.
+\bibitem[Zadoks, 1985]{Zadok1985}
+ZADOKS, J.~C. (1985).
+\newblock Crop loss assessment.
+\newblock Annual Review.
+
+\bibitem[Zadoks \& Schein, 1979]{Zadoks:1979ts}
+ZADOKS, J.~C. \& SCHEIN, R.~D. (1979).
+\newblock {\em {\em Epidemiology and plant disease management}}.
 \newblock Oxford University Press, USA.
-
-\bibitem[Zheng and Zhao, 2013]{Zheng2013}
-Zheng, Z.~L. and Zhao, Y. (2013).
-\newblock Transcriptome comparison and gene coexpression network analysis
-  provide a systems view of citrus response to ``\textit{Candidatus}
-  liberibacter asiaticus'' infection.
-\newblock {\em BMC Genomics}, 14:27.
 
 \end{thebibliography}
