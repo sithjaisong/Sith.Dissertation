@@ -5,11 +5,11 @@
 % --------------------- Start of Document Preamble -----------------------
 
 \documentclass[12pt, oneside]{report} % report is suitable for the long document such as Ph.D thesis with chapters
-\usepackage[a4paper, left=1.5in, right=1in, bottom=1in, tmargin=1.0in, headsep=0.2in]{geometry}
+\usepackage[a4paper, left=1.5in, right=1in, bottom=1in, tmargin=1in, headsep=0.2in]{geometry}
 \usepackage{fontspec}
+\usepackage{titlecaps}
 \setmainfont{Times New Roman}
 \usepackage{pdflscape}
-%\usepackage{apacite}
 \usepackage[round]{natbib}  % the bibliography
 \usepackage{sectsty}
 \usepackage{lastpage}% http://ctan.org/pkg/lastpage
@@ -20,34 +20,31 @@
 \linespread{2}
 \usepackage{siunitx}
 
-%\usepackage{titlesec} % format the chapter headings
 \usepackage{amsmath,amssymb,amstext} % Lots of math symbols and environments
 \usepackage{graphicx} % For including graphics N.B. pdftex graphics driver 
-%----------------
-\usepackage{titlesec}
-\setlength{\topmargin}{0in} % top margin is .5 in
-\titlespacing{\chapter}{1in}{\parskip}{-\parskip}
-\titlespacing{\section}{2pt}{\parskip}{-\parskip}
-\titlespacing{\subsection}{2pt}{\parskip}{-\parskip}
-\titlespacing{\subsubsection}{1pt}{\parskip}{-\parskip}
 
-%---------Adjust format chapter-------------------------
-\sectionfont{\large}
-\chapterfont{\center\large}
+\usepackage{afterpage}
+\usepackage{etoc}
+\usepackage{minitoc}
+%---------Adjust format chapter--------
+\sectionfont{\normalsize}
+\chapterfont{\center\Large}
 %-------------------------------
+
 %----- Adjust the style ----
 \renewcommand{\chaptername}{CHAPTER}
 \renewcommand{\thechapter}{\Roman{chapter}}
 \renewcommand{\thefigure}{\arabic{chapter}-\arabic{figure}}
 %\renewcommand{\thefigure}{\Roman{figure}}
-\renewcommand{\chaptername}{}
-\renewcommand{\thechapter}{}
+%\renewcommand{\chaptername}{}
+%\renewcommand{\thechapter}{}
 
 \usepackage{indentfirst}
 \setlength{\parindent}{4em}
 %\setlength{\bibsep}{0pt plus 0.3ex}
-\setlength \bibsep{12pt}
+\setlength \bibsep{12pt} % set the reference format
 \setlength \bibhang{4em}
+
 %------------------set page number to the right corner
 \usepackage{fancyhdr}
 
@@ -67,10 +64,25 @@
 \cftsetindents{subsubsection}{1.5cm}{1.2cm}
 \cftsetindents{paragraph}{0cm}{1.5cm}
 
+% for mat of list of figures
+
+\renewcommand{\cftloftitlefont}{\hfill\large\bfseries\MakeUppercase} 
+\renewcommand{\cftafterloftitle}{%
+  \hfill\null\\[2\baselineskip]\bfseries No.\hfill\phantom{Hal}Judul\phantom{No.}\hfill Hal}
+\renewcommand\cftafterloftitleskip{1\baselineskip}
+\renewcommand\cftfigindent{0pt}
+
 %===========
 \usepackage{titlesec}
-\titleformat{\chapter}[hang]{\normalfont\center\Large\bfseries}{\thechapter}{1em}{}
+\titleformat{\chapter}[display]
+  {\normalfont\center\Large\bfseries}
+  {\MakeUppercase{\chaptertitlename}~\thechapter}
+  {1.5pc}
+  {}
 \titlespacing{\chapter}{0pt}{0in}{0.5in}
+
+%\titleformat{\chapter}[display]{\normalfont\center\Huge\bfseries}{\thechapter}{1em}{}
+%\titlespacing{\chapter}{0pt}{0in}{0.5in}
 \titleformat{\section}
   {\normalfont\Large\bfseries}
   {\thesection}{1em}{}
@@ -144,34 +156,13 @@
 
 %\cleardoublepage
 %\newpage
-
-% T A B L E   O F   C O N T E N T S
-% ---------------------------------
-
-\begin{spacing}{1.5}
-\addtocontents{toc}{~\hfill\underline{\textbf{PAGE}}\par}
-\tableofcontents
-\cleardoublepage
-\end{spacing}
-%\phantomsection
-%\newpage
-
-% L I S T   O F   T A B L E S
-% ---------------------------
-%\addcontentsline{toc}{chapter}{List of Tables}
-%\listoftables
-%\cleardoublepage
-%\phantomsection		% allows hyperref to link to the correct page
-%\newpage
+% T A B L E  O F  C O N T E N T S
+%------------------------------
+\input{tocformat}
 
 % L I S T   O F   F I G U R E S
 % -----------------------------
-\renewcommand*\listfigurename{LISTS OF FIGURES}
-\addcontentsline{toc}{chapter}{\listfigurename}
-\listoffigures
-\cleardoublepage
-%\phantomsection		% allows hyperref to link to the correct page
-\newpage
+\input{lofformat}
 
 % L I S T   O F   S Y M B O L S
 % -----------------------------
@@ -233,4 +224,4 @@
 \renewcommand{\bibname}{LITERATURE CITED}
 \bibliography{reference}
 \end{singlespace}
-\end{document} 
+\end{document}
