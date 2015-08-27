@@ -2,11 +2,11 @@
 
 \usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
-\usepackage{natbib}
+\usepackage[round]{natbib}
 \usepackage{amsmath}
 \usepackage{graphicx}
 
-\title{Co-occurrence Relationships of Cropping Practices and Injuries Profiles under Rice Agroecosystem}
+\title{Network Analysis of Cropping Practices and Injuries Profiles under Rice Agroecosystem}
 
 \author{Sith}
 
@@ -19,72 +19,77 @@
 Here is the abstract...........
 \end{abstract}
 
-\section{Introduction}
+\section*{Introduction}
+% use only four paragraphs for introduction.
+% The introduction to the useful of the survey data
+The use of rice crop health survey at the field levels is ground truth database that allow one identify actual constraints due to pests in rice production. The database provide the overview of the complex relationships between crop stands, their management, pest injuries, may lead to better management, and guide researchers the new research hypotheses \citep{mew:2004kh, Savary:2006to}. % state the problemsSeveral previous studies \citep{Savary:2000char, savary2000quanti, savary2005multiple, dong2010characterization, Reddy:2011hl} conducted the surveys have identified the relationships of individual production situation (a set of factors that determine agricultural production) and injury profiles (combination of disease and pest injuries that may occur in a given farmer’s field) using nonparametric multivariate analysis \citep{savary1997new}. Performing correspondence analysis, they characterized the relationships between categorized levels of variables: actual yield, production situations  and injuries profiles . the results led to the conclusions that observed injuries profiles are strongly associated with production situations\citep{mew:2004kh}. However, the step of transform continuous data to categorized data by clustering approach is poor reproducibility and difficult interpretability of the individual cluster \citep{jiang2004cluster, avelino:2006ie}.   % the useful of network analysis The components of production situation and injury profiles, such as the amount of fertilizers applied, occurrence of leaf blast are biologically related. The relationships will be more complex when the number of their components will increase. A way to systemically model and intuitively interpret such relationships is the depiction as a graph or network. This approach has been widely used and proven very useful in biological studies. Networks typically consist of nodes, usually presenting components (), while links between the node depict their interactions. Correlation network is a type of network, which two nodes are connected if their respective correlation lies above a certain threshold. The construction of this network obtain from pairwise correlation methods. By using appropriate correlation measure, correlation network can capture biologically meaningful relationships, and discover the valuable information in crop health surveys.% the problemSelecting the suitable association methods for crop health construction is important because the method that can capture the relationships with true concordance often determined the type and amount of knowledge we can gain from survey data.we have limited prior knowledge (positive relation and negative relation) for comparing the efficiency of different association methods in discovering true functionally associated variables.
 
-Here is the introduction.\todo{Not yet finished}
-
-Network has been proven very useful in biological study. however, which method are more efficient in performing have not yet been reported. Such an evaluation is challenge because .......
-
-Selecting the suitable association methods for crop health construction is important because the method that can capture the relationships with true concordance often determined the type and amount of knowledge we can gain from survey data.
-
-In this study, we evaluate correlation methods including Pearson, Spearman ... to associate the components of cropping practices and the components of injuries.
-
-we have limited prior knowledge ( positive relation and negative relation) for comparing the efficiency of different association methods in discovering true functionally associated variables. 
-
-\section{Materials and Methods}
-We inferred a interaction network by  from survey project comprising 5 countries, 425 locations . Our study aimed to determine co-occurrence pattern among the incidence of insect and disease injuries and the cropping practices  , potentially indicative of their occurrence relations. We thus construct the network from the. The limitation of each measure are difference assumption and detach different pattern. The structure of crop surveys are determine for choosing the suitable measure. 
-
-\subsubsection{Survey datasets}
+The main aim of this article s to In this study, we evaluate correlation methods including Pearson, Spearman, Kandell, Biweight to associate the components of cropping practices and the components of injuries. Furthermore, we applied network theory and model to illustrate the paiewise relasionship. Thus we hope to provide the necessay elements for a bter comprenhjesion of the methods and also the chouce of a suirtanle dependence terst method based on pracitical constrains and goals.
 
 
-% how many observations? This is Materials and Methods, be specific, not approximate
-% don't use all caps, use title case please
-Crop health survey data were collected through surveys of farmers' fields (approximately 800) from 2010 to 2015 for wet and dry seasons in different production environments across South and South East Asia representing irrigated lowland rice growing areas of West Java, Indonesia; Mekong River Delta and Red River Delta, Vietnam; Tamil Nadu and Odisha, India; and Suphanburi, Thailand. The survey protocol described in the IRRI publication, ``A SURVEY PORTFOLIO TO CHARACTERIZE YIELD-REDUCING FACTORS IN RICE'', \citep{Savarysurvey2009} was used for data collection. The variables collected included environmental attributes, patterns of cropping practices, crop growth measurement and crop management status assessments, measurements of levels of injuries caused by pests, and direct measurements of actual yields from crop cuts. The data collected can be classified into three groups: cropping practices, injuries, and actual yield measurements.
+We inferred a interaction network by from survey project comprising 5 countries (India, Indonesia, the Philippines, Thailand, and Vietnam), 420 lowland farmers' fileds. Our study aimed to determine co-occurrence pattern among the incidence of injuries caused by animal pests and diseases and the cropping practices, potentially indicative of their occurrence relations. We thus construct the network from the surveys. The limitation of each measure are difference assumption and detach different patterns. The structure of surveys are determine for choosing the suitable measure. 
 
-\subsection{Network Construction}
+\section*{Materials and Methods}
 
-\subsubsection{Evaluation of association methods}
+\subsubsection*{Survey datasets}
+Crop health survey data were collected through surveys comprising 420 farmers' fields from 2010 to 2012 for wet and dry seasons in different production environments across South and South East Asia representing irrigated lowland rice growing areas of India, Indonesia, the Philippines, Thailand, and Vietnam. The survey protocol described in the IRRI publication, ``A survey  portfolio to chatacterize yield-reducing factors in rice'', \citep{Savarysurvey2009} was used for data collection. The variables collected included patterns of cropping practices, crop growth measurement and crop management status assessments, measurements of levels of injuries caused by pests, and direct measurements of actual yields from crop cuts. The data collected can be classified into three groups: cropping practices, injuries, and actual yield measurements.
 
-% I'd use \paragraph{} rather than \textbf for structure...
-\textbf{Step one: data exploratory}
+\subsection*{Evaluation of association methods}
 
+\paragraph{Step one: Data exploratory}
+Data were check the properties. There are three main properties to be determine before deciding the appropriate correlation measure. 
 
-\textbf{Task check Normality and homoscedasticity and data distribution}
-
-% this section is too conversational and not enough methods
+\paragraph{Task check normality and homoscedasticity and data distribution}
 Two assumptions, similar to those for ANOVA, are that for any value of X, the Y values will be normally distributed and they will be homoscedastic. Although you will rarely have enough data to test these assumptions, they are often violated.
-Fortunately, numerous simulation studies have shown that regression and correlation are quite robust to deviations from normality; this means that even if one or both of the variables are non-normal, the P value will be less than 0.05 about 5\% of the time if the null hypothesis is true. So in general, you can use linear regression/correlation without worrying about non-normality.
+
+Numerous simulation studies have shown that regression and correlation are quite robust to deviations from normality; this means that even if one or both of the variables are non-normal, the P value will be less than 0.05 about 5\% of the time if the null hypothesis is true. 
+
+So in general, you can use linear regression/correlation without worrying about non-normality.
 Sometimes you'll see a regression or correlation that looks like it may be significant due to one or two points being extreme on both the x and y axes. In this case, you may want to use Spearman's rank correlation, which reduces the influence of extreme values, or you may want to find a data transformation that makes the data look more normal. Another approach would be analyze the data without the extreme values, and report the results with or without them outlying points; your life will be easier if the results are similar with or without them.
 When there is a significant regression or correlation, X values with higher mean Y values will often have higher standard deviations of Y as well. This happens because the standard deviation is often a constant proportion of the mean. 
 
-\textbf{Task check the independence}
+\paragraph{Task check the independence}
 % It's pretty fair to assume the reader understands data independence. Probably not necessary to cover this
 Linear regression and correlation assume that the data points are independent of each other, meaning that the value of one data point does not depend on the value of any other data point. The most common violation of this assumption in regression and correlation is in time series data, where some Y variable has been measured at different times.
 
-
-\textbf{Task check Linearity or non--linearity}
+\paragraph{Task check linearity or non--linearity}
 
 % Same here, we know what linear regression is. Too much minor detail.
 Linear regression and correlation assume that the data fit a straight line. If you look at the data and the relationship looks curved, you can try different data transformations of the X, the Y, or both, and see which makes the relationship straight. Of course, it's best if you choose a data transformation before you analyze your data. You can choose a data transformation beforehand based on previous data you've collected, or based on the data transformation that others in your field use for your kind of data.
-A data transformation will often straighten out a J-shaped curve. If your curve looks U-shaped, S-shaped, or something more complicated, a data transformation won't turn it into a straight line. In that case, you'll have to use curvilinear regression.
 
-\subsubsection{Step two: identify the most appropriate method} 
-
+\subsubsection*{Step two: identify the most appropriate method} 
 % too conversational
 Although we can opt for a method based on its principle of statistical operation without paying attention the biological models in a given set, this may not lead to a coordination network that will reveal biological knowledge.
 
-\subsubsection{Co-occurrence network construction}
-
+\subsection*{Network Construction}
+\subsubsection*{Co-occurrence network construction}
 The matrix can be viewed as an adjacency matrix of a weighted network. The matrix  contains the correlation coefficient  between each node (i.e., the variable). Thus the matrix  can be thought of as the population average of the network structure. Because we are looking at several specific links, we control for multiple testing by controlling the False Discovery Rate (FDR method) at 5\%. The generated network structure can be visualized through the R package qgraph. Only connections that surpass the significance threshold are shown in the visual representation.
 
-\subsection{Network analysis}
-Important information about a network can be gained by analyzing its global structure, for example by looking at the relative centrality of different nodes. In a centrality analysis, nodes are ordered in terms of the degree to which they occupy a central place in the network. Global descriptors of the modules were obtained using package qgraph in R. The neighborhood of a given node n is the set of its neighbors. The connectivity is the size of its neighborhood. The average number of neighbors indicates the average connectivity of a node in the network. A normalized version of this parameter is the network density. Density ranges between 0 and 1. It shows how densely the network is populated with edges, A network which contains no edges and solely isolated nodes has a density of 0. In contrast, the density of a clique is 1. Another related parameter is the network centralization [43]. Networks whose topologies resemble a star have a centralization close to 1, whereas decentralized networks are characterized by having a centralization close to 0.
+\subsection*{Network analysis}
+Important information about a network can be gained by analyzing its global structure, for example by looking at the relative centrality of different nodes. In a centrality analysis, nodes are ordered in terms of the degree to which they occupy a central place in the network. Global descriptors of the modules were obtained using package qgraph in R. The neighborhood of a given node n is the set of its neighbors. The connectivity is the size of its neighborhood. The average number of neighbors indicates the average connectivity of a node in the network. A normalized version of this parameter is the network density. Density ranges between 0 and 1. It shows how densely the network is populated with edges, A network which contains no edges and solely isolated nodes has a density of 0. In contrast, the density of a clique is 1. Another related parameter is the network centralization. Networks whose topologies resemble a star have a centralization close to 1, whereas decentralized networks are characterized by having a centralization close to 0.
 
 In undirected networks, the clustering coefficient is the number of connected pairs between all neighbors of the network. The clustering coefficient of a node is always a number between 0 and 1. The network clustering coefficient is the average of the clustering coefficients for all nodes in the network. Nodes with less than two neighbors are assumed to have a clustering coefficient of 0. We then determined network centralities on the modules obtained from network analysis. Centralities were assessed using package in R. We calculated Degree centrality and Betweenness centrality.
 
-\section{Results}
+%%%%%%%%%%%%%%%%%%%
+\textbf{Pearson’s product-moment correlation coefficient}
+The Pearson’s product-moment correlation or simply Pearson’s correlation is a measure of linear dependence, as the slope obtained by the linear regression of $Y$ by $X$ is Pearson’s correlation multiplied by that ratio of standard deviations.
+Let $\overline{x} = \frac{\sum_{i=1}^{n} x_{i}}{n}$ and $\overline{y} = \frac{\sum_{i=1}^{n} y_{i}}{n}$ be the means of $X$ and $Y$, respectiverly, then the Peasons's corrlation coefficient $\rho_{pearson}$ is defined as follows: 
 
-\Section{Discussion}
+$\rho_{pearson}(X, Y) = \frac{\sum_{i=1}^{n}(x_{i} - \overline{x})(y_{i} - \overline{y})}
+{\sqrt{\sum_{i=1}^{n}(x_{i} - \overline{x})^2  \sum_{i=1}^{n}(y_{i} - \overline{y})^2}}$
 
+For joint normal distributions, Pearson’s correl- ation coefficient under H0 follows a Student’s t-distribution with $ n -2 $ degrees of freedom. The $t$ statistic is as follows:
+
+$t = \frac{\rho_{pearson}(X, Y) \sqrt{n -2}}{\sqrt{1- \rho^{2}_{pearson}(X, Y)}}$
+
+When the random variables are not jointly nor- mally distributed, the Fisher’s transformation is used to get an asymptotic normal distribution.
+
+In the case of perfect linear dependence, we have $\rho_{pearson} = \pm1$. The Pearson correlation is $+1$ in the case of a perfect positive (increasing) linear relationship and $-1 $in the case of a perfect negative (decreasing) linear relationship. In the case of linearly independent random variables, $\rho_{pearson} = 0$, and in the case of imperfect linear dependence, $-1 < \rho_{pearson} < 1$. These last two cases are the ones for which misinterpretations of correlation are possible because it is usually assumed that non- correlated X and Y means independent variables, whereas in fact, they may be associated in a non- linear fashion that Pearson’s correlation coefficient is not able to identify.The R function for Pearson’s test is cor.test with parameter method `pearson' (package stats). The stats package can be downloaded from the R  Web page (http://www.r-project.org).
+
+\section*{Results}
+
+\section*{Discussion}
+\bibliographystyle{plain}
 \bibliography{ref}
+
 \end{document}
