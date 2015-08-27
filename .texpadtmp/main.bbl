@@ -12,6 +12,19 @@ Kun Dong, Bin Chen, Zhengyue Li, Yan Dong, and Hailong Wang.
   in the japonica rice zone of yunnan, china.
 \newblock {\em Crop Protection}, 29(6):603--611, 2010.
 
+\bibitem{fda.usc.package}
+Manuel Febrero-Bande and Manuel {Oviedo de la Fuente}.
+\newblock Statistical computing in functional data analysis: The {R} package
+  {fda.usc}.
+\newblock {\em Journal of Statistical Software}, 51(4):1--28, 2012.
+
+\bibitem{ghasemi2012normality}
+Asghar Ghasemi and Saleh Zahediasl.
+\newblock Normality tests for statistical analysis: a guide for
+  non-statisticians.
+\newblock {\em International journal of endocrinology and metabolism},
+  10(2):486, 2012.
+
 \bibitem{jiang2004cluster}
 Daxin Jiang, Chun Tang, and Aidong Zhang.
 \newblock Cluster analysis for gene expression data: A survey.
@@ -66,5 +79,10 @@ Serge Savary, Laetitia Willocquet, Francisco~A Elazegui, Paul~S Teng, Pham
 \newblock Rice pest constraints in tropical {Asia}: characterization of injury
   profiles in relation to production situations.
 \newblock {\em Plant Disease}, 84(3):341--356, 2000.
+
+\bibitem{szekely2007measuring}
+G{\'a}bor~J Sz{\'e}kely, Maria~L Rizzo, Nail~K Bakirov, et~al.
+\newblock Measuring and testing dependence by correlation of distances.
+\newblock {\em The Annals of Statistics}, 35(6):2769--2794, 2007.
 
 \end{thebibliography}
