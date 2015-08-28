@@ -121,7 +121,8 @@ FUNCTION {output.year.check}
 { year empty$
     { "empty year in " cite$ * warning$ }
     { write$
-      " (" year * extra.label * ")" *
+%      " (" year * extra.label * ")" * remove parentheses
+      ". " year * extra.label * "." *
       mid.sentence 'output.state :=
     }
   if$
@@ -226,8 +227,11 @@ FUNCTION {format.names}
   s num.names$ 'numnames :=
   numnames 'namesleft :=
     { namesleft #0 > }
-    { s nameptr "{vv~}{ll}{, jj}{, f.}" format.name$ 't :=   % last name first
-      nameptr #1 >
+    { nameptr #1 =
+  {s nameptr "{vv~}{ll}{, f.}{, jj}" format.name$ 't :=}
+  {s nameptr "{f.~}{vv~}{ll}{, jj}" format.name$ 't :=}
+  if$
+          nameptr #1 >
         { namesleft #1 >
             { ", " * t * }
             { numnames #2 >
@@ -236,7 +240,7 @@ FUNCTION {format.names}
               if$
               t "others" =
                 { " et~al." * }
-                { " \& " * t * }
+                { " {and} " * t * }
               if$
             }
           if$
@@ -862,7 +866,7 @@ FUNCTION {format.lab.names}
         'skip$
         { s #2 "{ff }{vv }{ll}{ jj}" format.name$ "others" =
             { " et~al." * }
-            { " \& " * s #2 "{vv~}{ll}" format.name$ * }
+            { " {and} " * s #2 "{vv~}{ll}" format.name$ * }
           if$
         }
       if$

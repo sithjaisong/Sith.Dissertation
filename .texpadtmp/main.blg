@@ -1,59 +1,55 @@
-This is BibTeX, Version 0.99d (TeX Live 2014)
+This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 A level-1 auxiliary file: frontpgs.aux
-The style file: apacite.bst
-Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
-Reallocated global_strs (elt_size=20001) to 20 items from 10.
-Reallocated glb_str_end (elt_size=4) to 20 items from 10.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
+The style file: ../apalike2.bst
 Database file #1: ../reference.bib
-Warning--I didn't find a database entry for "MoslonkaLefebvre:2011fo"
-apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 49 entries,
-            6951 wiz_defined-function locations,
-            1586 strings with 20051 characters,
-and the built_in function-call counts, 100160 in all, are:
-= -- 12111
-> -- 902
-< -- 5010
-+ -- 5314
-- -- 98
-* -- 6656
-:= -- 18551
-add.period$ -- 194
-call.type$ -- 49
-change.case$ -- 833
-chr.to.int$ -- 0
-cite$ -- 98
-duplicate$ -- 2917
-empty$ -- 3829
-format.name$ -- 1619
-if$ -- 18664
-int.to.chr$ -- 0
-int.to.str$ -- 147
-missing$ -- 0
-newline$ -- 1282
-num.names$ -- 392
-pop$ -- 1759
+Warning--I didn't find a database entry for "Moslonka2010"
+Warning--empty journal in borgatti2013analyzing
+Warning--empty journal in snapackage
+Warning--empty journal in networkdynamicpackage
+Warning--empty publisher in dnapackage
+Warning--empty journal in statnetpackage
+Warning--empty journal in horvath2011weighted
+You've used 58 entries,
+            1988 wiz_defined-function locations,
+            854 strings with 14634 characters,
+and the built_in function-call counts, 24948 in all, are:
+= -- 2573
+> -- 1270
+< -- 29
++ -- 456
+- -- 444
+* -- 2205
+:= -- 4393
+add.period$ -- 171
+call.type$ -- 58
+change.case$ -- 565
+chr.to.int$ -- 58
+cite$ -- 64
+duplicate$ -- 755
+empty$ -- 1526
+format.name$ -- 530
+if$ -- 4827
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 58
+newline$ -- 290
+num.names$ -- 174
+pop$ -- 410
 preamble$ -- 1
-purify$ -- 196
+purify$ -- 512
 quote$ -- 0
-skip$ -- 5938
+skip$ -- 602
 stack$ -- 0
-substring$ -- 5735
-swap$ -- 1658
-text.length$ -- 101
+substring$ -- 1682
+swap$ -- 13
+text.length$ -- 1
 text.prefix$ -- 0
-top$ -- 1
-type$ -- 3920
-warning$ -- 0
-while$ -- 535
+top$ -- 0
+type$ -- 342
+warning$ -- 6
+while$ -- 194
 width$ -- 0
-write$ -- 1650
-(There was 1 warning)
+write$ -- 738
+(There were 7 warnings)

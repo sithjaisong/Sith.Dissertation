@@ -1,13 +1,13 @@
 %=========================
 % Materials and Methods
 %=========================
-
+\thispagestyle{empty}
 This research will use data collected from surveys of irrigated lowland rice growing areas in South and South East Asia to examine relationships between the injuries caused by pests and diseases, cropping practices (\textit{e.g.}, rice variety grown, crop establishment method, fertilizer and chemicals applied). Their relationships will be constructed and analyzed through network analysis. I will develop and apply suitable methods of network analysis to characterize the associations of injuries and cropping practices. The resulting network of associations of injuries and cropping practices will thus provide a starting point for further investigations of their relationships (\textit{i.e.}, characterization of relationships of cropping practices and injury profiles related to yields, comparison of networks under different production environments or examination of networks at different levels of yield gains). 
 
 In the following, I present three distinct network analysis approaches: single-network analysis, differential network analysis, and dynamic network analysis. These three approaches will answer different questions. I will apply single-network analysis to the data from all fields surveyed for identifying patterns of interactions between injuries and cropping practices and key components (\textit{e.g.}, most connected variables). Second, differential network analysis will aim to uncover similarities and differences of networks constructed from the different data sets (\textit{e.g.}, dry season versus wet season). Dynamic network analysis, the third type, will be applied to study how networks changed under at least two different aspects of an evolving complex system. Here, I will focus on dynamic networks by dividing farms into different levels of yield attained. 
 
-\subsection*{Crop health survey data}
-\addcontentsline{toc}{subsection}{Crop health survey data}
+\section*{Crop health survey data}
+\addcontentsline{toc}{section}{Crop health survey data}
 
 % how many farmers' fields were surveyed?
 Crop health survey data were collected through surveys of farmers' fields (approximately 800) from 2010 to 2015 for both wet and dry seasons in different production environments across South and South East Asia representing irrigated lowland rice growing areas West Java, Indonesia; Mekong River Delta and Red River Delta, Vietnam; Tamil Nadu and Odisha, India; and Suphanburi, Thailand. The survey protocol described in the IRRI publication, ``A SURVEY PORTFOLIO TO CHARACTERIZE YIELD-REDUCING FACTORS IN RICE'', \citep{Savarysurvey2009} was used for data collection. The variables collected included environmental attributes, patterns of cropping practices, crop growth measurement and crop management status assessments, measurements of levels of injuries caused by pests, and direct measurements of actual yields from crop cuts. The data collected can be classified into three groups: cropping practices, injuries, and actual yield measurements.
@@ -79,9 +79,9 @@ Dynamic network analysis will be applied to study changes in networks with at le
 \begin{figure}
 \centering
 %\includegraphics[resolution = 600]{pipeline}
-\includegraphics[width = 6in]{pipeline}
+\centerline{\includegraphics[width = 5in]{pipeline}}
 % What is FDR correction? A caption should enable a figure to stand on its own.
-\caption[Network method for characterizing interactions between injury profiles and cropping practices using correlation measures]{Crop health survey data that were collected include cropping practices, injuries, and yield data. These data were collected from farmers' fields in four countries: Indonesia, India, Thailand, and Vietnam. Correlation matrices will be produced using four individual methods; Pearson, Spearman, Kendall correlation and Biweight midcorrelation. The $p$~values for all coefficients will be adjusted for multiple comparison by false discovery rate (FDR) correction. The correlation coefficients with $p$~values > 0.05 will be removed. The resulting network will be analyzed for structural properties and to infer biological meanings. This will provide the cropping practices and injury profiles network of crop health data.}
+\caption[Proposed method for constructing network]{Crop health survey data that were collected include cropping practices, injuries, and yield data. These data were collected from farmers' fields in four countries: Indonesia, India, Thailand, and Vietnam. Correlation matrices will be produced using four individual methods; Pearson, Spearman, Kendall correlation and Biweight midcorrelation. The $p$~values for all coefficients will be adjusted for multiple comparison by false discovery rate (FDR) correction. The correlation coefficients with $p$~values > 0.05 will be removed. The resulting network will be analyzed for structural properties and to infer biological meanings. This will provide the cropping practices and injury profiles network of crop health data.}
 \end{figure}
 %\end{landscape}
 
@@ -89,7 +89,7 @@ Dynamic network analysis will be applied to study changes in networks with at le
 \begin{landscape}
 \begin{figure}
 \centering
-\includegraphics[width=8in]{wholenet}
+\centerline{\includegraphics[width=8in]{wholenet}}
 \caption[Network comparison]{A single network will be created from the whole survey data set. Differential networks will be constructed using different data set, which may be different subgroups of samples from different seasons (\textit{e.g.}, dry season and wet season) or different geographic locations, then differences in connectivity patterns between two networks will be measured. Dynamic networks will be produced from different subgroups of surveys by grouping consecutive yield levels, (\textit{i.e.}, low, median, high yield).}
 \end{figure}
 \end{landscape}

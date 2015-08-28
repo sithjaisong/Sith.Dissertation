@@ -1,0 +1,95 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% doing the thing for the chapter headline one each page.
+%%%% here, using etoc.
+
+\newif\ifintoc
+\newcommand*{\PrintChapterTocHeadline}
+  {\hbox to \linewidth{\underline{\textbf{CHAPTER}}\hfill\underline{\textbf{PAGE}}}\bigskip
+   \afterpage {\ifintoc\PrintChapterTocHeadline\fi}}
+
+% after title hook will take care of the first chapter headline
+% nothing is written to the .toc file, hence other TOCs in the
+% document can be done, not using that extra thing. Naturally
+% the hook will have to be redefined
+\renewcommand{\etocaftertitlehook}
+             {\parindent 0pt 
+              \leftskip  0cm 
+              \rightskip \tocright
+              \parfillskip -\rightskip
+              \PrintChapterTocHeadline
+              \intoctrue }
+% etoc always typesets TOCs in a group. Thus the \ifintoc boolean
+% will be false after the TOC completes.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Now using etoc also to customize the formatting itself.
+%%%% I take this opportunity to write down some rather general
+%%%% etoc line style definitions, for a look somewhat like the
+%%%% standard looks, but customisable.
+%%%% some dimensions are hard-coded, but for some I already define
+%%%% associated lengths
+
+\newlength{\tocright}
+\setlength{\tocright}{2.25cm}
+
+\newlength{\toclefti}
+\setlength{\toclefti}{2.25cm}
+
+\newlength{\tocleftii}
+\setlength{\tocleftii}{2.75cm}
+
+\newlength{\tocleftiii}
+\setlength{\tocleftiii}{3.00cm}
+
+% Code for page numbers on the right side.
+
+\renewcommand*\etoctoclineleaders
+ {\hbox{\normalfont\Large\hbox to 0.6ex {\hss.\hss}}} %the dot line
+
+\newcommand*{\EndParWithPagenoInMarginAndLeaders}
+ {\nobreak\leaders\etoctoclineleaders\hfill
+ \nobreak\makebox[\tocright][r]{\mdseries\normalsize\etocpage}%
+ \par }
+
+% version with no dot leaders:
+\newcommand*{\EndParWithPagenoInMargin}
+ {\nobreak\hfill
+ \nobreak\makebox[\tocright][r]{\mdseries\normalsize\etocpage}%
+ \par}
+
+\etocsetstyle{chapter}
+{}
+{\leavevmode\leftskip \toclefti}
+{\llap{\makebox[\toclefti][l]{\bfseries\etocnumber}}%
+ \etoclink{\bfseries\MakeUppercase{\etocthename}}% roman uppercase
+ \EndParWithPagenoInMargin}
+{}
+
+\etocsetstyle{section}
+{}
+{\leavevmode\leftskip \tocleftii }
+{\llap{\makebox[\dimexpr\tocleftii-\toclefti\relax][l]{\etocnumber}}%
+ \textsc{\etocname}% small caps
+ \EndParWithPagenoInMarginAndLeaders}
+{\medskip}
+
+\etocsetstyle{subsection}
+{}
+{\leavevmode\leftskip \tocleftiii}
+{\llap{\makebox[\dimexpr\tocleftiii-\tocleftii\relax][l]{\etocnumber}}%
+ \etocname
+ \EndParWithPagenoInMarginAndLeaders}
+{\smallskip}
+
+%\renewcommand*{\etoctoprule}{\hrule height 0pt\relax}
+%\etocruledstyle [1]{\MakeUppercase{\contentsname}}
+%\etocsettocstyle
+%  {\hbox to \linewidth{\hss\MakeUppercase\large{{\contentsname}}\hss}\bigskip}
+%  {}
+
+
+\renewcommand{\thechapter}{\Roman{chapter}}
+%\renewcommand{\cftdot}{}
+\begin{spacing}{1.5}
+\tableofcontents
+\end{spacing}

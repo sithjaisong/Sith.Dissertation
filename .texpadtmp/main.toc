@@ -1,16 +1,17 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble }{}
 \contentsline {chapter}{\numberline {I}INTRODUCTION}{1}
-\contentsline {chapter}{Introduction}{1}
-\contentsline {chapter}{Objectives}{2}
-\contentsline {chapter}{\numberline {II}REVIEW OF LITERATURE}{3}
-\contentsline {chapter}{Introduction}{3}
-\contentsline {chapter}{Network analysis}{4}
-\contentsline {subsubsection}{Introduction to network analysis}{4}
-\contentsline {chapter}{The unique values of network analysis}{8}
-\contentsline {chapter}{Networks and Plant Pathology}{10}
-\contentsline {chapter}{Summary}{16}
-\contentsline {chapter}{\numberline {III}MATERIALS AND METHODS}{18}
-\contentsline {chapter}{Crop health survey data}{19}
-\contentsline {chapter}{Single network analysis of crop health survey data}{19}
-\contentsline {chapter}{Differential network analysis of crop health survey data under different season and production environment}{21}
-\contentsline {chapter}{Dynamic network analysis of crop health survey data}{23}
-\contentsline {chapter}{LITERATURE CITED}{26}
+\contentsline {section}{Statement of the problem}{3}
+\contentsline {section}{Objective of the study}{4}
+\contentsline {section}{Significance of the study}{5}
+\contentsline {section}{Scope and limitation of the study}{5}
+\contentsline {chapter}{\numberline {II}REVIEW OF LITERATURE}{7}
+\contentsline {section}{Network analysis}{8}
+\contentsline {section}{The unique values of network analysis}{12}
+\contentsline {section}{Networks and Plant Pathology}{15}
+\contentsline {section}{A variety of Network Construction Methods}{21}
+\contentsline {section}{Summary}{24}
+\contentsline {chapter}{\numberline {III}MATERIALS AND METHODS}{26}
+\contentsline {section}{Crop health survey data}{27}
+\contentsline {section}{Single network analysis of crop health survey data}{28}
+\contentsline {section}{Differential network analysis of crop health survey data}{31}
+\contentsline {section}{Dynamic network analysis of crop health survey data}{32}
