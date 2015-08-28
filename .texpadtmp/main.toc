@@ -1,0 +1,20 @@
+\nobreakspace {}\hfill \relax $\@@underline {\hbox {\textbf {PAGE}}}\mathsurround \z@ $\relax \par 
+\contentsline {chapter}{\numberline {}REVIEW OF LITERATURE}{1}
+\contentsline {section}{Rice Pests}{3}
+\contentsline {paragraph}{Disease on tiller}{6}
+\contentsline {paragraph}{Foliar diseases}{6}
+\contentsline {paragraph}{Panicle diseases}{7}
+\contentsline {paragraph}{Viral diseases }{8}
+\contentsline {section}{Interactions of cropping practice and plant pests}{10}
+\contentsline {subsection}{Crop establishment and pests}{10}
+\contentsline {subsection}{Nutrient management}{11}
+\contentsline {section}{Interactions between coexisting rice pests}{14}
+\contentsline {section}{Survey in the field of epidemiological research}{15}
+\contentsline {section}{Common techniques for analysis of survey data}{17}
+\contentsline {section}{Network analysis}{18}
+\contentsline {section}{The unique values of network analysis}{23}
+\contentsline {section}{Networks and Plant Pathology}{25}
+\contentsline {subsection}{Using Network analysis to understand plant disease spread}{26}
+\contentsline {subsection}{Using Network analysis to understand molecular plant pathology}{29}
+\contentsline {section}{A variety of Network Construction Methods}{32}
+\contentsline {section}{Summary}{34}

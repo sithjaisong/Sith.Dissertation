@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: ../apalike2.bst
+Database file #1: ../reference.bib
+Warning--entry type for "irrisheathblight" isn't style-file defined
+--line 13 of file ../reference.bib
+You've used 14 entries,
+            1971 wiz_defined-function locations,
+            569 strings with 6513 characters,
+and the built_in function-call counts, 5699 in all, are:
+= -- 556
+> -- 280
+< -- 11
++ -- 102
+- -- 98
+* -- 479
+:= -- 1023
+add.period$ -- 40
+call.type$ -- 14
+change.case$ -- 130
+chr.to.int$ -- 14
+cite$ -- 14
+duplicate$ -- 187
+empty$ -- 356
+format.name$ -- 118
+if$ -- 1082
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 12
+newline$ -- 70
+num.names$ -- 42
+pop$ -- 94
+preamble$ -- 1
+purify$ -- 117
+quote$ -- 0
+skip$ -- 157
+stack$ -- 0
+substring$ -- 386
+swap$ -- 11
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 82
+warning$ -- 0
+while$ -- 47
+width$ -- 0
+write$ -- 174
+(There was 1 warning)
