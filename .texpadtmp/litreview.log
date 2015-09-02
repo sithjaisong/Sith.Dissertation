@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.8.22)  2 SEP 2015 09:42
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.8.22)  2 SEP 2015 09:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -823,18 +823,18 @@ LaTeX Info: Redefining \addtolength on input line 81.
 )
 \openout1 = `litreview.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -880,17 +880,18 @@ Dictionary: translator-basic-dictionary, Language: English
 File: siunitx-abbreviations.cfg 2015/01/21 v2.6e siunitx: Abbreviated units
 ) ABD: EveryShipout initializing macros
 \c__siunitx_mathsf_int=\count174
-LaTeX Font Info:    Try loading font information for U+msa on input line 23.
+LaTeX Font Info:    Try loading font information for U+msa on input line 24.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 23.
+LaTeX Font Info:    Try loading font information for U+msb on input line 24.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 \c__siunitx_mathtt_int=\count175
+Missing character: There is no ﻿ in font cmr12!
  [1
 
 ] [2]
@@ -898,33 +899,33 @@ Missing character: There is no ^^88 in font cmr12!
 Missing character: There is no ^^92 in font cmr12!
 
 [3] [4] [5]
-Overfull \hbox (10.9163pt too wide) in paragraph at lines 73--74
+Overfull \hbox (10.9163pt too wide) in paragraph at lines 75--76
 []\OT1/cmr/bx/n/12 Rice black bugs \OT1/cmr/m/n/12 be-long to sev-eral species,
  but Malaysian black bug \OT1/cmr/m/it/12 Scotinophara
  []
 
 [6]
-Overfull \hbox (6.99786pt too wide) in paragraph at lines 81--82
+Overfull \hbox (6.99786pt too wide) in paragraph at lines 83--84
 []\OT1/cmr/bx/n/12 Brown spot\OT1/cmr/m/n/12 , cause by \OT1/cmr/m/it/12 Cochli
 obo-lus miyabeanus \OT1/cmr/m/n/12 (Ito & Kurib-ayashi) (anamorph:
  []
 
-
-Overfull \hbox (4.39378pt too wide) in paragraph at lines 83--84
+[7]
+Overfull \hbox (4.39378pt too wide) in paragraph at lines 85--86
 []\OT1/cmr/bx/n/12 Rice blast\OT1/cmr/m/n/12 , caused by \OT1/cmr/m/it/12 Mag-n
 a-porthe grisea \OT1/cmr/m/n/12 (Hebert) Bar-rand (anamorph: \OT1/cmr/m/it/12 P
 yric-
  []
 
-[7] [8] [9]
-Overfull \hbox (1.6623pt too wide) in paragraph at lines 95--96
+[8] [9]
+Overfull \hbox (1.6623pt too wide) in paragraph at lines 97--98
 []\OT1/cmr/bx/n/12 Bakanae \OT1/cmr/m/n/12 caused by \OT1/cmr/m/it/12 Gib-berel
 la fu-jikuroi (Sawada) \OT1/cmr/m/n/12 (anamorph: \OT1/cmr/m/it/12 Fusar-ium mo
 nil-
  []
 
 
-Overfull \hbox (9.79584pt too wide) in paragraph at lines 100--101
+Overfull \hbox (9.79584pt too wide) in paragraph at lines 102--103
 []\OT1/cmr/bx/n/12 Sheath rot \OT1/cmr/m/n/12 caused by \OT1/cmr/m/it/12 Saro-c
 la-dium oryzae \OT1/cmr/m/n/12 (Sawada) W. Gams & D. Hawksworth,
  []
