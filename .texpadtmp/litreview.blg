@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: litreview.aux
+The style file: ../apalike2.bst
+Database file #1: ../reference.bib
+Warning--entry type for "irrirkb" isn't style-file defined
+--line 35 of file ../reference.bib
+Warning--I didn't find a database entry for ""
+Warning--empty journal in borgatti2013analyzing
+Warning--empty journal in horvath2011weighted
+Warning--there's a number but no volume in tanaka2008villosiclava
+You've used 68 entries,
+            1971 wiz_defined-function locations,
+            906 strings with 17166 characters,
+and the built_in function-call counts, 29191 in all, are:
+= -- 2826
+> -- 1500
+< -- 33
++ -- 539
+- -- 525
+* -- 2593
+:= -- 5209
+add.period$ -- 202
+call.type$ -- 68
+change.case$ -- 663
+chr.to.int$ -- 68
+cite$ -- 71
+duplicate$ -- 906
+empty$ -- 1835
+format.name$ -- 618
+if$ -- 5526
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 69
+newline$ -- 338
+num.names$ -- 206
+pop$ -- 491
+preamble$ -- 1
+purify$ -- 599
+quote$ -- 0
+skip$ -- 717
+stack$ -- 0
+substring$ -- 2057
+swap$ -- 22
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 400
+warning$ -- 3
+while$ -- 238
+width$ -- 0
+write$ -- 865
+(There were 5 warnings)
