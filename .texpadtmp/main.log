@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.8.22)  28 AUG 2015 00:34
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.8.22)  9 SEP 2015 16:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -138,23 +138,7 @@ e/RRM/JK)
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
 )
-(/Users/sithjaisong/Documents/Github/Sith.Dissertation/.texpadtmp/main.aux
-
-/Users/sithjaisong/Documents/Github/Sith.Dissertation/.texpadtmp/main.aux:36: P
-ackage natbib Error: Bibliography not compatible with author-year citations.
-(natbib)                Press <return> to continue in numerical citation style.
-
-
-See the natbib package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.36 ...mand\NAT@force@numbers{}\NAT@force@numbers
-                                                  
-Check the bibliography entries for non-compliant syntax,
-or select author-year BibTeX style, e.g. plainnat
-
-)
+(/Users/sithjaisong/Documents/Github/Sith.Dissertation/.texpadtmp/main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
@@ -169,60 +153,33 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
-Missing character: There is no ’ in font cmr10!
- [1
+
+[1
 
 ] [2]
-Missing character: There is no – in font cmr10!
-
-
-Package natbib Warning: Citation `R:2014' on page 3 undefined on input line 61.
-
-
-
-Overfull \hbox (5.15683pt too wide) in paragraph at lines 61--62
+Overfull \hbox (2.65681pt too wide) in paragraph at lines 77--78
 \OT1/cmr/m/n/10 stats). The stats pack-age can be down-loaded from the \OT1/cmt
-t/m/n/10 R \OT1/cmr/m/n/10 Web page (http://www.r-
+t/m/n/10 R \OT1/cmr/m/n/10 web page (http://www.r-
  []
 
-
-Overfull \hbox (2.19545pt too wide) in paragraph at lines 64--65
- \OT1/cmr/bx/n/10 Task check the in-de-pen-dence[] \OT1/cmr/m/n/10 Per-form-ing
- the dis-tance cor-re-la-tion t-test([])
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 72.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 87.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 72.
-Missing character: There is no ’ in font cmbx10!
-Missing character: There is no ’ in font cmr10!
-Missing character: There is no ’ in font cmr10!
-Missing character: There is no ’ in font cmr10!
-Missing character: There is no ’ in font cmr10!
-Missing character: There is no ’ in font cmr10!
- [3]
-Missing character: There is no ’ in font cmr10!
-Missing character: There is no ’ in font cmr10!
-Missing character: There is no ’ in font cmr10!
- [4]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 87.
+ [3] [4]
 (/Users/sithjaisong/Documents/Github/Sith.Dissertation/.texpadtmp/main.bbl
-[5])
-
-Package natbib Warning: There were undefined citations.
-
-[6] (/Users/sithjaisong/Documents/Github/Sith.Dissertation/.texpadtmp/main.aux)
- ) 
+[5]) [6]
+(/Users/sithjaisong/Documents/Github/Sith.Dissertation/.texpadtmp/main.aux) ) 
 Here is how much of TeX's memory you used:
- 2029 strings out of 493706
- 25660 string characters out of 6145769
- 91661 words of memory out of 5000000
- 5375 multiletter control sequences out of 15000+600000
+ 2036 strings out of 493706
+ 25812 string characters out of 6145769
+ 92592 words of memory out of 5000000
+ 5382 multiletter control sequences out of 15000+600000
  10763 words of font info for 39 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 27i,6n,24p,1066b,247s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,6n,24p,1229b,232s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /Users/sithjaisong/Documents/Github/Sith.Dissertation/.texpad
 tmp/main.pdf (6 pages).

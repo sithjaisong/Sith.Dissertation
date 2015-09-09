@@ -1,88 +1,103 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{}
 
-\bibitem{avelino:2006ie}
-J~Avelino, H~Zelaya, A~Merlo, A~Pineda, M~Ordo{\~n}ez, and S~Savary.
-\newblock The intensity of a coffee rust epidemic is dependent on production
-  situations.
-\newblock {\em Ecological Modelling}, 197(3-4):431--447, 2006.
-
-\bibitem{dong2010characterization}
-Kun Dong, Bin Chen, Zhengyue Li, Yan Dong, and Hailong Wang.
+\bibitem[Dong et~al., 2010]{dong2010characterization}
+Dong, K., Chen, B., Li, Z., Dong, Y., and Wang, H. (2010).
 \newblock A characterization of rice pests and quantification of yield losses
   in the japonica rice zone of yunnan, china.
-\newblock {\em Crop Protection}, 29(6):603--611, 2010.
+\newblock {\em Crop Protection}, 29(6):603--611.
 
-\bibitem{fda.usc.package}
-Manuel Febrero-Bande and Manuel {Oviedo de la Fuente}.
+\bibitem[Febrero-Bande and {Oviedo de la Fuente}, 2012]{fda.usc.package}
+Febrero-Bande, M. and {Oviedo de la Fuente}, M. (2012).
 \newblock Statistical computing in functional data analysis: The {R} package
   {fda.usc}.
-\newblock {\em Journal of Statistical Software}, 51(4):1--28, 2012.
+\newblock {\em Journal of Statistical Software}, 51(4):1--28.
 
-\bibitem{ghasemi2012normality}
-Asghar Ghasemi and Saleh Zahediasl.
+\bibitem[Ghasemi and Zahediasl, 2012]{ghasemi2012normality}
+Ghasemi, A. and Zahediasl, S. (2012).
 \newblock Normality tests for statistical analysis: a guide for
   non-statisticians.
 \newblock {\em International journal of endocrinology and metabolism},
-  10(2):486, 2012.
+  10(2):486.
 
-\bibitem{jiang2004cluster}
-Daxin Jiang, Chun Tang, and Aidong Zhang.
-\newblock Cluster analysis for gene expression data: A survey.
-\newblock {\em Knowledge and Data Engineering, IEEE Transactions on},
-  16(11):1370--1386, 2004.
-
-\bibitem{mew:2004kh}
-Twng~Wah Mew, Hei Leung, Serge Savary, Casiana~M Vera~Cruz, and Jan~E Leach.
+\bibitem[Mew et~al., 2004]{mew:2004kh}
+Mew, T.~W., Leung, H., Savary, S., Vera~Cruz, C.~M., and Leach, J.~E. (2004).
 \newblock Looking ahead in rice disease research and management.
-\newblock {\em Critical Reviews in Plant Sciences}, 23(2):103--127, 2004.
+\newblock {\em Critical Reviews in Plant Sciences}, 23(2):103--127.
 
-\bibitem{Reddy:2011hl}
-C~S Reddy, G~S Laha, M~S Prasad, and D~Krishnaveni.
+\bibitem[Moslonka-Lefebvre et~al., 2011]{Lefebvre:2011fo}
+Moslonka-Lefebvre, M., Finley, A., Dorigatti, I., Dehnen-Schmutz, K., Harwood,
+  T., Jeger, M.~J., Xu, X., Holdenrieder, O., and Pautasso, M. (2011).
+\newblock Networks in plant epidemiology: from genes to landscapes, countries,
+  and continents.
+\newblock {\em {Phytopathology}}, 101(4):392--403.
+
+\bibitem[Ou, 1985]{ouricedisease}
+Ou, S.~H. (1985).
+\newblock {\em Rice diseases}.
+\newblock International Rice Research Institute (IRRI).
+
+\bibitem[Proulx et~al., 2005]{PROULX:2005hx}
+Proulx, S., Promislow, D., and Phillips, P. (2005).
+\newblock Network thinking in ecology and evolution.
+\newblock {\em {Trends in Ecology {\&} Evolution}}, 20(6):345--353.
+
+\bibitem[{R Core Team}, 2014]{R:2014}
+{R Core Team} (2014).
+\newblock {\em R: A language and environment for statistical computing}.
+\newblock R Foundation for Statistical Computing, Vienna, Austria.
+
+\bibitem[Reddy et~al., 2011]{Reddy:2011hl}
+Reddy, C.~S., Laha, G.~S., Prasad, M.~S., and Krishnaveni, D. (2011).
 \newblock Characterizing multiple linkages between individual diseases, crop
   health syndromes, germplasm deployment, and rice production situations in
   {India}.
-\newblock {\em {Field Crops}}, 2011.
+\newblock {\em {Field Crops}}.
 
-\bibitem{Savarysurvey2009}
-S~Savary and N.P Castilla.
+\bibitem[Savary and Castilla, 2009]{Savarysurvey2009}
+Savary, S. and Castilla, N. (2009).
 \newblock A survey portfolio to characterize yield-reducing factors in rice.
-\newblock {\em {IRRI Discussion Paper No 18}}, 2009.
+\newblock {\em {IRRI Discussion Paper No 18}}, page~{32}.
 
-\bibitem{savary1997new}
-S~Savary, FA~Elazegui, HO~Pinnschmidt, NP~Castilla, and PS~Teng.
+\bibitem[Savary et~al., 2005]{savary2005multiple}
+Savary, S., Castilla, N.~P., Elazegui, F., and Teng, P.~S. (2005).
+\newblock Multiple effects of two drivers of agricultural change, labour
+  shortage and water scarcity, on rice pest profiles in tropical asia.
+\newblock {\em Field Crops Research}, 91(2):263--271.
+
+\bibitem[Savary et~al., 1997]{savary1997new}
+Savary, S., Elazegui, F., Pinnschmidt, H., Castilla, N., and Teng, P. (1997).
 \newblock A new approach to quantify crop losses due to rice pests in varying
   production situations.
 \newblock {\em IRRI discusion paper series no20. International Rice Research
-  Institute, PO Box}, 933, 1997.
+  Institute, PO Box}, 933.
 
-\bibitem{savary2005multiple}
-Serge Savary, Nancy~P Castilla, FA~Elazegui, and Paul~S Teng.
-\newblock Multiple effects of two drivers of agricultural change, labour
-  shortage and water scarcity, on rice pest profiles in tropical asia.
-\newblock {\em Field Crops Research}, 91(2):263--271, 2005.
-
-\bibitem{Savary:2006to}
-Serge Savary, Paul~S Teng, Laetitia Willocquet, and Forrest~W Nutter.
+\bibitem[Savary et~al., 2006]{Savary:2006to}
+Savary, S., Teng, P.~S., Willocquet, L., and Nutter, F.~W. (2006).
 \newblock Quantification and modeling of crop losses: a review of purposes.
-\newblock {\em Annual Review of Phytopathology}, 44(1):89--112, 2006.
+\newblock {\em Annual Review of Phytopathology}, 44(1):89--112.
 
-\bibitem{savary2000quanti}
-Serge Savary, Laetitia Willocquet, Francisco~A Elazegui, Nancy~P Castilla, and
-  Paul~S Teng.
+\bibitem[Savary et~al., 2000a]{savary2000quanti}
+Savary, S., Willocquet, L., Elazegui, F.~A., Castilla, N.~P., and Teng, P.~S.
+  (2000a).
 \newblock Rice pest constraints in tropical {Asia}: quantification of yield
   losses due to rice pests in a range of production situations.
-\newblock {\em Plant disease}, 84(3):357--369, 2000.
+\newblock {\em Plant disease}, 84(3):357--369.
 
-\bibitem{Savary:2000char}
-Serge Savary, Laetitia Willocquet, Francisco~A Elazegui, Paul~S Teng, Pham
-  Van~Du, Defeng Zhu, Qiyi Tang, Shiwen Huang, Xianquing Lin, and H~M Singh.
+\bibitem[Savary et~al., 2000b]{Savary:2000char}
+Savary, S., Willocquet, L., Elazegui, F.~A., Teng, P.~S., Van~Du, P., Zhu, D.,
+  Tang, Q., Huang, S., Lin, X., and Singh, H.~M. (2000b).
 \newblock Rice pest constraints in tropical {Asia}: characterization of injury
   profiles in relation to production situations.
-\newblock {\em Plant Disease}, 84(3):341--356, 2000.
+\newblock {\em Plant Disease}, 84(3):341--356.
 
-\bibitem{szekely2007measuring}
-G{\'a}bor~J Sz{\'e}kely, Maria~L Rizzo, Nail~K Bakirov, et~al.
+\bibitem[Sz{\'e}kely et~al., 2007]{szekely2007measuring}
+Sz{\'e}kely, G.~J., Rizzo, M.~L., Bakirov, N.~K., et~al. (2007).
 \newblock Measuring and testing dependence by correlation of distances.
-\newblock {\em The Annals of Statistics}, 35(6):2769--2794, 2007.
+\newblock {\em The Annals of Statistics}, 35(6):2769--2794.
+
+\bibitem[Toubiana et~al., 2013]{Toubiana:2013cv}
+Toubiana, D., Fernie, A.~R., Nikoloski, Z., and Fait, A. (2013).
+\newblock Network analysis: tackling complex data to study plant metabolism.
+\newblock {\em Trends in Biotechnology}, 31(1):29--36.
 
 \end{thebibliography}
