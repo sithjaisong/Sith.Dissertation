@@ -3,15 +3,15 @@
 \contentsline {section}{Statement of the problem}{3}
 \contentsline {section}{Objective of the study}{4}
 \contentsline {section}{Significance of the study}{5}
-\contentsline {section}{Scope and limitation of the study}{5}
+\contentsline {section}{Scope and limitation of the study}{6}
 \contentsline {chapter}{\numberline {II}REVIEW OF LITERATURE}{7}
 \contentsline {section}{Network analysis}{8}
 \contentsline {section}{The unique values of network analysis}{12}
 \contentsline {section}{Networks and Plant Pathology}{15}
-\contentsline {section}{A variety of Network Construction Methods}{21}
-\contentsline {section}{Summary}{24}
-\contentsline {chapter}{\numberline {III}MATERIALS AND METHODS}{26}
-\contentsline {section}{Crop health survey data}{27}
-\contentsline {section}{Single network analysis of crop health survey data}{28}
-\contentsline {section}{Differential network analysis of crop health survey data}{31}
-\contentsline {section}{Dynamic network analysis of crop health survey data}{32}
+\contentsline {section}{A variety of Network Construction Methods}{22}
+\contentsline {section}{Summary}{25}
+\contentsline {chapter}{\numberline {III}MATERIALS AND METHODS}{27}
+\contentsline {section}{Crop health survey data}{28}
+\contentsline {section}{Single network analysis of crop health survey data}{30}
+\contentsline {section}{Differential network analysis of crop health survey data}{32}
+\contentsline {section}{Dynamic network analysis of crop health survey data}{33}
