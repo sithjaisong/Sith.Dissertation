@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.8.22)  9 SEP 2015 16:39
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.8.22)  12 SEP 2015 22:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -157,29 +157,85 @@ LaTeX Font Info:    ... okay on input line 15.
 [1
 
 ] [2]
-Overfull \hbox (2.65681pt too wide) in paragraph at lines 77--78
-\OT1/cmr/m/n/10 stats). The stats pack-age can be down-loaded from the \OT1/cmt
-t/m/n/10 R \OT1/cmr/m/n/10 web page (http://www.r-
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 87.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 90.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 87.
- [3] [4]
-(/Users/sithjaisong/Documents/Github/Sith.Dissertation/.texpadtmp/main.bbl
-[5]) [6]
-(/Users/sithjaisong/Documents/Github/Sith.Dissertation/.texpadtmp/main.aux) ) 
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 90.
+ [3]
+Missing character: There is no ρ in font cmr10!
+Missing character: There is no ρ in font cmr10!
+Missing character: There is no − in font cmr10!
+
+[4]
+Missing character: There is no − in font cmr10!
+
+
+Package natbib Warning: Citation `wilcox2012introduction' on page 5 undefined o
+n input line 160.
+
+
+./main.tex:166: Package amsmath Error: Erroneous nesting of equation structures
+;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.166 \end{align}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./main.tex:175: Package amsmath Error: Erroneous nesting of equation structures
+;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.175 \end{align}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./main.tex:191: Package amsmath Error: Erroneous nesting of equation structures
+;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.191 \end{align}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Package natbib Warning: Citation `qgraph' on page 5 undefined on input line 207
+.
+
+[5] (/Users/sithjaisong/Documents/Github/Sith.Dissertation/.texpadtmp/main.bbl
+[6] [7])
+
+Package natbib Warning: There were undefined citations.
+
+[8] (/Users/sithjaisong/Documents/Github/Sith.Dissertation/.texpadtmp/main.aux)
+ ) 
 Here is how much of TeX's memory you used:
- 2036 strings out of 493706
- 25812 string characters out of 6145769
- 92592 words of memory out of 5000000
- 5382 multiletter control sequences out of 15000+600000
+ 2038 strings out of 493706
+ 25844 string characters out of 6145769
+ 93592 words of memory out of 5000000
+ 5384 multiletter control sequences out of 15000+600000
  10763 words of font info for 39 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 27i,6n,24p,1229b,232s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,9n,24p,1229b,240s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /Users/sithjaisong/Documents/Github/Sith.Dissertation/.texpad
-tmp/main.pdf (6 pages).
+tmp/main.pdf (8 pages).
