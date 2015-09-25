@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.8.22)  2 SEP 2015 09:49
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.8.22)  25 SEP 2015 18:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -891,41 +891,40 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 24.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 \c__siunitx_mathtt_int=\count175
-Missing character: There is no ﻿ in font cmr12!
  [1
 
 ] [2]
-Missing character: There is no ^^88 in font cmr12!
-Missing character: There is no ^^92 in font cmr12!
-
-[3] [4] [5]
-Overfull \hbox (10.9163pt too wide) in paragraph at lines 75--76
+[3] [4]
+Missing character: There is no   in font cmr12!
+Missing character: There is no   in font cmr12!
+ [5]
+Overfull \hbox (10.9163pt too wide) in paragraph at lines 72--73
 []\OT1/cmr/bx/n/12 Rice black bugs \OT1/cmr/m/n/12 be-long to sev-eral species,
  but Malaysian black bug \OT1/cmr/m/it/12 Scotinophara
  []
 
 [6]
-Overfull \hbox (6.99786pt too wide) in paragraph at lines 83--84
+Overfull \hbox (6.99786pt too wide) in paragraph at lines 81--82
 []\OT1/cmr/bx/n/12 Brown spot\OT1/cmr/m/n/12 , cause by \OT1/cmr/m/it/12 Cochli
 obo-lus miyabeanus \OT1/cmr/m/n/12 (Ito & Kurib-ayashi) (anamorph:
  []
 
 [7]
-Overfull \hbox (4.39378pt too wide) in paragraph at lines 85--86
+Overfull \hbox (4.39378pt too wide) in paragraph at lines 83--84
 []\OT1/cmr/bx/n/12 Rice blast\OT1/cmr/m/n/12 , caused by \OT1/cmr/m/it/12 Mag-n
 a-porthe grisea \OT1/cmr/m/n/12 (Hebert) Bar-rand (anamorph: \OT1/cmr/m/it/12 P
 yric-
  []
 
 [8] [9]
-Overfull \hbox (1.6623pt too wide) in paragraph at lines 97--98
+Overfull \hbox (1.6623pt too wide) in paragraph at lines 95--96
 []\OT1/cmr/bx/n/12 Bakanae \OT1/cmr/m/n/12 caused by \OT1/cmr/m/it/12 Gib-berel
 la fu-jikuroi (Sawada) \OT1/cmr/m/n/12 (anamorph: \OT1/cmr/m/it/12 Fusar-ium mo
 nil-
  []
 
 
-Overfull \hbox (9.79584pt too wide) in paragraph at lines 102--103
+Overfull \hbox (9.79584pt too wide) in paragraph at lines 100--101
 []\OT1/cmr/bx/n/12 Sheath rot \OT1/cmr/m/n/12 caused by \OT1/cmr/m/it/12 Saro-c
 la-dium oryzae \OT1/cmr/m/n/12 (Sawada) W. Gams & D. Hawksworth,
  []
@@ -936,31 +935,31 @@ File: distriangle.png Graphic file (type QTm)
 [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34]
 [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47]
 (/Users/sithjaisong/Documents/Github/Sith.Dissertation/.texpadtmp/litreview.bbl
+[48
 
-Underfull \hbox (badness 1521) in paragraph at lines 59--63
+
+]
+Underfull \hbox (badness 1521) in paragraph at lines 64--68
 \OT1/cmr/m/n/12 re-la-tion-ships in the hu-man mi-cro-biome.  PLoS Com-pu-ta-ti
 onal Bi-ol-ogy,
  []
 
-[48
-
-
-] [49]
-Underfull \hbox (badness 1668) in paragraph at lines 167--172
+[49]
+Underfull \hbox (badness 1668) in paragraph at lines 177--182
 []\OT1/cmr/m/n/12 MOSLONKA-LEFEBVRE, M., FIN-LEY, A., DORI-GATTI, I., DEHNEN-
  []
 
-[50] [51] [52]) [53]
+[50] [51] [52] [53]) [54]
 (/Users/sithjaisong/Documents/Github/Sith.Dissertation/.texpadtmp/litreview.aux
 ) ) 
 Here is how much of TeX's memory you used:
- 22149 strings out of 493706
- 467194 string characters out of 6145769
- 460967 words of memory out of 5000000
- 25171 multiletter control sequences out of 15000+600000
+ 22162 strings out of 493706
+ 467499 string characters out of 6145769
+ 460087 words of memory out of 5000000
+ 25184 multiletter control sequences out of 15000+600000
  12527 words of font info for 47 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  62i,8n,76p,10452b,695s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /Users/sithjaisong/Documents/Github/Sith.Dissertation/.texpad
-tmp/litreview.pdf (53 pages).
+tmp/litreview.pdf (54 pages).
