@@ -3,59 +3,50 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: litreview.aux
 The style file: ../apalike2.bst
 Database file #1: ../reference.bib
-I was expecting a `,' or a `}'---line 32 of file ../reference.bib
- : 
- : @article{tanaka2008villosiclava,
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-Warning--entry type for "irrirkb" isn't style-file defined
---line 62 of file ../reference.bib
-Repeated entry---line 126 of file ../reference.bib
- : @book{pathak1994insect
- :                       ,
-I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Moslonka2010"
 Warning--empty journal in borgatti2013analyzing
 Warning--empty journal in horvath2011weighted
+Warning--empty journal in singleton2003impacts
 Warning--there's a number but no volume in tanaka2008villosiclava
 You've used 72 entries,
             1971 wiz_defined-function locations,
-            923 strings with 17590 characters,
-and the built_in function-call counts, 30402 in all, are:
-= -- 2942
+            925 strings with 17643 characters,
+and the built_in function-call counts, 30370 in all, are:
+= -- 2927
 > -- 1540
 < -- 37
-+ -- 551
++ -- 549
 - -- 537
-* -- 2674
-:= -- 5431
+* -- 2673
+:= -- 5421
 add.period$ -- 215
 call.type$ -- 72
-change.case$ -- 691
+change.case$ -- 688
 chr.to.int$ -- 72
-cite$ -- 75
-duplicate$ -- 964
-empty$ -- 1929
+cite$ -- 76
+duplicate$ -- 972
+empty$ -- 1935
 format.name$ -- 637
-if$ -- 5765
+if$ -- 5762
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 74
+missing$ -- 78
 newline$ -- 358
 num.names$ -- 218
-pop$ -- 521
+pop$ -- 532
 preamble$ -- 1
 purify$ -- 624
 quote$ -- 0
-skip$ -- 756
+skip$ -- 758
 stack$ -- 0
-substring$ -- 2105
-swap$ -- 26
+substring$ -- 2078
+swap$ -- 30
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 420
-warning$ -- 3
-while$ -- 246
+type$ -- 416
+warning$ -- 4
+while$ -- 244
 width$ -- 0
-write$ -- 915
-(There were 2 error messages)
+write$ -- 913
+(There were 5 warnings)

@@ -17,6 +17,11 @@ BASILIO, R. (1991).
 \newblock Problems of golden snail infestation in rice farming.
 \newblock In ICLARM Conference Proceedings (Philippines). FAC-ICLARM.
 
+\bibitem[Bennett, 2004]{bennett2004new}
+BENNETT, J. (2004).
+\newblock {\em {\em New approaches to gall midge resistance in rice}}.
+\newblock Int. Rice Res. Inst.
+
 \bibitem[Borgatti et~al., 2013]{borgatti2013analyzing}
 BORGATTI, S.~P., EVERETT, M.~G., \& JOHNSON, J.~C. (2013).
 \newblock Analyzing social networks.
@@ -100,10 +105,6 @@ HORVATH, S. (2011).
 IDEKER, T. \& KROGAN, N.~J. (2012).
 \newblock Differential network biology.
 \newblock {Molecular Systems Biology}, 8(1):565.
-
-\bibitem[IRRI, 2015]{irrirkb}
-IRRI (2015).
-\newblock {Rice Knowledge Bank}: Pest managment.
 
 \bibitem[Jeger et~al., 2007]{Jeger:2007tn}
 JEGER, M.~J., PAUTASSO, M., HOLDENRIEDER, O., \& SHAW, M.~W. (2007).
@@ -249,12 +250,6 @@ PATHAK, M. \& KHAN, Z.~R. (1994).
 \newblock {\em {\em Insect pests of rice}}.
 \newblock Int. Rice Res. Inst.
 
-\bibitem[Pautass et~al., 2010]{Moslonka2010}
-PAUTASS, M., MOSLONKA-LEFEBVRE, M., \& JEGER, M.~J. (2010).
-\newblock The number of links to and from the starting node as a predictor of
-  epidemic size in small-size directed networks.
-\newblock {Ecological Complexity}, 7:424--432.
-
 \bibitem[Pautasso, 2015]{pautasso2015network}
 PAUTASSO, M. (2015).
 \newblock Network simulations to study seed exchange for agrobiodiversity
@@ -330,6 +325,11 @@ SHAW, M.~W. \& PAUTASSO, M. (2014).
 \newblock Networks and plant disease management: concepts and applications.
 \newblock Annual Review of Phytopathology, 52(1):477--493.
 
+\bibitem[Shepard et~al., 1995]{shepard1995rice}
+SHEPARD, B.~M., BARRION, A., \& LITSINGER, J. (1995).
+\newblock {\em {\em Rice-feeding insects of tropical Asia}}.
+\newblock Int. Rice Res. Inst.
+
 \bibitem[Sin, 2003]{sin2003damage}
 SIN, T.~S. (2003).
 \newblock Damage potential of the golden apple snail pomacea canaliculata
@@ -339,7 +339,6 @@ SIN, T.~S. (2003).
 \bibitem[Singleton, 2003]{singleton2003impacts}
 SINGLETON, G.~R. (2003).
 \newblock Impacts of rodents on rice production in asia.
-\newblock Technical report, IRRI discussion paper series.
 
 \bibitem[Sonti, 1998]{sonti1998bacterial}
 SONTI, R.~V. (1998).
