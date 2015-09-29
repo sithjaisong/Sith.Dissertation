@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.8.22)  26 SEP 2015 14:29
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.8.22)  27 SEP 2015 23:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -897,30 +897,30 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [3] [4] [5]
 Missing character: There is no   in font cmr12!
 Missing character: There is no   in font cmr12!
- [6] [7]
-Overfull \hbox (6.99786pt too wide) in paragraph at lines 79--80
-[]\OT1/cmr/bx/n/12 Brown spot\OT1/cmr/m/n/12 , cause by \OT1/cmr/m/it/12 Cochli
-obo-lus miyabeanus \OT1/cmr/m/n/12 (Ito & Kurib-ayashi) (anamorph:
+ [6] [7] [8]
+Overfull \hbox (2.90956pt too wide) in paragraph at lines 86--87
+[]\OT1/cmr/bx/n/12 Bacterial leaf streak \OT1/cmr/m/n/12 caused by \OT1/cmr/m/i
+t/12 Xan-thomonas oryzae \OT1/cmr/m/n/12 pv. \OT1/cmr/m/it/12 oryz-i-cola \OT1/
+cmr/m/n/12 (Ishiyama)
  []
 
-
-Overfull \hbox (4.39378pt too wide) in paragraph at lines 81--82
-[]\OT1/cmr/bx/n/12 Rice blast\OT1/cmr/m/n/12 , caused by \OT1/cmr/m/it/12 Mag-n
-a-porthe grisea \OT1/cmr/m/n/12 (Hebert) Bar-rand (anamorph: \OT1/cmr/m/it/12 P
-yric-
- []
-
-[8] [9]
-Overfull \hbox (1.6623pt too wide) in paragraph at lines 93--94
-[]\OT1/cmr/bx/n/12 Bakanae \OT1/cmr/m/n/12 caused by \OT1/cmr/m/it/12 Gib-berel
-la fu-jikuroi (Sawada) \OT1/cmr/m/n/12 (anamorph: \OT1/cmr/m/it/12 Fusar-ium mo
-nil-
+[9]
+Overfull \hbox (24.30211pt too wide) in paragraph at lines 90--91
+[]\OT1/cmr/bx/n/12 Sheath blight\OT1/cmr/m/n/12 , caused by \OT1/cmr/m/it/12 Th
+anatepho-rus cu-c-umeris \OT1/cmr/m/n/12 (A.B. Frank) Donk(anamorph:
  []
 
 [10]
-Overfull \hbox (9.79584pt too wide) in paragraph at lines 98--99
+Overfull \hbox (6.53198pt too wide) in paragraph at lines 96--97
 []\OT1/cmr/bx/n/12 Sheath rot \OT1/cmr/m/n/12 caused by \OT1/cmr/m/it/12 Saro-c
-la-dium oryzae \OT1/cmr/m/n/12 (Sawada) W. Gams & D. Hawksworth,
+la-dium oryzae \OT1/cmr/m/n/12 (Sawada) W. Gams & D. Hawksworth
+ []
+
+
+Overfull \hbox (13.68402pt too wide) in paragraph at lines 98--99
+\OT1/cmr/m/it/12 miyabeanus \OT1/cmr/m/n/12 (syn-onym: \OT1/cmr/m/it/12 Bipo-la
+ris oryzae\OT1/cmr/m/n/12 ) \OT1/cmr/m/it/12 Cu-vu-laria \OT1/cmr/m/n/12 spp., 
+\OT1/cmr/m/it/12 Fusar-ium \OT1/cmr/m/n/12 spp.,\OT1/cmr/m/it/12 Magnaporthe
  []
 
 [11] [12] [13]
@@ -929,17 +929,17 @@ File: distriangle.png Graphic file (type QTm)
 [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33]
 
 Package natbib Warning: Citation `Moslonka2010' on page 34 undefined on input l
-ine 278.
+ine 274.
 
 [34] [35]
 
 Package natbib Warning: Citation `Moslonka2010' on page 36 undefined on input l
-ine 288.
+ine 284.
 
 [36]
 
 Package natbib Warning: Citation `Moslonka2010' on page 37 undefined on input l
-ine 295.
+ine 291.
 
 [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47]
 (/Users/sithjaisong/Documents/Github/Sith.Dissertation/.texpadtmp/litreview.bbl
@@ -965,10 +965,10 @@ Package natbib Warning: There were undefined citations.
 (/Users/sithjaisong/Documents/Github/Sith.Dissertation/.texpadtmp/litreview.aux
 ) ) 
 Here is how much of TeX's memory you used:
- 22163 strings out of 493706
- 467543 string characters out of 6145769
+ 22164 strings out of 493706
+ 467551 string characters out of 6145769
  460090 words of memory out of 5000000
- 25185 multiletter control sequences out of 15000+600000
+ 25186 multiletter control sequences out of 15000+600000
  12527 words of font info for 47 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  62i,8n,76p,10452b,695s stack positions out of 5000i,500n,10000p,200000b,80000s

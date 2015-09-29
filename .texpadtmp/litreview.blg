@@ -3,6 +3,10 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: litreview.aux
 The style file: ../apalike2.bst
 Database file #1: ../reference.bib
+Repeated entry---line 147 of file ../reference.bib
+ : @article{willocquet2004research
+ :                                ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Moslonka2010"
 Warning--empty journal in borgatti2013analyzing
 Warning--empty journal in horvath2011weighted
@@ -49,4 +53,4 @@ warning$ -- 4
 while$ -- 244
 width$ -- 0
 write$ -- 913
-(There were 5 warnings)
+(There was 1 error message)
