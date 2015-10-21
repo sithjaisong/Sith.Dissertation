@@ -1,1 +1,226 @@
-\documentclass[a4paper]{article}\usepackage[english]{babel}\usepackage[utf8]{inputenc}\usepackage[round]{natbib}\usepackage{amsmath}\usepackage{graphicx}\title{Network Analysis of Cropping Practices and Injury Profiles in Irrigated Rice Agroecosystems}\author{Sith Jaisong}\date{\today}\begin{document}\maketitle\begin{abstract}Here is the abstract...........\end{abstract}\section*{Introduction}% use only four paragraphs for introduction.% The introduction to the useful of the survey data% How do the surveys themselves lead to better management? You're missing an important step here.The use of in-field surveys is a useful tool to develop ground-truth databases that allow one identify actual constraints due to pests in an agricultural productions system. These sorts of databases provide an overview of the complex relationships between the crop, its management, pest injuries, yields. Understanding theses relationships may lead to better management, and guide researchers the new research hypotheses \citep{mew:2004kh, Savary:2006to}. %===state the problems===% why are there "’" throughout? Use "'" instead. I already did a search/replace, but please do not do this again. I've pointed this out more than 10X already, yet you continue. Attention to detail is one of your biggest weaknesses. With this issue, I'm not even sure how it occurs, but since it does, you need to be watching it.% I've fixed your punctuation and capitalization here, please pay attention% I don't understand the last sentence. You need to clarify what you mean hereSeveral previous studies \citep{Savary:2000char, savary2000quanti, savary2005multiple, dong2010characterization, Reddy:2011hl} involved surveys that have been used to identify relationships in an individual production situation (a set of factors that determine agricultural production) and the injury profiles (combination of disease and pest injuries that may occur in a given farmer's field) using nonparametric multivariate analysis such as cluster analysis, correspondence analysis, multiple correspondence analysis. Performing correspondence analysis \citep{savary1997new}, they characterized the relationships between categorized levels of variables: actual yield, production situations and injuries profiles. Their results led to the conclusions that observed injuries profiles were strongly associated with production situations, and the level of actual yields.%Correspondence analysis requires data transformation of continuous data to categorized data by using cluster analysis However, cluster analysis is poor reproducible, step of transforming continuous data to categorized data by clustering approach is poor reproducibility and difficult interpretability of the individual cluster \citep{jiang2004cluster, avelino:2006ie}. Therefore, using correspondence analysis.% the useful of network analysis The components of production situation and injury profiles are biologically related. For example, the excess amount of fertilizers applied in the rice files increases the susceptibility of rice to blast, and directed seeded flooded rice fields with high seedling rate is favorable condition for sheath blight \citep{ouricedisease}. The relationships will be more complex when the number of their components increased. A way to systemically model and intuitively interpret such relationships is the depiction as a graph or network. This approach has been widely used and proven very useful in biological studies \citep{Lefebvre:2011fo}. Networks typically consist of nodes, usually representing components, while links between the nodes depict their interactions \citep{PROULX:2005hx}. A correlation network is a type of network in which two nodes are connected if their respective correlation lies above a certain threshold. The construction of this network is obtained from pairwise correlation methods \citep{Toubiana:2013cv}. By using appropriate correlation measure, correlation networks can capture biologically meaningful relationships, and discover valuable information in crop health surveys.% reword your first sentence for clarityThe main objective of this study is to select a suitable association method for network construction. Selecting the suitable measure is important because the method should be able to capture the relationships with true concordance often determined the type and amount of knowledge we can gain from survey data, moreover it will affect the topological structure of network (the patterns of pairwise relationships between variables).                                                                                                                                                                                                                                                                                                 %have limited prior knowledge (positive relation and negative relation) for comparing the efficiency of different association methods in discovering true functionally associated variables.% it is NOT KANDELL. % it is not CONSTRAINS (that is a verb) you are using a noun here.%The main aim of this article is to evaluate correlation methods including Pearson, Spearman, Kendall, Biweight to associate the components of cropping practices and the components of injuries profiles. Furthermore, we applied network theory and model to illustrate the pairwise relationships. Thus we hope to provide the necessary elements for a better comprehension of the methods and also the choice of a suitable dependence test method based on practical constrains and goals.%===================================I maybe change the material and methods ================================\section*{Materials and Methods}% always use "an" not "a" before a word starting with a vowel or soft consonant% revise your first sentence for clarity% revise your last sentence for clarityThe limitation of each measure are difference assumption and detach different patterns. In this study, we evaluated four association methods, Pearson, Spearman rank correlation, Kendall, Biweight midcorrelation to be suitable for the properties of the survey data (\textit{i.e.} type of variables, pattern of distribution, normality) based on their assumptions.  The other evaluation is to examine which methods can associate those variables that are know to present the biological relationships. Next, we inferred correlation network from surveys comprising five countries (India, Indonesia, Philippines, Thailand, and Vietnam), 420 lowland farmers' fields. We determine the correlation patterns among the incidence of injuries caused by animal pests and diseases and the cropping practices, potentially indicative of their occurrence relations. We then constructed the network from these pairwise correlations. \subsubsection*{Survey datasets}Crop health survey data were collected through surveys comprising 420 farmers' fields from 2010 to 2012 for wet and dry seasons in different production environments across South and South East Asia. The survey protocol described in the IRRI publication, ``A survey portfolio to characterize yield-reducing factors in rice'', was used for data collection \citep{Savarysurvey2009}. The variables collected included patterns of cropping practices, crop growth measurement and crop management status assessments, measurements of levels of injuries caused by pests, and direct measurements of actual yields from crop cuts. The data collected can be classified into three groups: cropping practices, injuries, and actual yield measurements.\subsection*{Evaluation}\subsubsection*{One: Data exploration}There are three main properties to be determined before deciding the appropriate correlation measure for use in constructing the network. % again, stop with superlatives, please!% You need to expand on your last sentence, I'm unclear what you're trying to say here.\paragraph{Check data distribution} This test can be achieved by significance test and visual methods. Each variable in survey dataset was tested normality using the Shapiro-Wilk test \citep{ghasemi2012normality}. The Shapiro-Wilk test is based on the correlation between the data and the corresponding normal scores.$H_{0}$: sample distribution is normal.$H_{a}$: sample distribution is not normal.% population or sample? Your surveys are a sample.Thus if the $p$-value is less than the chosen alpha level, the null hypothesis is rejected and there is evidence that the data tested are not from a normally distributed population. In other words, the data are not normal. On the contrary, if the $p$-value is greater than the chosen alpha level, then the null hypothesis that the data came from a normally distributed sample   cannot be rejected. However, for small sample sizes, normality tests have little power to reject the null hypothesis, so a QQ (quantile--quantile plot) plot and the frequency distribution (histogram) are required for verification in addition to check normality visually.% there is no need to "download" the stats package from CRAN. It's a part of the R base installation. Revise.The \texttt{R} function for Shapiro-Wilk Normality test is \texttt{shapiro.test} (package stats), whihc is \citep{R:2014}.\paragraph{Check for independence} Performing the distance correlation $t$-test\citep{szekely2007measuring} to check independence aims to select the the pair of variables, which are able to be detected correlation. The distance correlation of two random variables is obtained by dividing their distance covariance. by the product of their distance standard deviations. The distance correlation is\begin{equation}\operatorname{dCor}(X,Y) = \frac{\operatorname{dCov}(X,Y)}{\sqrt{\operatorname{dVar}(X)\,\operatorname{dVar}(Y)}}\end{equation}\begin{itemize}\item $0\leq\operatorname{dCor}_n(X,Y)\leq1$ and $0\leq\operatorname{dCor}(X,Y)\leq1$\item $\operatorname{dCor}(X,Y) = 0$ if and only if $X$ and $Y$ are independent.\item $\operatorname{dCor}_n(X,Y) = 1$ implies that dimensions of the linear subspaces spanned by $X$ and $Y$ samples respectively are almost surely equal and if we assume that these subspaces are equal, then in this subspace $Y = A + b\,\mathbf{C}X$ for some vector $A$, scalar $b$, and orthonormal matrix $\mathbf{C}$.\end{itemize}This test was performed using the \texttt{fda.uss} package \citep{fda.usc.package}. \subsubsection*{Step two: identify the most appropriate method} \textbf{Pearson's product-moment correlation coefficient}The Pearson's product-moment correlation or simply Pearson's correlation is a measure of linear dependence, as the slope obtained by the linear regression of $Y$ by $X$ is Pearson's correlation multiplied by that ratio of standard deviations.Let $\overline{x} = \frac{\sum_{i=1}^{n} x_{i}}{n}$ and $\overline{y} = \frac{\sum_{i=1}^{n} y_{i}}{n}$ be the means of $X$ and $Y$, respectively, then the Peasons's correlation coefficient $\rho_{Pearson}$ is defined as follows: \begin{equation}\rho_{Pearson}(X, Y) = \frac{\sum_{i=1}^{n}(x_{i} - \overline{x})(y_{i} - \overline{y})}{\sqrt{\sum_{i=1}^{n}(x_{i} - \overline{x})^2  \sum_{i=1}^{n}(y_{i} - \overline{y})^2}}\end{equation}For joint normal distributions, Pearson's correlation coefficient under $H_{0}$ follows a Student's $t$-distribution with $n-2$ degrees of freedom. The $t$ statistic is as follows:\begin{equation}t = \frac{\rho_{Pearson}(X, Y) \sqrt{n -2}}{\sqrt{1- \rho^{2}_{Pearson}(X, Y)}}\end{equation}When the random variables are not jointly normally distributed, the Fisher's transformation is used to get an asymptotic normal distribution.In the case of perfect linear dependence, we have $\rho_{Pearson} = \pm1$. The Pearson correlation is $+1$ in the case of a perfect positive (increasing) linear relationship and $-1 $in the case of a perfect negative (decreasing) linear relationship. In the case of linearly independent random variables, $rho_{Pearson} = 0$, and in the case of imperfect linear dependence, $-1 < \rho_{Pearson} < 1$. These last two cases are the ones for which misinterpretations of correlation are possible because it is usually assumed that non-correlated X and Y means independent variables, whereas in fact, they may be associated in a non-linear fashion that Pearson's correlation coefficient is not able to identify.% again, the stats package is a part of the base installation. No need to download it or specify. Just say it's a part of the base R installation once and no need to repeat after that. Do citep it properly though.The \texttt{R} function for Pearson's test is \texttt{cor.test} with parameter method `Pearson' (package stats). The stats package can be downloaded from the R web page (http://www.r-project.org).\paragraph{The Spearman correlation coefficient}The Spearman correlation coefficient is defined as the Pearson correlation coefficient between the ranked variables. For a sample of size n, the n raw scores $X_i$, $Y_i$ are converted to ranks $x_i$, $y_i$, and ρ is computed from:\begin{equation}\rho = {1- \frac {6 \sum d_i^2}{n(n^2 - 1)}}\end{equation}where $d_{i} = x_{i} - y_{i}$, is the difference between ranks. See the example below. Identical values (rank ties or value duplicates) are assigned a rank equal to the average of their positions in the ascending order of the values. In the table below, notice how the rank of values that are the same is the mean of what their ranks would otherwise be:In applications where duplicate values are known to be absent, a simpler procedure can be used to calculate ρ.This method should not be used in cases where the data set is truncated; that is, when the Spearman correlation coefficient is desired for the top X records (whether by pre-change rank or post-change rank, or both), the user should use the Pearson correlation coefficient formula given above.The standard error of the coefficient ($\sigma$) was determined as\begin{equation}\sigma = \frac{ 0.6325 }{\sqrt{n-1}}\end{equation} \paragraph{Kendall rank correlation}: Kendall rank correlation is a non-parametric test that measures the strength of dependence between two variables.  If we consider two samples, a and b, where each sample size is n, we know that the total number of pairings with $a$ $b$ is $n(n-1)/2$.  The following formula is used to calculate the value of Kendall rank correlation:The Kendall $\tau$ coefficient is defined as:\begin{equation}\tau = \frac{(N_c) - (N_d)}{\frac{1}{2} n (n-1)}\end{equation}Where:$N_c$ = Number of concordant pairs $N_d$ = Number of discordant pairsThe The Kendall $\tau$ coefficients range $ −1 \leq \tau \leq  1$.If the agreement between the two rankings is perfect (\textit{i.e.}, the two rankings are the same) the coefficient has value 1.If the disagreement between the two rankings is perfect (\textit{i.e.}, one ranking is the reverse of the other) the coefficient has value −1.If $X$ and $Y$ are independent, then we would expect the coefficient to be approximately zero.\paragraph{Biweight midcorrelation} (also called bicor) is a measure of similarity between samples. It is median-based, rather than mean-based, thus is less sensitive to outliers, and can be a robust alternative to other similarity metrics, such as Pearson correlation or mutual information.In order to defined the biweight midcorrelation \citep{wilcox2012introduction} of two vectors $x$ and $y$, with $i$ = 1, 2, $\ldots$,$m$ items, representing each item in the vector as $x_{1}$, $x_{2}$, $\ldots$, $x_{m}$ and $y_{1}$, $y_{2}$, $\ldots$, $y_{m}$. First, we define $\operatorname{med}(x)$ as the median of a vector x and $\operatorname{mad}(x)$ as the median absolute deviation (mad), then define $u_{i}$ and $v_{i}$ as,\begin{equation}\begin{align}u_i &= \frac{x_i - \operatorname{med}(x)}{9 \operatorname{mad}(x)},\\v_i &= \frac{y_i - \operatorname{med}(y)}{9 \operatorname{mad}(x)}.\end{align}\end{equation}The weights $w_i^{(x)}$ and $w_i^{(y)}$  are defined as,\begin{equation}\begin{align}w_i^{(x)} &= \left(1-u_i^2\right)^2 I\left(1-|u_i|\right)\\w_i^{(y)} &= \left(1-v_i^2\right)^2 I\left(1-|v_i|\right)\end{align}\end{equation}where $I$ is the identity function where,\begin{equation}I(x) = \begin{cases}1, & \text{if } x >0\\0, & \text{otherwise}\end{cases}\end{equation}Then we normalize so that the sum of the weights is 1:\begin{equation}\begin{align}\tilde{x}_i &= \frac{\left(x_i - \operatorname{med}(x)\right) w_i^{(x)}}{\sum_{j=1}^m \left[(x_j -\operatorname{med}(x)) w_j^{(x)}\right]^2}\\\tilde{y}_i &= \frac{\left(y_i - \operatorname{med}(y)\right) w_i^{(y)}}{\sum_{j=1}^m \left[(y_j -\operatorname{med}(y)) w_j^{(y)}\right]^2}.\end{align}\end{equation}Finally, biweight midcorrelation is defined as,\begin{equation}\mathrm{bicor}\left(x, y\right) = \sum_{i=1}^m \tilde{x}_i \tilde{y}_i\end{equation}The value of bicor ranges from -1 to 1, where -1 represents the maximum negative correlation and 1 represents the maximum positive correlation. 0 represents irrelevant.%====================\subsection*{Network Construction}\subsubsection*{Correlation network construction}The matrix can be viewed as an adjacency matrix of a weighted network. The matrix contains the correlation coefficient between each node (i.e., the variable). Thus the matrix can be thought of as the population average of the network structure. Because we are looking at several specific links, we control for multiple testing by controlling the False Discovery Rate (FDR method) at 5\%. The generated network structure can be visualized through the \texttt{R} package qgraph \citep{qgraph}. Only connections that surpass the significance threshold are shown in the visual representation. \subsection*{Network analysis}% I don't know what a clique is so the fact that it has a density of 1 means nothing to me.Important information about a network can be gained by analyzing its global structure, for example by looking at the relative centrality of different nodes. In a centrality analysis, nodes are ordered in terms of the degree to which they occupy a central place in the network. Global descriptors of the modules were obtained using package qgraph in \texttt{R}. The neighborhood of a given node $n$ is the set of its neighbors. The connectivity is the size of its neighborhood. The average number of neighbors indicates the average connectivity of a node in the network. A normalized version of this parameter is the network density. Density ranges between 0 and 1. It shows how densely the network is populated with edges. A network, which contains no edges and solely isolated nodes has a density of 0. In correlation (undirected) networks, the clustering coefficient is the number of connected pairs between all neighbors of the network. The clustering coefficient of a node is always a number between 0 and 1. The network clustering coefficient is the average of the clustering coefficients for all nodes in the network. Nodes with less than two neighbors are assumed to have a clustering coefficient of 0. We then determined network centralities on the modules obtained from network analysis. Centralities were assessed using qgraph package in \texttt{R}. We calculated Degree centrality and Betweenness centrality.%%%%%%%%%%%%%%%%%%%\section*{Results}\section*{Discussion}\bibliographystyle{apalike}\bibliography{ref}\end{document}
+\documentclass[a4paper]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[round]{natbib}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos,prependcaption,textsize=tiny]{todonotes}
+
+\title{Network Analysis of Cropping Practices and Injury Profiles in Irrigated Rice Agroecosystems}
+
+\author{Sith Jaisong}
+
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Here is the abstract...........
+\end{abstract}
+
+\section*{Introduction}
+% use only four paragraphs for introduction.
+% The introduction to the useful of the survey data
+
+% How do the surveys themselves lead to better management? You're missing an important step here.
+In-field surveys are a useful tool to develop ground-truth databases that allow one identify actual constraints due to pests in an agricultural productions system. These sorts of databases provide an overview of the complex relationships between the crop, its management, pest injuries, and yields\todo{Are you going to mention yields if it's not part of your analysis? I wouldn't.}. Understanding theses relationships can lead to better management practices for farmers, and guide researchers to new research hypotheses \citep{mew:2004kh, Savary:2006to}.
+
+%===state the problems===
+% why are there "’" throughout? Use "'" instead. I already did a search/replace, but please do not do this again. I've pointed this out more than 10X already, yet you continue. Attention to detail is one of your biggest weaknesses. With this issue, I'm not even sure how it occurs, but since it does, you need to be watching it.
+
+% I've fixed your punctuation and capitalization here, please pay attention
+% I don't understand the last sentence. You need to clarify what you mean here
+Several previous studies \citep{Savary:2000char, savary2000quanti, savary2005multiple, dong2010characterization, Reddy:2011hl} involved surveys that have been used to identify relationships in an individual production situation (a set of factors that determine agricultural production) and the injury profiles (combination of disease and pest injuries that may occur in a given farmer's field) using nonparametric multivariate analysis such as cluster analysis, correspondence analysis, multiple correspondence analysis. Performing correspondence analysis \citep{savary1997new}, they characterized the relationships between categorized levels of variables: actual yield, production situations and injuries profiles. Their results led to the conclusions that observed injuries profiles were strongly associated with production situations, and the level of actual yields.
+
+%Correspondence analysis requires data transformation of continuous data to categorized data by using cluster analysis However, cluster analysis is poor reproducible, step of transforming continuous data to categorized data by clustering approach is poor reproducibility and difficult interpretability of the individual cluster \citep{jiang2004cluster, avelino:2006ie}. Therefore, using correspondence analysis.
+
+% the useful of network analysis 
+The components of production situation and injury profiles are biologically related. For example, the excess amount of fertilizers applied in the rice files increases the susceptibility of rice to blast, and directed seeded flooded rice fields with high seedling rate is favorable condition for sheath blight \citep{ouricedisease}. The relationships will be more complex when the number of their components increased. A way to systemically model and intuitively interpret such relationships is the depiction as a graph or network. This approach has been widely used and proven very useful in biological studies \citep{Lefebvre:2011fo}. Networks typically consist of nodes, usually representing components, while links between the nodes depict their interactions \citep{PROULX:2005hx}. A correlation network is a type of network in which two nodes are connected if their respective correlation lies above a certain threshold. The construction of this network is obtained from pairwise correlation methods \citep{Toubiana:2013cv}. By using appropriate correlation measure, correlation networks can capture biologically meaningful relationships, and discover valuable information in crop health surveys.
+
+% reword your first sentence for clarity
+The main objective of this study is to select a suitable association method for network construction. Selecting the suitable measure is important because the method should be able to capture the relationships with true concordance often determined the type and amount of knowledge we can gain from survey data, moreover it will affect the topological structure of network (the patterns of pairwise relationships between variables).
+                                                                                                                                                                                                                                                                                                 %have limited prior knowledge (positive relation and negative relation) for comparing the efficiency of different association methods in discovering true functionally associated variables.
+
+% it is NOT KANDELL. 
+% it is not CONSTRAINS (that is a verb) you are using a noun here.
+%The main aim of this article is to evaluate correlation methods including Pearson, Spearman, Kendall, Biweight to associate the components of cropping practices and the components of injuries profiles. Furthermore, we applied network theory and model to illustrate the pairwise relationships. Thus we hope to provide the necessary elements for a better comprehension of the methods and also the choice of a suitable dependence test method based on practical constrains and goals.
+
+%===================================I maybe change the material and methods ================================
+\section*{Materials and Methods}
+
+% always use "an" not "a" before a word starting with a vowel or soft consonant
+% revise your first sentence for clarity
+% revise your last sentence for clarity
+The limitation of each measure are difference assumption and detach different patterns. In this study, we evaluated four association methods, Pearson, Spearman rank correlation, Kendall, Biweight midcorrelation to be suitable for the properties of the survey data (\textit{i.e.} type of variables, pattern of distribution, normality) based on their assumptions.  The other evaluation is to examine which methods can associate those variables that are know to present the biological relationships. 
+
+Next, we inferred correlation network from surveys comprising five countries (India, Indonesia, Philippines, Thailand, and Vietnam), 420 lowland farmers' fields. We determine the correlation patterns among the incidence of injuries caused by animal pests and diseases and the cropping practices, potentially indicative of their occurrence relations. We then constructed the network from these pairwise correlations. 
+
+\subsubsection*{Survey datasets}
+Crop health survey data were collected through surveys comprising 420 farmers' fields from 2010 to 2012 for wet and dry seasons in different production environments across South and South East Asia. The survey protocol described in the IRRI publication, ``A survey portfolio to characterize yield-reducing factors in rice'', was used for data collection \citep{Savarysurvey2009}. The variables collected included patterns of cropping practices, crop growth measurement and crop management status assessments, measurements of levels of injuries caused by pests, and direct measurements of actual yields from crop cuts. The data collected can be classified into three groups: cropping practices, injuries, and actual yield measurements.
+
+
+\subsection*{Evaluation}
+
+\subsubsection*{One: Data exploration}
+There are three main properties to be determined before deciding the appropriate correlation measure for use in constructing the network. 
+
+% again, stop with superlatives, please!
+% You need to expand on your last sentence, I'm unclear what you're trying to say here.
+\paragraph{Check data distribution} This test can be achieved by significance test and visual methods. Each variable in survey dataset was tested normality using the Shapiro-Wilk test \citep{ghasemi2012normality}. The Shapiro-Wilk test is based on the correlation between the data and the corresponding normal scores.
+
+$H_{0}$: sample distribution is normal.
+
+$H_{a}$: sample distribution is not normal.
+
+% population or sample? Your surveys are a sample.
+Thus if the $p$-value is less than the chosen alpha level, the null hypothesis is rejected and there is evidence that the data tested are not from a normally distributed population. In other words, the data are not normal. On the contrary, if the $p$-value is greater than the chosen alpha level, then the null hypothesis that the data came from a normally distributed sample   cannot be rejected. However, for small sample sizes, normality tests have little power to reject the null hypothesis, so a QQ (quantile--quantile plot) plot and the frequency distribution (histogram) are required for verification in addition to check normality visually.
+
+% there is no need to "download" the stats package from CRAN. It's a part of the R base installation. Revise.
+The \texttt{R} function for Shapiro-Wilk Normality test is \texttt{shapiro.test} (package stats), whihc is \citep{R:2014}.
+
+\paragraph{Check for independence} Performing the distance correlation $t$-test\citep{szekely2007measuring} to check independence aims to select the the pair of variables, which are able to be detected correlation. The distance correlation of two random variables is obtained by dividing their distance covariance. by the product of their distance standard deviations. The distance correlation is
+
+\begin{equation}
+\operatorname
+{dCor}(X,Y) = \frac{\operatorname{dCov}(X,Y)}{\sqrt{\operatorname{dVar}(X)\,\operatorname{dVar}(Y)}}
+\end{equation}
+
+\begin{itemize}
+\item $0\leq\operatorname{dCor}_n(X,Y)\leq1$ and $0\leq\operatorname{dCor}(X,Y)\leq1$
+\item $\operatorname{dCor}(X,Y) = 0$ if and only if $X$ and $Y$ are independent.
+\item $\operatorname{dCor}_n(X,Y) = 1$ implies that dimensions of the linear subspaces spanned by $X$ and $Y$ samples respectively are almost surely equal and if we assume that these subspaces are equal, then in this subspace $Y = A + b\,\mathbf{C}X$ for some vector $A$, scalar $b$, and orthonormal matrix $\mathbf{C}$.
+\end{itemize}
+
+This test was performed using the \texttt{fda.uss} package \citep{fda.usc.package}. 
+
+\subsubsection*{Step two: identify the most appropriate method} 
+\textbf{Pearson's product-moment correlation coefficient}
+
+The Pearson's product-moment correlation or simply Pearson's correlation is a measure of linear dependence, as the slope obtained by the linear regression of $Y$ by $X$ is Pearson's correlation multiplied by that ratio of standard deviations.
+Let $\overline{x} = \frac{\sum_{i=1}^{n} x_{i}}{n}$ and $\overline{y} = \frac{\sum_{i=1}^{n} y_{i}}{n}$ be the means of $X$ and $Y$, respectively, then the Peasons's correlation coefficient $\rho_{Pearson}$ is defined as follows: 
+\begin{equation}
+\rho_{Pearson}(X, Y) = \frac{\sum_{i=1}^{n}(x_{i} - \overline{x})(y_{i} - \overline{y})}
+{\sqrt{\sum_{i=1}^{n}(x_{i} - \overline{x})^2  \sum_{i=1}^{n}(y_{i} - \overline{y})^2}}
+\end{equation}
+
+
+For joint normal distributions, Pearson's correlation coefficient under $H_{0}$ follows a Student's $t$-distribution with $n-2$ degrees of freedom. The $t$ statistic is as follows:
+\begin{equation}
+t = \frac{\rho_{Pearson}(X, Y) \sqrt{n -2}}{\sqrt{1- \rho^{2}_{Pearson}(X, Y)}}
+\end{equation}
+
+When the random variables are not jointly normally distributed, the Fisher's transformation is used to get an asymptotic normal distribution.
+
+In the case of perfect linear dependence, we have $\rho_{Pearson} = \pm1$. The Pearson correlation is $+1$ in the case of a perfect positive (increasing) linear relationship and $-1 $in the case of a perfect negative (decreasing) linear relationship. In the case of linearly independent random variables, $rho_{Pearson} = 0$, and in the case of imperfect linear dependence, $-1 < \rho_{Pearson} < 1$. These last two cases are the ones for which misinterpretations of correlation are possible because it is usually assumed that non-correlated X and Y means independent variables, whereas in fact, they may be associated in a non-linear fashion that Pearson's correlation coefficient is not able to identify.
+
+% again, the stats package is a part of the base installation. No need to download it or specify. Just say it's a part of the base R installation once and no need to repeat after that. Do citep it properly though.
+The \texttt{R} function for Pearson's test is \texttt{cor.test} with parameter method `Pearson' (package stats). The stats package can be downloaded from the R web page (http://www.r-project.org).
+
+\paragraph{The Spearman correlation coefficient}
+
+The Spearman correlation coefficient is defined as the Pearson correlation coefficient between the ranked variables. For a sample of size n, the n raw scores $X_i$, $Y_i$ are converted to ranks $x_i$, $y_i$, and "?" is computed from: % I've replaced "ρ", with "?" because it won't compile and I don't know what it is supposed to be.
+
+\begin{equation}
+\rho = {1- \frac {6 \sum d_i^2}{n(n^2 - 1)}}
+\end{equation}
+
+where $d_{i} = x_{i} - y_{i}$, is the difference between ranks. See the example below. Identical values (rank ties or value duplicates) are assigned a rank equal to the average of their positions in the ascending order of the values. In the table below, notice how the rank of values that are the same is the mean of what their ranks would otherwise be:
+
+In applications where duplicate values are known to be absent, a simpler procedure can be used to calculate "?".
+% and again, "ρ", replaced with "?"
+
+This method should not be used in cases where the data set is truncated; that is, when the Spearman correlation coefficient is desired for the top X records (whether by pre-change rank or post-change rank, or both), the user should use the Pearson correlation coefficient formula given above.
+
+The standard error of the coefficient ($\sigma$) was determined as
+\begin{equation}
+\sigma = \frac{ 0.6325 }{\sqrt{n-1}}
+\end{equation}
+ 
+\paragraph{Kendall rank correlation}: Kendall rank correlation is a non-parametric test that measures the strength of dependence between two variables.  If we consider two samples, a and b, where each sample size is n, we know that the total number of pairings with $a$ $b$ is $n(n-1)/2$.  The following formula is used to calculate the value of Kendall rank correlation:
+
+The Kendall $\tau$ coefficient is defined as:
+
+\begin{equation}
+\tau = \frac{(N_c) - (N_d)}{\frac{1}{2} n (n-1)}
+\end{equation}
+
+Where:
+
+$N_c$ = Number of concordant pairs 
+
+$N_d$ = Number of discordant pairs
+
+The The Kendall $\tau$ coefficients range $ ?1 \leq \tau \leq  1$.
+% − replaced with "?" 
+
+If the agreement between the two rankings is perfect (\textit{i.e.}, the two rankings are the same) the coefficient has value 1.
+If the disagreement between the two rankings is perfect (\textit{i.e.}, one ranking is the reverse of the other) the coefficient has value ?1. %− replaced with "?"
+If $X$ and $Y$ are independent, then we would expect the coefficient to be approximately zero.
+
+\paragraph{Biweight midcorrelation} (also called bicor) is a measure of similarity between samples. It is median-based, rather than mean-based, thus is less sensitive to outliers, and can be a robust alternative to other similarity metrics, such as Pearson correlation or mutual information.
+In order to defined the biweight midcorrelation \citep{wilcox2012introduction} of two vectors $x$ and $y$, with $i$ = 1, 2, $\ldots$,$m$ items, representing each item in the vector as $x_{1}$, $x_{2}$, $\ldots$, $x_{m}$ and $y_{1}$, $y_{2}$, $\ldots$, $y_{m}$. First, we define $\operatorname{med}(x)$ as the median of a vector x and $\operatorname{mad}(x)$ as the median absolute deviation (mad), then define $u_{i}$ and $v_{i}$ as,
+
+\begin{equation}
+\begin{align}
+u_i &= \frac{x_i - \operatorname{med}(x)}{9 \operatorname{mad}(x)},\\
+v_i &= \frac{y_i - \operatorname{med}(y)}{9 \operatorname{mad}(x)}.
+\end{align}
+\end{equation}
+
+The weights $w_i^{(x)}$ and $w_i^{(y)}$  are defined as,
+
+\begin{equation}
+\begin{align}
+w_i^{(x)} &= \left(1-u_i^2\right)^2 I\left(1-|u_i|\right)\\
+w_i^{(y)} &= \left(1-v_i^2\right)^2 I\left(1-|v_i|\right)
+\end{align}
+\end{equation}
+
+where $I$ is the identity function where,
+
+\begin{equation}
+I(x) = \begin{cases}1, & \text{if } x >0\\
+0, & \text{otherwise}\end{cases}
+\end{equation}
+
+Then we normalize so that the sum of the weights is 1:
+
+\begin{equation}
+\begin{align}
+\tilde{x}_i &= \frac{\left(x_i - \operatorname{med}(x)\right) w_i^{(x)}}{\sum_{j=1}^m \left[(x_j -\operatorname{med}(x)) w_j^{(x)}\right]^2}\\
+\tilde{y}_i &= \frac{\left(y_i - \operatorname{med}(y)\right) w_i^{(y)}}{\sum_{j=1}^m \left[(y_j -\operatorname{med}(y)) w_j^{(y)}\right]^2}.
+\end{align}
+\end{equation}
+
+Finally, biweight midcorrelation is defined as,
+
+\begin{equation}
+\mathrm{bicor}\left(x, y\right) = \sum_{i=1}^m \tilde{x}_i \tilde{y}_i
+\end{equation}
+
+The value of bicor ranges from -1 to 1, where -1 represents the maximum negative correlation and 1 represents the maximum positive correlation. 0 represents irrelevant.
+
+
+%====================
+\subsection*{Network Construction}
+\subsubsection*{Correlation network construction}
+
+The matrix can be viewed as an adjacency matrix of a weighted network. The matrix contains the correlation coefficient between each node (i.e., the variable). Thus the matrix can be thought of as the population average of the network structure. Because we are looking at several specific links, we control for multiple testing by controlling the False Discovery Rate (FDR method) at 5\%. The generated network structure can be visualized through the \texttt{R} package qgraph \citep{qgraph}. Only connections that surpass the significance threshold are shown in the visual representation. 
+
+\subsection*{Network analysis}
+% I don't know what a clique is so the fact that it has a density of 1 means nothing to me.
+Important information about a network can be gained by analyzing its global structure, for example by looking at the relative centrality of different nodes. In a centrality analysis, nodes are ordered in terms of the degree to which they occupy a central place in the network. Global descriptors of the modules were obtained using package qgraph in \texttt{R}. The neighborhood of a given node $n$ is the set of its neighbors. The connectivity is the size of its neighborhood. The average number of neighbors indicates the average connectivity of a node in the network. A normalized version of this parameter is the network density. Density ranges between 0 and 1. It shows how densely the network is populated with edges. A network, which contains no edges and solely isolated nodes has a density of 0. 
+
+In correlation (undirected) networks, the clustering coefficient is the number of connected pairs between all neighbors of the network. The clustering coefficient of a node is always a number between 0 and 1. The network clustering coefficient is the average of the clustering coefficients for all nodes in the network. Nodes with less than two neighbors are assumed to have a clustering coefficient of 0. We then determined network centralities on the modules obtained from network analysis. Centralities were assessed using qgraph package in \texttt{R}. We calculated Degree centrality and Betweenness centrality.
+
+%%%%%%%%%%%%%%%%%%%
+
+\section*{Results}
+
+\section*{Discussion}
+\bibliographystyle{apalike}
+\bibliography{ref}
+
+\end{document}
