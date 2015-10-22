@@ -6,24 +6,6 @@ Dong, K., Chen, B., Li, Z., Dong, Y., and Wang, H. (2010).
   in the japonica rice zone of yunnan, china.
 \newblock {\em Crop Protection}, 29(6):603--611.
 
-\bibitem[Febrero-Bande and {Oviedo de la Fuente}, 2012]{fda.usc.package}
-Febrero-Bande, M. and {Oviedo de la Fuente}, M. (2012).
-\newblock Statistical computing in functional data analysis: The {R} package
-  {fda.usc}.
-\newblock {\em Journal of Statistical Software}, 51(4):1--28.
-
-\bibitem[Ghasemi and Zahediasl, 2012]{ghasemi2012normality}
-Ghasemi, A. and Zahediasl, S. (2012).
-\newblock Normality tests for statistical analysis: a guide for
-  non-statisticians.
-\newblock {\em International journal of endocrinology and metabolism},
-  10(2):486.
-
-\bibitem[Mew et~al., 2004]{mew:2004kh}
-Mew, T.~W., Leung, H., Savary, S., Vera~Cruz, C.~M., and Leach, J.~E. (2004).
-\newblock Looking ahead in rice disease research and management.
-\newblock {\em Critical Reviews in Plant Sciences}, 23(2):103--127.
-
 \bibitem[Moslonka-Lefebvre et~al., 2011]{Lefebvre:2011fo}
 Moslonka-Lefebvre, M., Finley, A., Dorigatti, I., Dehnen-Schmutz, K., Harwood,
   T., Jeger, M.~J., Xu, X., Holdenrieder, O., and Pautasso, M. (2011).
@@ -31,20 +13,10 @@ Moslonka-Lefebvre, M., Finley, A., Dorigatti, I., Dehnen-Schmutz, K., Harwood,
   and continents.
 \newblock {\em {Phytopathology}}, 101(4):392--403.
 
-\bibitem[Ou, 1985]{ouricedisease}
-Ou, S.~H. (1985).
-\newblock {\em Rice diseases}.
-\newblock International Rice Research Institute (IRRI).
-
 \bibitem[Proulx et~al., 2005]{PROULX:2005hx}
 Proulx, S., Promislow, D., and Phillips, P. (2005).
 \newblock Network thinking in ecology and evolution.
 \newblock {\em {Trends in Ecology {\&} Evolution}}, 20(6):345--353.
-
-\bibitem[{R Core Team}, 2014]{R:2014}
-{R Core Team} (2014).
-\newblock {\em R: A language and environment for statistical computing}.
-\newblock R Foundation for Statistical Computing, Vienna, Austria.
 
 \bibitem[Reddy et~al., 2011]{Reddy:2011hl}
 Reddy, C.~S., Laha, G.~S., Prasad, M.~S., and Krishnaveni, D. (2011).
@@ -71,11 +43,6 @@ Savary, S., Elazegui, F., Pinnschmidt, H., Castilla, N., and Teng, P. (1997).
 \newblock {\em IRRI discusion paper series no20. International Rice Research
   Institute, PO Box}, 933.
 
-\bibitem[Savary et~al., 2006]{Savary:2006to}
-Savary, S., Teng, P.~S., Willocquet, L., and Nutter, F.~W. (2006).
-\newblock Quantification and modeling of crop losses: a review of purposes.
-\newblock {\em Annual Review of Phytopathology}, 44(1):89--112.
-
 \bibitem[Savary et~al., 2000a]{savary2000quanti}
 Savary, S., Willocquet, L., Elazegui, F.~A., Castilla, N.~P., and Teng, P.~S.
   (2000a).
@@ -90,14 +57,16 @@ Savary, S., Willocquet, L., Elazegui, F.~A., Teng, P.~S., Van~Du, P., Zhu, D.,
   profiles in relation to production situations.
 \newblock {\em Plant Disease}, 84(3):341--356.
 
-\bibitem[Sz{\'e}kely et~al., 2007]{szekely2007measuring}
-Sz{\'e}kely, G.~J., Rizzo, M.~L., Bakirov, N.~K., et~al. (2007).
-\newblock Measuring and testing dependence by correlation of distances.
-\newblock {\em The Annals of Statistics}, 35(6):2769--2794.
-
 \bibitem[Toubiana et~al., 2013]{Toubiana:2013cv}
 Toubiana, D., Fernie, A.~R., Nikoloski, Z., and Fait, A. (2013).
 \newblock Network analysis: tackling complex data to study plant metabolism.
 \newblock {\em Trends in Biotechnology}, 31(1):29--36.
+
+\bibitem[Willocquet et~al., 2004]{willocquet2004research}
+Willocquet, L., Elazegui, F.~A., Castilla, N., Fernandez, L., Fischer, K.~S.,
+  Peng, S., Teng, P.~S., Srivastava, R., Singh, H., Zhu, D., et~al. (2004).
+\newblock Research priorities for rice pest management in tropical asia: a
+  simulation analysis of yield losses and management efficiencies.
+\newblock {\em Phytopathology}, 94(7):672--682.
 
 \end{thebibliography}
