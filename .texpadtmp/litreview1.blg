@@ -1,11 +1,11 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: litreview.aux
+The top-level auxiliary file: litreview1.aux
 The style file: ../apalike2.bst
-Database file #1: ../reference.bib
+Database file #1: ../reference1.bib
 You've used 6 entries,
             1971 wiz_defined-function locations,
-            528 strings with 5087 characters,
+            527 strings with 5064 characters,
 and the built_in function-call counts, 2457 in all, are:
 = -- 234
 > -- 131

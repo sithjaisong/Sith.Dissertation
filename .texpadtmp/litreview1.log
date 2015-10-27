@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.8.22)  27 OCT 2015 15:53
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.8.22)  27 OCT 2015 15:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**litreview.tex
-(./litreview.tex
+**litreview1.tex
+(./litreview1.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/report.cls
@@ -819,9 +819,9 @@ LaTeX Info: Redefining \addtolength on input line 81.
 )
 \c@@todonotes@numberoftodonotes=\count173
 )
-(/Users/sithjaisong/Documents/Github/Sith.Dissertation/.texpadtmp/litreview.aux
-)
-\openout1 = `litreview.aux'.
+(/Users/sithjaisong/Documents/Github/Sith.Dissertation/.texpadtmp/litreview1.au
+x)
+\openout1 = `litreview1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
@@ -894,21 +894,21 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  [1
 
 ] [2]
-(/Users/sithjaisong/Documents/Github/Sith.Dissertation/.texpadtmp/litreview.bbl
-) [3
+(/Users/sithjaisong/Documents/Github/Sith.Dissertation/.texpadtmp/litreview1.bb
+l) [3
 
 
 ]
-(/Users/sithjaisong/Documents/Github/Sith.Dissertation/.texpadtmp/litreview.aux
-) ) 
+(/Users/sithjaisong/Documents/Github/Sith.Dissertation/.texpadtmp/litreview1.au
+x) ) 
 Here is how much of TeX's memory you used:
  21874 strings out of 493706
- 461162 string characters out of 6145769
- 451896 words of memory out of 5000000
+ 461167 string characters out of 6145769
+ 451897 words of memory out of 5000000
  24906 multiletter control sequences out of 15000+600000
  10303 words of font info for 40 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 62i,5n,56p,10452b,169s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,5n,56p,10453b,169s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /Users/sithjaisong/Documents/Github/Sith.Dissertation/.texpad
-tmp/litreview.pdf (3 pages).
+tmp/litreview1.pdf (3 pages).
