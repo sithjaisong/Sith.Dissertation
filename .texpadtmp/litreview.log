@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.8.22)  27 OCT 2015 15:53
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.8.22)  29 OCT 2015 11:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -894,21 +894,140 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  [1
 
 ] [2]
+[3] [4] [5]
+
+LaTeX Warning: Marginpar on page 6 moved.
+
+Missing character: There is no   in font cmr12!
+Missing character: There is no   in font cmr12!
+[6]
+
+LaTeX Warning: Marginpar on page 7 moved.
+
+
+LaTeX Warning: Marginpar on page 7 moved.
+
+
+LaTeX Warning: Marginpar on page 7 moved.
+
+[7] [8]
+Overfull \hbox (6.43452pt too wide) in paragraph at lines 81--82
+[]\OT1/cmr/bx/n/12 Bacterial leaf streak\OT1/cmr/m/n/12 , caused by \OT1/cmr/m/
+it/12 Xan-thomonas oryzae \OT1/cmr/m/n/12 pv. \OT1/cmr/m/it/12 oryz-i-cola \OT1
+/cmr/m/n/12 (Ishiyama)
+ []
+
+[9]
+Overfull \hbox (0.53291pt too wide) in paragraph at lines 83--83
+[][][][]\OT1/cmr/m/n/6 Incomplete  
+ []
+
+
+Overfull \hbox (0.53291pt too wide) in paragraph at lines 83--83
+[][][][]\OT1/cmr/m/n/6 Incomplete  
+ []
+
+
+Overfull \hbox (0.53291pt too wide) in paragraph at lines 83--83
+[][][][]\OT1/cmr/m/n/6 Incomplete  
+ []
+
+
+Overfull \hbox (0.53291pt too wide) in paragraph at lines 83--83
+[][][][]\OT1/cmr/m/n/6 Incomplete  
+ []
+
+
+Overfull \hbox (26.9132pt too wide) in paragraph at lines 85--86
+[]\OT1/cmr/bx/n/12 Sheath blight\OT1/cmr/m/n/12 , caused by \OT1/cmr/m/it/12 Th
+anatepho-rus cu-c-umeris \OT1/cmr/m/n/12 (A.B. Frank) Donk (anamorph:
+ []
+
+
+LaTeX Warning: Marginpar on page 10 moved.
+
+
+LaTeX Warning: Marginpar on page 10 moved.
+
+[10]
+
+LaTeX Warning: Marginpar on page 11 moved.
+
+
+Overfull \hbox (10.05695pt too wide) in paragraph at lines 91--92
+[]\OT1/cmr/bx/n/12 Sheath rot\OT1/cmr/m/n/12 , caused by \OT1/cmr/m/it/12 Saro-
+cla-dium oryzae \OT1/cmr/m/n/12 (Sawada) W. Gams & D. Hawksworth
+ []
+
+[11] [12] [13]
+File: distriangle.png Graphic file (type QTm)
+ <use  "distriangle.png" > [14] [15] [16] [17] [18] [19]
+
+LaTeX Warning: Marginpar on page 20 moved.
+
+
+LaTeX Warning: Marginpar on page 20 moved.
+
+[20]
+
+LaTeX Warning: Marginpar on page 21 moved.
+
+
+LaTeX Warning: Marginpar on page 21 moved.
+
+
+LaTeX Warning: Marginpar on page 21 moved.
+
+[21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34]
+
+Package natbib Warning: Citation `Moslonka2010' on page 35 undefined on input l
+ine 280.
+
+[35]
+
+Package natbib Warning: Citation `Moslonka2010' on page 36 undefined on input l
+ine 288.
+
+[36] [37]
+
+Package natbib Warning: Citation `Moslonka2010' on page 38 undefined on input l
+ine 296.
+
+[38] [39] [40]
+
+LaTeX Warning: Marginpar on page 41 moved.
+
+[41] [42] [43] [44] [45] [46] [47] [48]
 (/Users/sithjaisong/Documents/Github/Sith.Dissertation/.texpadtmp/litreview.bbl
-) [3
+[49
 
 
 ]
+Underfull \hbox (badness 1521) in paragraph at lines 74--78
+\OT1/cmr/m/n/12 re-la-tion-ships in the hu-man mi-cro-biome.  PLoS Com-pu-ta-ti
+onal Bi-ol-ogy,
+ []
+
+[50]
+Underfull \hbox (badness 1668) in paragraph at lines 183--188
+[]\OT1/cmr/m/n/12 MOSLONKA-LEFEBVRE, M., FIN-LEY, A., DORI-GATTI, I., DEHNEN-
+ []
+
+[51] [52] [53] [54])
+
+Package natbib Warning: There were undefined citations.
+
+[55]
 (/Users/sithjaisong/Documents/Github/Sith.Dissertation/.texpadtmp/litreview.aux
 ) ) 
 Here is how much of TeX's memory you used:
- 21874 strings out of 493706
- 461162 string characters out of 6145769
- 451896 words of memory out of 5000000
- 24906 multiletter control sequences out of 15000+600000
- 10303 words of font info for 40 fonts, out of 8000000 for 9000
+ 22438 strings out of 493706
+ 475507 string characters out of 6145769
+ 517094 words of memory out of 5000000
+ 25460 multiletter control sequences out of 15000+600000
+ 12527 words of font info for 47 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 62i,5n,56p,10452b,169s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,8n,76p,10452b,695s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /Users/sithjaisong/Documents/Github/Sith.Dissertation/.texpad
-tmp/litreview.pdf (3 pages).
+tmp/litreview.pdf (55 pages).
